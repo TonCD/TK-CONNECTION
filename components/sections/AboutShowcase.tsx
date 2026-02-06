@@ -10,6 +10,7 @@ export default function AboutShowcase() {
         {/* Top Heading */}
         <h2 className="text-3xl md:text-4xl xl:text-5xl font-bold text-center mb-16">
           Xây dựng thương hiệu tham vọng với{" "}
+          <br/>
           <span className="text-primary">TikTok Shop, Marketing, KOL/KOC và Vận hành</span>
         </h2>
 

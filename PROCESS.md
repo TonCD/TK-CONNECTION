@@ -13,10 +13,12 @@
 | Phase | Duration | Status |
 |-------|----------|--------|
 | Setup & Planning | Tuần 1 | ✅ Complete |
-| Core Pages | Tuần 2-3 | 🟡 In Progress |
+| Core Pages | Tuần 2-3 | 🟡 In Progress - Homepage 90%, About in redesign |
 | Interactive Features | Tuần 4-5 | ⚪ Pending |
 | Optimization | Tuần 6 | ⚪ Pending |
 | Launch | Tuần 7 | ⚪ Pending |
+
+**Current Session (Feb 6, 2026)**: Redesigning About page following thesocialshepherd.com style
 
 ---
 

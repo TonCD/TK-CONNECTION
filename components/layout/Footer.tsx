@@ -3,10 +3,10 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <footer className="bg-dark text-white pt-0">
-      <div className="max-w-[1920px] mx-auto px-6 md:px-10 xl:px-16 2xl:px-20 pb-10">
+    <footer className="bg-dark text-white pt-0 rounded-t-3xl mt-16">
+      <div className="max-w-[1920px] mx-auto px-6 md:px-10 xl:px-16 2xl:px-20 pb-10 pt-16">
         {/* Top CTA block */}
-        <div className="mt-16 mb-16 rounded-3xl overflow-hidden grid lg:grid-cols-[1.1fr,1fr] bg-primary text-dark">
+        <div className="mb-16 rounded-3xl overflow-hidden grid lg:grid-cols-[1.1fr,1fr] bg-primary text-dark shadow-xl">
           <div className="px-8 md:px-12 py-12 md:py-16 flex flex-col justify-center gap-6">
             <div>
               <p className="uppercase tracking-[0.2em] text-sm md:text-xs mb-4">Hãy nói chuyện</p>
