@@ -4,7 +4,7 @@
 
 **Sprint Duration**: 6-7 tuần  
 **Target Launch**: Tháng 3/2026  
-**Current Phase**: 🟡 Setup & Planning
+**Current Phase**: � Setup Complete → Starting Core Pages
 
 ---
 
@@ -12,8 +12,8 @@
 
 | Phase | Duration | Status |
 |-------|----------|--------|
-| Setup & Planning | Tuần 1 | 🟡 In Progress |
-| Core Pages | Tuần 2-3 | ⚪ Pending |
+| Setup & Planning | Tuần 1 | ✅ Complete |
+| Core Pages | Tuần 2-3 | 🟡 In Progress |
 | Interactive Features | Tuần 4-5 | ⚪ Pending |
 | Optimization | Tuần 6 | ⚪ Pending |
 | Launch | Tuần 7 | ⚪ Pending |
@@ -28,19 +28,19 @@
 - [x] Tạo README.md
 - [x] Tạo PROCESS.md
 - [x] Init Git repository
-- [ ] Create `.gitignore`
-- [ ] Initialize Next.js project
-- [ ] Setup Tailwind CSS
-- [ ] Setup TypeScript
-- [ ] Install core dependencies
+- [x] Create `.gitignore`
+- [x] Initialize Next.js project
+- [x] Setup Tailwind CSS
+- [x] Setup TypeScript
+- [x] Install core dependencies
 
 ### Day 2: Project Structure
-- [ ] Setup folder structure (app/, components/, lib/, etc.)
-- [ ] Configure Tailwind với design system
-- [ ] Setup fonts (Inter/Poppins)
-- [ ] Create layout components (Header, Footer)
+- [x] Setup folder structure (app/, components/, lib/, etc.)
+- [x] Configure Tailwind với design system
+- [x] Setup fonts (Inter/Poppins)
+- [x] Create layout components (Header, Footer)
 - [ ] Setup Framer Motion
-- [ ] Configure ESLint & Prettier
+- [x] Configure ESLint & Prettier
 
 ### Day 3-4: Design System
 - [ ] Define color palette
