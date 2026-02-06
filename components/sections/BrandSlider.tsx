@@ -55,19 +55,19 @@ export default function BrandSlider() {
             {brands.map((brand, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100"
+                className="flex-shrink-0 transition-all duration-300"
               >
-                <div className="w-32 h-16 md:w-40 md:h-20 flex items-center justify-center">
+                <div className="w-40 h-20 md:w-48 md:h-24 flex items-center justify-center bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-all">
                   <img
                     src={brand.logo}
                     alt={brand.name}
-                    className="max-w-full max-h-full object-contain"
+                    className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300"
                     onError={(e) => {
                       // Fallback to text if image not found
                       e.currentTarget.style.display = 'none';
                       const parent = e.currentTarget.parentElement;
                       if (parent) {
-                        parent.innerHTML = `<div class="text-gray font-medium text-lg">${brand.name}</div>`;
+                        parent.innerHTML = `<div class="text-gray font-medium text-base">${brand.name}</div>`;
                       }
                     }}
                   />

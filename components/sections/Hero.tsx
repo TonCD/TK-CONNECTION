@@ -22,8 +22,13 @@ export default function Hero() {
               
               {/* Video Container - positioned inside phone screen */}
               <div className="absolute top-0 left-0 w-full h-full z-0">
-                <div className="absolute top-[5%] left-[8%] w-[66%] h-[85%]">
+                <div className="absolute top-[10%] left-[15%] w-[66%] h-[85%]">
                   <div className="relative w-full h-full rounded-[5%] overflow-hidden bg-black">
+                    {/* 
+                      Video options (chọn 1 trong 3):
+                      
+                      1. MP4 Video file:
+                    */}
                     <video
                       autoPlay
                       muted
@@ -34,6 +39,27 @@ export default function Hero() {
                     >
                       <source src="/videos/hero-video.mp4" type="video/mp4" />
                     </video>
+
+                    {/* 
+                      2. YouTube embed (thay thế video tag bằng iframe này):
+                      <iframe
+                        src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&mute=1&loop=1&playlist=VIDEO_ID&controls=0&showinfo=0&rel=0&modestbranding=1"
+                        className="w-full h-full"
+                        allow="autoplay; encrypted-media"
+                        allowFullScreen
+                      />
+                    */}
+
+                    {/* 
+                      3. TikTok embed (thay thế video tag bằng iframe này):
+                      <iframe
+                        src="https://www.tiktok.com/embed/VIDEO_ID"
+                        className="w-full h-full"
+                        allowFullScreen
+                        scrolling="no"
+                        allow="encrypted-media;"
+                      />
+                    */}
                   </div>
                 </div>
               </div>
