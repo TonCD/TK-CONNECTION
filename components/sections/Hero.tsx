@@ -122,7 +122,7 @@ export default function Hero() {
                 href="/contact"
                 className="group relative inline-flex items-center text-sm lg:text-base font-medium transition-all"
               >
-                <span className="bg-black text-white inline-block pt-3.5 pb-4 px-6 rounded-full transition-all group-hover:px-8">
+                <span className="bg-black text-white inline-flex items-center px-6 py-3.5 rounded-full transition-all group-hover:px-8">
                   Tư vấn ngay
                 </span>
                 <span className="bg-black text-white inline-flex items-center justify-center w-11 h-11 rounded-full -ml-5 transition-all group-hover:ml-2">

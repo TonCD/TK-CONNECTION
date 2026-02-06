@@ -1,45 +1,6 @@
 import Link from 'next/link'
 
 export default function FeaturedCases() {
-  const cases = [
-    {
-      brand: "TULANDUT",
-      category: "Mỹ phẩm & Chăm sóc da",
-      image: "https://placehold.co/600x400/e0f2fe/0284c7?text=TULANDUT",
-      stats: {
-        revenue: "11.27M",
-        period: "180 ngày",
-        highlight: "Doanh thu gần 1 tháng đạt 3.15M"
-      },
-      tags: ["TikTok Shop", "KOL/KOC", "Livestream"],
-      color: "primary"
-    },
-    {
-      brand: "botare 植护",
-      category: "Chăm sóc cá nhân & Vệ sinh",
-      image: "https://placehold.co/600x400/d1fae5/059669?text=botare",
-      stats: {
-        revenue: "8M",
-        period: "180 ngày",
-        highlight: "70% doanh thu từ KOL/KOC"
-      },
-      tags: ["TikTok Shop", "Video ngắn", "Livestream"],
-      color: "green"
-    },
-    {
-      brand: "Mooekiss",
-      category: "Mỹ phẩm & Trang điểm",
-      image: "https://placehold.co/600x400/fce7f3/db2777?text=Mooekiss",
-      stats: {
-        revenue: "8.4M",
-        period: "180 ngày",
-        highlight: "80% doanh thu từ KOL/KOC"
-      },
-      tags: ["TikTok Shop", "KOL/KOC", "Best-seller"],
-      color: "pink"
-    }
-  ]
-
   return (
     <section className="w-full bg-gray-50 py-16 md:py-24">
       <div className="max-w-[1920px] mx-auto px-6 md:px-10 xl:px-16 2xl:px-20">
@@ -54,95 +15,129 @@ export default function FeaturedCases() {
           </p>
         </div>
 
-        {/* Cases Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {cases.map((caseItem, index) => (
-            <CaseCard key={index} {...caseItem} />
-          ))}
+        {/* Bento Grid Layout */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          {/* Large Featured Case - TULANDUT */}
+          <Link 
+            href="/case-studies"
+            className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 md:row-span-2"
+          >
+            <div className="relative h-full min-h-[400px] md:min-h-[600px]">
+              <img 
+                src="https://placehold.co/800x1000/e0f2fe/0284c7?text=TULANDUT+Case+Study" 
+                alt="TULANDUT"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              
+              {/* Overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-dark via-dark/60 to-transparent opacity-90 group-hover:opacity-95 transition-opacity"></div>
+              
+              {/* Content */}
+              <div className="absolute bottom-0 left-0 right-0 p-8 md:p-10">
+                <div className="flex flex-wrap gap-2 mb-4">
+                  <span className="text-xs font-semibold bg-primary text-white px-3 py-1 rounded-full">
+                    Mỹ phẩm
+                  </span>
+                  <span className="text-xs font-semibold bg-white/20 text-white px-3 py-1 rounded-full backdrop-blur-sm">
+                    TikTok Shop
+                  </span>
+                </div>
+                
+                <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                  TULANDUT
+                </h3>
+                
+                <p className="text-lg text-gray-200 mb-6">
+                  Doanh thu 11.27M trong 180 ngày, trở thành thương hiệu nổi bật trong ngành mỹ phẩm TikTok Việt Nam
+                </p>
+                
+                <div className="flex items-center gap-4">
+                  <div>
+                    <div className="text-3xl font-bold text-primary">11.27M</div>
+                    <div className="text-sm text-gray-300">Doanh thu 180 ngày</div>
+                  </div>
+                  <div className="w-px h-12 bg-white/20"></div>
+                  <div>
+                    <div className="text-3xl font-bold text-primary">3.15M</div>
+                    <div className="text-sm text-gray-300">Doanh thu 1 tháng</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Link>
+
+          {/* Small Case 1 - botare */}
+          <Link 
+            href="/case-studies"
+            className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 min-h-[280px]"
+          >
+            <div className="relative h-full">
+              <img 
+                src="https://placehold.co/600x400/d1fae5/059669?text=botare+Case" 
+                alt="botare"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              
+              <div className="absolute inset-0 bg-gradient-to-t from-dark/90 to-transparent"></div>
+              
+              <div className="absolute bottom-0 left-0 right-0 p-6">
+                <span className="inline-block text-xs font-semibold bg-green-500 text-white px-3 py-1 rounded-full mb-3">
+                  Chăm sóc cá nhân
+                </span>
+                <h3 className="text-2xl font-bold text-white mb-2">
+                  botare 植护
+                </h3>
+                <p className="text-sm text-gray-200 mb-3">
+                  70% doanh thu từ KOL/KOC
+                </p>
+                <div className="text-2xl font-bold text-green-400">8M</div>
+              </div>
+            </div>
+          </Link>
+
+          {/* Small Case 2 - Mooekiss */}
+          <Link 
+            href="/case-studies"
+            className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 min-h-[280px]"
+          >
+            <div className="relative h-full">
+              <img 
+                src="https://placehold.co/600x400/fce7f3/db2777?text=Mooekiss+Case" 
+                alt="Mooekiss"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              
+              <div className="absolute inset-0 bg-gradient-to-t from-dark/90 to-transparent"></div>
+              
+              <div className="absolute bottom-0 left-0 right-0 p-6">
+                <span className="inline-block text-xs font-semibold bg-pink-500 text-white px-3 py-1 rounded-full mb-3">
+                  Trang điểm
+                </span>
+                <h3 className="text-2xl font-bold text-white mb-2">
+                  Mooekiss
+                </h3>
+                <p className="text-sm text-gray-200 mb-3">
+                  80% doanh thu từ KOL/KOC
+                </p>
+                <div className="text-2xl font-bold text-pink-400">8.4M</div>
+              </div>
+            </div>
+          </Link>
         </div>
 
         {/* View All Button */}
-        <div className="text-center mt-12">
+        <div className="text-center">
           <Link
             href="/case-studies"
-            className="group relative inline-flex items-center text-lg font-semibold transition-all"
+            className="group inline-flex items-center bg-dark hover:bg-primary text-white px-8 py-4 rounded-full font-semibold text-lg transition-all"
           >
-            <span className="bg-dark hover:bg-primary text-white inline-block pt-4 pb-4.5 px-8 rounded-full transition-all group-hover:px-10">
-              Xem tất cả case studies
-            </span>
-            <span className="bg-dark hover:bg-primary text-white inline-flex items-center justify-center w-12 h-12 rounded-full -ml-5 transition-all group-hover:ml-2">
-              <svg viewBox="0 0 512 512" className="fill-current w-4 h-4">
-                <path d="M489.4 233.4L512 256l-22.6 22.6-128 128-22.6 22.6L293.5 384l22.6-22.6L389.5 288 32 288 0 288l0-64 32 0 357.5 0-73.4-73.4L293.5 128l45.3-45.3 22.6 22.6 128 128z" />
-              </svg>
-            </span>
+            Xem tất cả case studies
+            <svg viewBox="0 0 512 512" className="fill-current w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform">
+              <path d="M489.4 233.4L512 256l-22.6 22.6-128 128-22.6 22.6L293.5 384l22.6-22.6L389.5 288 32 288 0 288l0-64 32 0 357.5 0-73.4-73.4L293.5 128l45.3-45.3 22.6 22.6 128 128z" />
+            </svg>
           </Link>
         </div>
       </div>
     </section>
-  )
-}
-
-function CaseCard({ brand, category, image, stats, tags, color }: {
-  brand: string;
-  category: string;
-  image: string;
-  stats: { revenue: string; period: string; highlight: string };
-  tags: string[];
-  color: string;
-}) {
-  return (
-    <Link 
-      href="/case-studies"
-      className="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300"
-    >
-      {/* Image */}
-      <div className="relative h-64 overflow-hidden bg-gray-200">
-        <img 
-          src={image} 
-          alt={brand}
-          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-        />
-        
-        {/* Overlay with Stats */}
-        <div className="absolute inset-0 bg-gradient-to-t from-dark/90 via-dark/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-          <div className="text-white">
-            <div className="text-3xl font-bold text-primary mb-1">
-              {stats.revenue}
-            </div>
-            <p className="text-sm text-gray-300">{stats.period}</p>
-          </div>
-        </div>
-      </div>
-
-      {/* Content */}
-      <div className="p-6">
-        {/* Category */}
-        <p className="text-sm text-primary font-semibold mb-2">
-          {category}
-        </p>
-
-        {/* Brand Name */}
-        <h3 className="text-2xl font-bold text-dark mb-3 group-hover:text-primary transition-colors">
-          {brand}
-        </h3>
-
-        {/* Highlight */}
-        <p className="text-gray-600 text-sm mb-4">
-          {stats.highlight}
-        </p>
-
-        {/* Tags */}
-        <div className="flex flex-wrap gap-2">
-          {tags.map((tag, idx) => (
-            <span 
-              key={idx}
-              className="text-xs bg-gray-100 text-gray-700 px-3 py-1 rounded-full"
-            >
-              {tag}
-            </span>
-          ))}
-        </div>
-      </div>
-    </Link>
   )
 }
