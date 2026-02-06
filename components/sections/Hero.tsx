@@ -5,34 +5,25 @@ import Link from 'next/link'
 export default function Hero() {
   return (
     <section className="w-full pb-12 pt-24 md:pb-16 md:pt-32 xl:pb-24">
-      <div className="max-w-7xl mx-auto px-6 md:px-10 xl:px-20">
+      <div className="max-w-[1920px] mx-auto px-6 md:px-10 xl:px-16 2xl:px-20">
         <div className="flex flex-wrap justify-center items-center">
           {/* Phone Mockup - Right on desktop, top on mobile */}
           <div className="order-1 h-full max-w-sm mx-auto w-9/12 sm:w-6/12 lg:order-2 lg:px-5 lg:ml-0 lg:w-5/12 xl:w-4/12 xl:max-w-md">
             <div className="relative">
               {/* Phone Frame */}
               <div className="relative overflow-hidden w-full" style={{ paddingTop: '143.25%' }}>
-                <div className="absolute top-0 left-0 w-full h-full">
-                  <img
-                    src="/images/phone-frame.png"
-                    alt="Phone mockup"
-                    className="relative z-10 w-full"
-                    onError={(e) => {
-                      // Fallback: create a simple phone frame using CSS
-                      e.currentTarget.style.display = 'none';
-                    }}
-                  />
-                  {/* Fallback phone frame */}
-                  <div className="absolute inset-0 z-10 pointer-events-none">
-                    <div className="w-full h-full border-[12px] border-gray-900 rounded-[48px] shadow-2xl"></div>
-                  </div>
-                </div>
+                {/* Phone mockup image */}
+                <img
+                  src="/images/phone-04.webp"
+                  alt="Phone mockup"
+                  className="absolute top-0 left-0 w-full h-full object-contain z-10"
+                />
               </div>
               
-              {/* Video Container */}
-              <div className="absolute top-0 h-full w-8/12 ml-[8.333%] z-0">
-                <div className="min-h-full min-w-full pt-[33.333%] ml-1">
-                  <div className="absolute inset-[12%] rounded-[32px] overflow-hidden bg-black">
+              {/* Video Container - positioned inside phone screen */}
+              <div className="absolute top-0 left-0 w-full h-full z-0">
+                <div className="absolute top-[5%] left-[8%] w-[66%] h-[85%]">
+                  <div className="relative w-full h-full rounded-[5%] overflow-hidden bg-black">
                     <video
                       autoPlay
                       muted
@@ -67,10 +58,10 @@ export default function Hero() {
             </h1>
 
             {/* Subheadline */}
-            <p className="text-gray text-base md:text-lg xl:text-xl max-w-2xl">
-              Đối tác dịch vụ được TikTok Shop chứng nhận chính thức (TAP/TSP) | 
-              Đồng hành cùng thương hiệu thâm nhập thị trường Việt Nam, 
-              thúc đẩy tăng trưởng doanh số và uy tín thương hiệu song song
+            <p className="text-gray text-base md:text-lg xl:text-xl max-w-2xl leading-relaxed">
+              Đối tác dịch vụ được TikTok Shop chứng nhận chính thức (TAP/TSP)
+              <br />
+              Đồng hành cùng thương hiệu thâm nhập thị trường Việt Nam, thúc đẩy tăng trưởng doanh số và uy tín thương hiệu song song
             </p>
 
             {/* Stats */}

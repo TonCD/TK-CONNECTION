@@ -10,8 +10,15 @@ export default function Header() {
     <header className="fixed top-0 w-full bg-white/90 backdrop-blur-md z-50 border-b border-gray-100">
       <nav className="max-w-7xl mx-auto px-6 md:px-10 xl:px-20 py-4 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="font-bold text-xl md:text-2xl text-dark tracking-tight">
-          TK Connection
+        <Link href="/" className="flex items-center gap-3">
+          <img 
+            src="/images/logo.png" 
+            alt="TK Connection" 
+            className="h-10 md:h-12 w-auto"
+          />
+          <span className="font-bold text-xl md:text-2xl text-dark tracking-tight hidden sm:inline">
+            TK Connection
+          </span>
         </Link>
 
         {/* Desktop Navigation */}

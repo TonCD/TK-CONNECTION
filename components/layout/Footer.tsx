@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="bg-dark text-white py-12">
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-[1920px] mx-auto px-6 md:px-10 xl:px-16 2xl:px-20">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="font-bold text-xl mb-4">TK Connection</h3>

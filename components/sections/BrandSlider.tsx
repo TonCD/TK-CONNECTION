@@ -31,7 +31,7 @@ export default function BrandSlider() {
 
   return (
     <section className="w-full py-12 md:py-16 bg-light overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 md:px-10 xl:px-20">
+      <div className="max-w-[1920px] mx-auto px-6 md:px-10 xl:px-16 2xl:px-20">
         <div className="text-center mb-8">
           <h3 className="text-sm md:text-base font-medium text-gray mb-2">
             Brands that trust us
