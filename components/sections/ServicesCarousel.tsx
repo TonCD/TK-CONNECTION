@@ -3,165 +3,227 @@
 import { useState } from 'react'
 import Link from 'next/link'
 
+const services = [
+  {
+    id: 1,
+    icon: "🛒",
+    title: "TikTok Shop",
+    description: "Phát triển cộng đồng mạng xã hội với chiến lược riêng cho từng nền tảng",
+    features: [
+      "Chiến lược TikTok Shop",
+      "Quản lý cộng đồng",
+      "Sáng tạo nội dung",
+      "Listening & Insights"
+    ]
+  },
+  {
+    id: 2,
+    icon: "📱",
+    title: "Marketing",
+    description: "Chiến dịch Paid Social và Paid Search mang lại hiệu suất cao",
+    features: [
+      "Paid Social & Paid Search",
+      "Chiến lược Full-Funnel",
+      "Planning & Buying",
+      "Feed Optimisation"
+    ]
+  },
+  {
+    id: 3,
+    icon: "🎨",
+    title: "Sáng tạo",
+    description: "Sáng tạo xuất sắc trên Video, Design và Motion Graphics",
+    features: [
+      "Video cho Social",
+      "UGC đến High-Production",
+      "Creative Strategy",
+      "Motion Design & Graphics"
+    ]
+  },
+  {
+    id: 4,
+    icon: "⭐",
+    title: "Influencer",
+    description: "Kết nối với 5000+ KOL/KOC để khuếch đại thông điệp thương hiệu",
+    features: [
+      "Influencer Strategy",
+      "Kết nối KOL/KOC",
+      "Quản lý chiến dịch",
+      "Đo lường hiệu quả"
+    ]
+  }
+]
+
 export default function ServicesCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0)
-
-  const services = [
-    {
-      id: 1,
-      icon: "🛒",
-      title: "TikTok Shop & E-commerce",
-      description: "Xây dựng và vận hành toàn diện shop trên nền tảng TikTok Shop, từ thiết lập gian hàng đến quản lý đơn hàng, tối ưu chuyển đổi và tăng trưởng doanh thu bền vững.",
-      features: [
-        "Thiết lập & tối ưu TikTok Shop",
-        "Quản lý đơn hàng và kho vận",
-        "Livestream bán hàng chuyên nghiệp",
-        "Chiến lược flash sale & khuyến mãi"
-      ]
-    },
-    {
-      id: 2,
-      icon: "📱",
-      title: "Marketing & KOL/KOC",
-      description: "Kết nối với hơn 5000+ KOL/KOC chất lượng, xây dựng chiến dịch marketing lan tỏa trên các nền tảng mạng xã hội, từ TikTok đến Instagram và Facebook.",
-      features: [
-        "Mạng lưới 5000+ KOL/KOC verified",
-        "Chiến lược content viral",
-        "Quản lý chiến dịch A-Z",
-        "Đo lường hiệu quả ROI chi tiết"
-      ]
-    },
-    {
-      id: 3,
-      icon: "⚙️",
-      title: "Vận hành toàn chuỗi",
-      description: "Giải pháp vận hành đồng bộ từ online đến offline, quản lý kho vận, xử lý đơn hàng, chăm sóc khách hàng 24/7 và tối ưu quy trình logistics.",
-      features: [
-        "Quản lý kho vận thông minh",
-        "Xử lý đơn hàng tự động",
-        "CSKH đa kênh 24/7",
-        "Tối ưu chi phí logistics"
-      ]
-    },
-    {
-      id: 4,
-      icon: "🏪",
-      title: "Offline & Trải nghiệm",
-      description: "Kết nối trải nghiệm online-offline seamless, từ pop-up store, showroom đến activation events, mang thương hiệu đến gần hơn với khách hàng.",
-      features: [
-        "Thiết kế pop-up store sáng tạo",
-        "Tổ chức event activation",
-        "Trải nghiệm O2O tích hợp",
-        "Đo lường foot traffic & engagement"
-      ]
-    }
-  ]
 
   const handleNext = () => {
     setCurrentIndex((prev) => (prev + 1) % services.length)
   }
 
   return (
-    <section className="w-full bg-white py-16 md:py-24">
+    <section className="w-full bg-gray-50 py-16 md:py-24">
       <div className="max-w-[1920px] mx-auto px-6 md:px-10 xl:px-16 2xl:px-20">
         {/* Section Header */}
-        <div className="flex items-center justify-between mb-12">
-          <div>
-            <h2 className="text-3xl md:text-4xl xl:text-5xl font-bold text-dark mb-4">
-              Dịch vụ{" "}
-              <span className="text-primary">toàn diện</span> của chúng tôi
-            </h2>
-            <p className="text-lg text-gray-600">
-              Giải pháp trọn gói từ online đến offline
-            </p>
-          </div>
+        <div className="flex items-start justify-between mb-12">
+          <h2 className="text-4xl md:text-5xl xl:text-6xl font-bold text-primary max-w-2xl leading-tight">
+            Dịch vụ toàn diện của chúng tôi...
+          </h2>
           
-          <button
-            onClick={handleNext}
-            className="hidden md:flex items-center justify-center w-14 h-14 bg-dark hover:bg-primary text-white rounded-full transition-all group"
-            aria-label="Next service"
+          <Link
+            href="/services"
+            className="hidden lg:inline-flex items-center bg-dark hover:bg-primary text-white px-8 py-4 rounded-full font-semibold transition-all group"
           >
-            <svg viewBox="0 0 512 512" className="fill-current w-5 h-5 group-hover:translate-x-1 transition-transform">
+            Xem tất cả dịch vụ
+            <svg viewBox="0 0 512 512" className="fill-current w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform">
               <path d="M489.4 233.4L512 256l-22.6 22.6-128 128-22.6 22.6L293.5 384l22.6-22.6L389.5 288 32 288 0 288l0-64 32 0 357.5 0-73.4-73.4L293.5 128l45.3-45.3 22.6 22.6 128 128z" />
             </svg>
-          </button>
+          </Link>
         </div>
 
-        {/* Services Carousel */}
-        <div className="relative overflow-hidden">
-          <div 
-            className="flex transition-transform duration-500 ease-out"
-            style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-          >
-            {services.map((service) => (
-              <div 
-                key={service.id}
-                className="min-w-full grid grid-cols-1 lg:grid-cols-3 gap-8"
-              >
-                {/* Main Card */}
-                <div className="lg:col-span-2 bg-gradient-to-br from-primary/5 to-primary/10 rounded-3xl p-8 md:p-12">
-                  <div className="text-6xl mb-6">{service.icon}</div>
-                  <h3 className="text-3xl md:text-4xl font-bold text-dark mb-4">
-                    {service.title}
-                  </h3>
-                  <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                    {service.description}
-                  </p>
-                  
-                  <Link
-                    href="/services"
-                    className="group inline-flex items-center bg-dark hover:bg-primary text-white px-6 py-3.5 rounded-full font-semibold transition-all"
-                  >
-                    Tìm hiểu thêm
-                    <svg viewBox="0 0 512 512" className="fill-current w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform">
-                      <path d="M489.4 233.4L512 256l-22.6 22.6-128 128-22.6 22.6L293.5 384l22.6-22.6L389.5 288 32 288 0 288l0-64 32 0 357.5 0-73.4-73.4L293.5 128l45.3-45.3 22.6 22.6 128 128z" />
-                    </svg>
-                  </Link>
-                </div>
-
-                {/* Features List */}
-                <div className="bg-white border-2 border-gray-200 rounded-3xl p-8">
-                  <h4 className="text-xl font-bold text-dark mb-6">Tính năng chính</h4>
-                  <ul className="space-y-4">
-                    {service.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-start gap-3">
-                        <svg className="w-6 h-6 text-primary flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                        <span className="text-gray-700 leading-relaxed">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+        {/* Desktop Grid View */}
+        <div className="hidden lg:grid lg:grid-cols-4 gap-6">
+          {services.slice(0, 3).map((service) => (
+            <div
+              key={service.id}
+              className="bg-white rounded-3xl p-8 border-2 border-transparent hover:border-primary transition-all group"
+            >
+              {/* Icon Box */}
+              <div className="w-16 h-16 bg-dark rounded-2xl flex items-center justify-center mb-6 text-3xl">
+                {service.icon}
               </div>
-            ))}
+              
+              <h3 className="text-2xl font-bold text-dark mb-4">
+                {service.title}
+              </h3>
+              
+              <p className="text-gray-600 mb-6 leading-relaxed">
+                {service.description}
+              </p>
+              
+              <ul className="space-y-3 mb-6">
+                {service.features.map((feature, idx) => (
+                  <li key={idx} className="flex items-start gap-2">
+                    <svg className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                    </svg>
+                    <span className="text-gray-700 text-sm">{feature}</span>
+                  </li>
+                ))}
+              </ul>
+              
+              <Link
+                href="/services"
+                className="inline-flex items-center text-dark group-hover:text-primary font-semibold transition-colors"
+              >
+                Tìm hiểu thêm
+                <svg className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
+          ))}
+
+          {/* Next Button Card */}
+          <div className="bg-white rounded-3xl p-8 border-2 border-gray-200 flex items-center justify-center">
+            <button
+              onClick={handleNext}
+              className="flex items-center justify-center w-20 h-20 bg-dark hover:bg-primary text-white rounded-full transition-all group"
+              aria-label="Next service"
+            >
+              <svg viewBox="0 0 512 512" className="fill-current w-6 h-6 group-hover:translate-x-1 transition-transform">
+                <path d="M489.4 233.4L512 256l-22.6 22.6-128 128-22.6 22.6L293.5 384l22.6-22.6L389.5 288 32 288 0 288l0-64 32 0 357.5 0-73.4-73.4L293.5 128l45.3-45.3 22.6 22.6 128 128z" />
+              </svg>
+            </button>
           </div>
         </div>
 
-        {/* Mobile Navigation */}
-        <div className="flex md:hidden items-center justify-between mt-8">
-          <div className="flex gap-2">
-            {services.map((_, idx) => (
-              <button
-                key={idx}
-                onClick={() => setCurrentIndex(idx)}
-                className={`w-2 h-2 rounded-full transition-all ${
-                  idx === currentIndex ? 'bg-primary w-8' : 'bg-gray-300'
-                }`}
-                aria-label={`Go to slide ${idx + 1}`}
-              />
-            ))}
+        {/* Mobile Carousel */}
+        <div className="lg:hidden">
+          <div className="relative overflow-hidden">
+            <div 
+              className="flex transition-transform duration-500 ease-out"
+              style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+            >
+              {services.map((service) => (
+                <div 
+                  key={service.id}
+                  className="min-w-full px-2"
+                >
+                  <div className="bg-white rounded-3xl p-8 border-2 border-gray-200">
+                    <div className="w-16 h-16 bg-dark rounded-2xl flex items-center justify-center mb-6 text-3xl">
+                      {service.icon}
+                    </div>
+                    
+                    <h3 className="text-2xl font-bold text-dark mb-4">
+                      {service.title}
+                    </h3>
+                    
+                    <p className="text-gray-600 mb-6 leading-relaxed">
+                      {service.description}
+                    </p>
+                    
+                    <ul className="space-y-3 mb-6">
+                      {service.features.map((feature, idx) => (
+                        <li key={idx} className="flex items-start gap-2">
+                          <svg className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                          </svg>
+                          <span className="text-gray-700 text-sm">{feature}</span>
+                        </li>
+                      ))}
+                    </ul>
+                    
+                    <Link
+                      href="/services"
+                      className="inline-flex items-center text-dark font-semibold"
+                    >
+                      Tìm hiểu thêm
+                      <svg className="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </Link>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
-          
-          <button
-            onClick={handleNext}
-            className="flex items-center justify-center w-12 h-12 bg-dark hover:bg-primary text-white rounded-full transition-all"
-            aria-label="Next service"
+
+          {/* Mobile Navigation */}
+          <div className="flex items-center justify-between mt-8">
+            <div className="flex gap-2">
+              {services.map((_, idx) => (
+                <button
+                  key={idx}
+                  onClick={() => setCurrentIndex(idx)}
+                  className={`h-2 rounded-full transition-all ${
+                    idx === currentIndex ? 'bg-primary w-8' : 'bg-gray-300 w-2'
+                  }`}
+                  aria-label={`Go to slide ${idx + 1}`}
+                />
+              ))}
+            </div>
+            
+            <button
+              onClick={handleNext}
+              className="flex items-center justify-center w-12 h-12 bg-dark hover:bg-primary text-white rounded-full transition-all"
+              aria-label="Next service"
+            >
+              <svg viewBox="0 0 512 512" className="fill-current w-4 h-4">
+                <path d="M489.4 233.4L512 256l-22.6 22.6-128 128-22.6 22.6L293.5 384l22.6-22.6L389.5 288 32 288 0 288l0-64 32 0 357.5 0-73.4-73.4L293.5 128l45.3-45.3 22.6 22.6 128 128z" />
+              </svg>
+            </button>
+          </div>
+
+          <Link
+            href="/services"
+            className="lg:hidden inline-flex items-center bg-dark hover:bg-primary text-white px-8 py-4 rounded-full font-semibold transition-all group mt-8 w-full justify-center"
           >
-            <svg viewBox="0 0 512 512" className="fill-current w-4 h-4">
+            Xem tất cả dịch vụ
+            <svg viewBox="0 0 512 512" className="fill-current w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform">
               <path d="M489.4 233.4L512 256l-22.6 22.6-128 128-22.6 22.6L293.5 384l22.6-22.6L389.5 288 32 288 0 288l0-64 32 0 357.5 0-73.4-73.4L293.5 128l45.3-45.3 22.6 22.6 128 128z" />
             </svg>
-          </button>
+          </Link>
         </div>
       </div>
     </section>
