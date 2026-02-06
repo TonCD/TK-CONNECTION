@@ -65,16 +65,12 @@ export default function ServicesOverview() {
         <div className="text-center mt-12">
           <Link
             href="/services"
-            className="group relative inline-flex items-center text-lg font-semibold transition-all"
+            className="group inline-flex items-center bg-dark hover:bg-primary text-white px-8 py-4 rounded-full font-semibold text-lg transition-all"
           >
-            <span className="bg-dark hover:bg-primary text-white inline-block pt-4 pb-4.5 px-8 rounded-full transition-all group-hover:px-10">
-              Xem tất cả dịch vụ
-            </span>
-            <span className="bg-dark hover:bg-primary text-white inline-flex items-center justify-center w-12 h-12 rounded-full -ml-5 transition-all group-hover:ml-2">
-              <svg viewBox="0 0 512 512" className="fill-current w-4 h-4">
-                <path d="M489.4 233.4L512 256l-22.6 22.6-128 128-22.6 22.6L293.5 384l22.6-22.6L389.5 288 32 288 0 288l0-64 32 0 357.5 0-73.4-73.4L293.5 128l45.3-45.3 22.6 22.6 128 128z" />
-              </svg>
-            </span>
+            Xem tất cả dịch vụ
+            <svg viewBox="0 0 512 512" className="fill-current w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform">
+              <path d="M489.4 233.4L512 256l-22.6 22.6-128 128-22.6 22.6L293.5 384l22.6-22.6L389.5 288 32 288 0 288l0-64 32 0 357.5 0-73.4-73.4L293.5 128l45.3-45.3 22.6 22.6 128 128z" />
+            </svg>
           </Link>
         </div>
       </div>

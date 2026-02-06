@@ -48,7 +48,7 @@ export default function Header() {
             href="/contact"
             className="group relative inline-flex items-center text-sm font-semibold transition-all ml-4"
           >
-            <span className="bg-primary hover:bg-primary/90 text-white inline-block pt-3 pb-3.5 px-6 rounded-full transition-all group-hover:px-8">
+            <span className="bg-primary hover:bg-primary/90 text-white inline-flex items-center px-6 py-3 rounded-full transition-all group-hover:px-8">
               Liên hệ
             </span>
             <span className="bg-primary hover:bg-primary/90 text-white inline-flex items-center justify-center w-10 h-10 rounded-full -ml-4 transition-all group-hover:ml-2">
