@@ -1,8 +1,14 @@
 'use client'
 
 import Link from 'next/link'
+import { useTranslations } from 'next-intl'
+import { useParams } from 'next/navigation'
 
 export default function Hero() {
+  const t = useTranslations('hero')
+  const params = useParams()
+  const locale = params.locale as string
+
   return (
     <section className="w-full pb-12 pt-24 md:pb-16 md:pt-32 xl:pb-24">
       <div className="max-w-[1920px] mx-auto px-6 md:px-10 xl:px-16 2xl:px-20">
@@ -80,50 +86,56 @@ export default function Hero() {
           <div className="order-2 w-full pt-5 space-y-4 lg:order-1 lg:pt-0 lg:w-7/12 lg:pr-10 xl:w-8/12 xl:space-y-5">
             {/* Small title */}
             <div className="font-medium tracking-tight leading-tight text-base text-dark">
-              TK Connection
+              {t('brandName')}
             </div>
 
             {/* Main Headline */}
             <h1 className="relative text-dark text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold tracking-tight leading-[1.1]">
-              Đơn vị vận hành tích hợp{' '}
-              <span className="relative inline-block">
-                <span className="relative z-10">toàn chuỗi</span>
-                <span className="absolute bottom-1 left-0 w-full h-3 bg-primary/30 -z-0"></span>
-              </span>
-              {' '}thương mại điện tử tại Việt Nam
+              {t('titlePart1')}
+              <span className="text-primary">{t('titleHighlight')}</span>
+              {t('titlePart2')}
             </h1>
 
             {/* Subheadline */}
             <p className="text-gray text-base md:text-lg xl:text-xl max-w-2xl leading-relaxed">
-              Đối tác dịch vụ được TikTok Shop chứng nhận chính thức (TAP/TSP)
+              {t('subtitle')}
               <br />
-              Đồng hành cùng thương hiệu thâm nhập thị trường Việt Nam, thúc đẩy tăng trưởng doanh số và uy tín thương hiệu song song
+              {t('description')}
             </p>
 
-            {/* Stats */}
-            <div className="flex flex-wrap gap-4 text-sm md:text-base text-gray pt-2">
-              <div className="flex items-center gap-2">
-                <span className="text-2xl font-bold text-dark">40+</span>
-                <span>thương hiệu đã hợp tác</span>
+            {/* Stats - Vertical Layout */}
+            <div className="flex gap-6 text-sm md:text-base text-gray pt-2">
+              <div className="flex flex-col">
+                <span className="text-gray mb-1">{t('stat1Description')}</span>
+                <div className="flex items-baseline gap-2">
+                  <span className="text-3xl md:text-4xl font-bold text-dark">{t('stat1')}</span>
+                  <span className="text-lg font-medium text-dark">{t('stat1Label')}</span>
+                </div>
               </div>
-              <div className="flex items-center gap-2">
-                <span className="text-2xl font-bold text-dark">50M+</span>
-                <span>giá trị tăng trưởng</span>
+              <div className="flex flex-col">
+                <span className="text-gray mb-1">{t('stat2Description')}</span>
+                <div className="flex items-baseline gap-2">
+                  <span className="text-3xl md:text-4xl font-bold text-dark">{t('stat2')}</span>
+                  <span className="text-lg font-medium text-dark">{t('stat2Label')}</span>
+                </div>
               </div>
-              <div className="flex items-center gap-2">
-                <span className="text-2xl font-bold text-dark">8.4M</span>
-                <span>doanh thu cao nhất</span>
+              <div className="flex flex-col">
+                <span className="text-gray mb-1">{t('stat3Description')}</span>
+                <div className="flex items-baseline gap-2">
+                  <span className="text-3xl md:text-4xl font-bold text-dark">{t('stat3')}</span>
+                  <span className="text-lg font-medium text-dark">{t('stat3Label')}</span>
+                </div>
               </div>
             </div>
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap items-center pt-5 gap-4">
               <Link
-                href="/contact"
+                href={`/${locale}/contact`}
                 className="group relative inline-flex items-center text-sm lg:text-base font-medium transition-all"
               >
                 <span className="bg-black text-white inline-flex items-center px-6 py-3.5 rounded-full transition-all group-hover:px-8">
-                  Tư vấn ngay
+                  {t('ctaConsult')}
                 </span>
                 <span className="bg-black text-white inline-flex items-center justify-center w-11 h-11 rounded-full -ml-5 transition-all group-hover:ml-2">
                   <svg viewBox="0 0 512 512" className="fill-current w-3 h-3">
@@ -133,10 +145,10 @@ export default function Hero() {
               </Link>
 
               <Link
-                href="/case-studies"
+                href={`/${locale}/case-studies`}
                 className="group inline-flex items-center text-sm lg:text-base font-medium text-dark transition-colors hover:text-primary"
               >
-                Xem case thành công
+                {t('ctaViewCases')}
                 <svg viewBox="0 0 512 512" className="fill-current w-3 h-3 mt-1 ml-2 transition-transform group-hover:translate-x-1">
                   <path d="M489.4 233.4L512 256l-22.6 22.6-128 128-22.6 22.6L293.5 384l22.6-22.6L389.5 288 32 288 0 288l0-64 32 0 357.5 0-73.4-73.4L293.5 128l45.3-45.3 22.6 22.6 128 128z" />
                 </svg>

@@ -1,0 +1,803 @@
+{
+  "header": {
+    "home": "首页",
+    "about": "关于我们",
+    "services": "服务",
+    "caseStudies": "成功案例",
+    "kolKoc": "网红资源",
+    "cooperation": "合作",
+    "careers": "招聘",
+    "contact": "联系我们",
+    "servicesMenu": {
+      "ecommerce": {
+        "title": "电子商务",
+        "description": "全面TikTok Shop解决方案",
+        "items": {
+          "consulting": "出口咨询",
+          "company": "公司设立",
+          "shop": "店铺运营",
+          "content": "内容管理",
+          "livestream": "直播运营"
+        }
+      },
+      "marketing": {
+        "title": "整合营销",
+        "description": "多渠道活动",
+        "items": {
+          "kolKoc": "KOL/KOC合作",
+          "campaign": "营销活动",
+          "ambassador": "品牌大使",
+          "multichannel": "多渠道传播"
+        }
+      },
+      "offline": {
+        "title": "线下部署",
+        "description": "从线上到线下",
+        "items": {
+          "store": "线下门店",
+          "popup": "快闪店",
+          "pos": "销售点营销"
+        }
+      },
+      "viewAll": "查看所有服务"
+    }
+  },
+  "hero": {
+    "brandName": "TK Connection",
+    "titlePart1": "越南市场",
+    "titleHighlight": "全链路",
+    "titlePart2": "整合电商运营服务商",
+    "subtitle": "TikTok Shop官方认证服务商 (TAP/TSP)",
+    "description": "陪伴品牌深入越南市场，推动销售增长与品牌声誉双提升",
+    "stat1": "40+",
+    "stat1Label": "品牌",
+    "stat1Description": "已成功出海超过",
+    "stat2": "5000万+",
+    "stat2Label": "价值",
+    "stat2Description": "增长创造超过",
+    "stat3": "840万",
+    "stat3Label": "销售",
+    "stat3Description": "180天最高业绩",
+    "ctaConsult": "立即咨询",
+    "ctaViewCases": "查看成功案例"
+  },
+  "aboutShowcase": {
+    "title": "打造雄心勃勃的品牌",
+    "titleHighlight": "TikTok Shop、营销、KOL/KOC与运营",
+    "creativity": {
+      "title": "创意与绩效的结合",
+      "description1": "很少有机构既懂营销绩效，又懂内容创作。",
+      "description2": "这就是我们的与众不同之处。",
+      "description3": "无论我们是在帮助您建立社交媒体社区、优化付费媒体、制作创意内容还是运营网红营销活动 - 我们都会基于您的品牌和业务目标，借助数据和洞察来制定策略。",
+      "cta": "关于我们"
+    },
+    "awards": {
+      "title": "荣获多项大奖",
+      "description1": "我们知道奖项并非一切。",
+      "description2": "但我们为所取得的成就和团队为客户提供的高质量工作感到自豪。",
+      "award1": "最佳电商机构 (2023, 2024)",
+      "award2": "顶级TikTok Shop服务商 (2025)",
+      "award3": "最佳网红营销活动 (2024)",
+      "award4": "整合营销卓越奖 (2023)"
+    }
+  },
+  "brandSlider": {
+    "subtitle": "信赖我们的品牌",
+    "title": "获得40+领先品牌信赖"
+  },
+  "featuredCases": {
+    "title": "精选",
+    "titleHighlight": "案例研究",
+    "subtitle": "客户的成功就是我们的成功",
+    "viewAll": "查看所有案例研究",
+    "tulandut": {
+      "category": "化妆品",
+      "tag": "TikTok Shop",
+      "description": "180天营收1127万，成为TikTok越南化妆品行业的明星品牌",
+      "stat1Value": "1127万",
+      "stat1Label": "180天营收",
+      "stat2Value": "315万",
+      "stat2Label": "1个月营收"
+    },
+    "botare": {
+      "category": "个人护理",
+      "name": "botare 植护",
+      "description": "70%营收来自KOL/KOC合作",
+      "statValue": "800万"
+    },
+    "mooekiss": {
+      "category": "彩妆",
+      "description": "80%营收来自KOL/KOC合作",
+      "statValue": "840万"
+    }
+  },
+  "services": {
+    "title": "我们的全面服务...",
+    "viewAll": "查看所有服务",
+    "learnMore": "了解更多",
+    "tiktokShop": {
+      "title": "TikTok Shop",
+      "description": "为每个平台制定专属策略，发展社交媒体社区",
+      "feature1": "TikTok Shop战略",
+      "feature2": "社区管理",
+      "feature3": "内容创作",
+      "feature4": "监听与洞察"
+    },
+    "marketing": {
+      "title": "营销",
+      "description": "高效的付费社交和付费搜索广告活动",
+      "feature1": "付费社交与搜索",
+      "feature2": "全漏斗策略",
+      "feature3": "规划与采购",
+      "feature4": "信息流优化"
+    },
+    "creative": {
+      "title": "创意",
+      "description": "视频、设计和动态图形方面的卓越创意",
+      "feature1": "社交视频",
+      "feature2": "UGC到高端制作",
+      "feature3": "创意策略",
+      "feature4": "动态设计与图形"
+    },
+    "influencer": {
+      "title": "网红",
+      "description": "连接5000+KOL/KOC，放大品牌传播",
+      "feature1": "网红策略",
+      "feature2": "KOL/KOC连接",
+      "feature3": "活动管理",
+      "feature4": "效果衡量"
+    }
+  },  "animatedTextSlider": {
+    "callToAction": "与TK Connection交流"
+  },
+  "statsSection": {
+    "title": "卓越成就",
+    "subtitle": "数字证明我们的运营能力",
+    "brands": "40+",
+    "brandsLabel": "合作品牌",
+    "brandsDescription": "助力品牌拓展市场",
+    "growth": "50M+",
+    "growthLabel": "增长价值",
+    "growthDescription": "为合作伙伴创造的总价值",
+    "topSales": "8.4M",
+    "topSalesLabel": "最高营收",
+    "topSalesDescription": "单品牌180天内",
+    "gmvValue": "5亿",
+    "gmvLabel": "年GMV",
+    "gmvUnit": "人民币",
+    "kolValue": "300-500",
+    "kolLabel": "KOL/KOC",
+    "kolUnit": "每月",
+    "revenuePercent": "80%",
+    "revenuePercentLabel": "KOL/KOC营收",
+    "revenuePercentUnit": "最高",
+    "products": "3,194",
+    "productsLabel": "产品销售",
+    "productsUnit": "48小时内"
+  },
+  "coreAdvantages": {
+    "title": "核心优势",
+    "titleHighlight": "TK Connection",
+    "subtitle": "助力品牌在越南市场可持续发展的可信赖伙伴",
+    "certification": {
+      "title": "官方能力认证",
+      "description": "获得TikTok Shop两项官方认证（TAP/TSP），同时拥有在越南合规运营的全部法律资质。"
+    },
+    "ecosystem": {
+      "title": "全链路服务生态",
+      "description": "提供从品牌出口咨询、本地法人成立、店铺运营到线下部署的一站式解决方案。"
+    },
+    "local": {
+      "title": "本地运营能力",
+      "description": "总部设在胡志明市，专业运营团队，直播间系统和20多位本地主播。"
+    },
+    "network": {
+      "title": "强大资源生态",
+      "description": "每月拥有300-500名越南KOL/KOC资源，全球名人网络及100+品牌合作伙伴。"
+    }
+  },
+  "servicesOverview": {
+    "title": "我们的",
+    "titleHighlight": "全面",
+    "titleSuffix": "服务",
+    "subtitle": "从线上到线下的一站式解决方案，支持品牌可持续增长",
+    "viewAll": "查看所有服务",
+    "learnMore": "了解更多",
+    "ecommerce": {
+      "number": "01",
+      "title": "电子商务",
+      "description": "从咨询、设置到店铺运营和销售优化的TikTok Shop全链路运营。",
+      "feature1": "品牌出口咨询",
+      "feature2": "店铺全托管运营",
+      "feature3": "账号及短视频运营",
+      "feature4": "专业直播运营"
+    },
+    "marketing": {
+      "number": "02",
+      "title": "整合营销",
+      "description": "KOL/KOC对接、多渠道营销活动和全面品牌建设。",
+      "feature1": "每月300-500 KOL/KOC合作",
+      "feature2": "营销活动策划",
+      "feature3": "品牌大使对接",
+      "feature4": "多渠道传播"
+    },
+    "offline": {
+      "number": "03",
+      "title": "线下部署",
+      "description": "从快闪店到零售运营，让品牌更贴近越南消费者。",
+      "feature1": "线下门店建设",
+      "feature2": "快闪店开设",
+      "feature3": "销售点营销",
+      "feature4": "线上线下整合"
+    }
+  },
+  "briefIntro": {
+    "title1": "我们通过以下方式在越南发展品牌",
+    "tiktokShop": "TikTok Shop",
+    "kolKoc": "KOL/KOC",
+    "marketing": "营销",
+    "fullChain": "全链路运营"
+  },
+  "aboutIntro": {
+    "tag": "关于我们",
+    "title1": "我们结合",
+    "titleHighlight1": "创意",
+    "title2": "与",
+    "titleHighlight2": "绩效",
+    "paragraph1": "TK Connection是越南全链路整合电商运营单位，是TikTok Shop官方认证服务商（TAP/TSP）。",
+    "paragraph2": "由来自字节跳动、阿里巴巴及行业大型集团的合作伙伴创立。我们结合跨境电商视野与本地运营经验，实现可持续增长。",
+    "paragraph3": "已支持40+品牌市场扩张，年GMV总计达5亿人民币。",
+    "cta": "了解更多"
+  },
+  "certifications": {
+    "title": "官方认证",
+    "subtitle": "获得TikTok Shop和越南政府认证，确保合规运营和法律安全",
+    "tap": {
+      "title": "TikTok Shop TAP",
+      "subtitle": "TikTok授权合作伙伴",
+      "description": "TikTok Shop官方认证服务商"
+    },
+    "tsp": {
+      "title": "TikTok Shop TSP",
+      "subtitle": "TikTok解决方案提供商",
+      "description": "官方认证的解决方案提供商"
+    },
+    "license": {
+      "title": "营业执照",
+      "subtitle": "越南营业执照",
+      "description": "拥有在越南运营的全部法律资质"
+    }
+  },
+  "teamShowcase": {
+    "title": "专家团队",
+    "subtitle": "由来自字节跳动、阿里巴巴及行业大型集团的合作伙伴创立",
+    "founders": {
+      "name": "创始团队",
+      "role": "字节跳动和阿里巴巴校友"
+    },
+    "ecommerce": {
+      "name": "电商专家",
+      "role": "TikTok Shop专员"
+    },
+    "marketing": {
+      "name": "营销负责人",
+      "role": "KOL/KOC专家"
+    },
+    "local": {
+      "name": "专家",
+      "role": "本地运营"
+    }
+  },
+  "timeline": {
+    "title": "发展历程",
+    "subtitle": "从最初的步伐到成为TikTok Shop在越南的战略合作伙伴",
+    "year2022": {
+      "year": "2022",
+      "title": "公司成立",
+      "description": "成为抖音电商、小红书和视频号的主力MCN。与众多知名KOL/KOC签约，扩展直播电商业务。"
+    },
+    "year2023": {
+      "year": "2023-2024",
+      "title": "品牌服务扩展",
+      "description": "包括明星代言、电商活动、外包直播运营。年GMV达5亿人民币，建立稳固的运营基础和资源。"
+    },
+    "year2024": {
+      "year": "2024-2025",
+      "title": "聚焦越南市场",
+      "description": "成为TikTok Shop官方认证服务商（TAP/TSP）。在国际市场部署全链路服务，支持40+品牌海外扩张，创造5000万增长价值。"
+    }
+  },  "footer": {
+    "ctaTitle": "让我们聊聊",
+    "ctaHeading1": "不要犹豫，",
+    "ctaHeading2": "与TK Connection畅聊",
+    "ctaButton": "开始对话",
+    "newsletterDescription": "获取TK Connection最新的洞察、案例研究和新闻。",
+    "emailPlaceholder": "您的邮箱",
+    "followUs": "关注我们",
+    "servicesTitle": "服务",
+    "service1": "TikTok Shop",
+    "service2": "营销",
+    "service3": "创意",
+    "service4": "网红",
+    "contactTitle": "联系",
+    "email": "邮箱：hello@tkconnection.vn",
+    "location": "越南胡志明市",
+    "copyright": "© {year} TK Connection. 保留所有权利。",
+    "madeBy": "网站由TK Connection制作"
+  },
+  "about": {
+    "hero": {
+      "title1": "打造",
+      "title2": "雄心勃勃的品牌",
+      "title3": "在越南",
+      "subtitle": "TikTok Shop官方认证服务商，专注提供全链路电商解决方案。"
+    },
+    "specialists": {
+      "title": "我们是专家，不是泛泛之辈",
+      "description1": "由来自字节跳动、阿里巴巴等行业大型集团的合作伙伴共同创立。",
+      "description2": "我们深刻理解跨境电商和本地化运营。凭借多年经验，我们成为品牌与越南消费市场之间的重要桥梁。",
+      "gmvBadge": "年GMV 5亿人民币"
+    },
+    "outcomes": {
+      "title": "专注结果，而非产出",
+      "description": "我们不仅仅提供服务。我们承诺为每个品牌带来实际成果。",
+      "strategy": {
+        "title": "定制化战略",
+        "description": "每个品牌都会根据产品特点和业务目标获得量身定制的解决方案。"
+      },
+      "optimization": {
+        "title": "测量与优化",
+        "description": "实时数据跟踪，持续调整策略以最大化效果。"
+      },
+      "partnershipModel": {
+        "title": "灵活合作模式",
+        "description": "从项目制服务到长期合作，确保符合每个品牌的预算和目标。"
+      },
+      "stats": {
+        "brands": "40+",
+        "brandsLabel": "合作品牌",
+        "revenue": "5000万+",
+        "revenueLabel": "增长价值",
+        "topPerformance": "840万",
+        "topPerformanceLabel": "180天最高销售额",
+        "gmv": "500+",
+        "gmvLabel": "百万人民币年GMV"
+      }
+    },
+    "timeline": {
+      "title": "发展历程",
+      "year2022": {
+        "year": "2022年",
+        "title": "成立与启动",
+        "description": "公司成立，成为抖音电商、小红书和视频号的主力MCN。与众多知名KOL/KOC签约。"
+      },
+      "year2023": {
+        "year": "2023-2024年",
+        "title": "服务扩展",
+        "description": "扩展全面品牌服务：明星代言、电商活动、直播运营。达成5亿人民币GMV。"
+      },
+      "year2024": {
+        "year": "2024-2025年",
+        "title": "专注越南",
+        "description": "成为TikTok Shop官方合作伙伴(TAP/TSP)。支持40+品牌拓展越南市场，创造5000万增长价值。"
+      }
+    },
+    "values": {
+      "title": "核心价值",      "description": "我们在每个项目和合作伙伴关系中追求的价值",      "customerFirst": {
+        "title": "客户至上",
+        "description": "始终优先考虑客户利益，先为客户创造价值，从而推动自身发展。"
+      },
+      "professional": {
+        "title": "专业服务",
+        "description": "保持谦逊和专业的态度，基于领先的行业知识提供定制化解决方案。"
+      },
+      "innovation": {
+        "title": "创新与创意",
+        "description": "持续更新市场趋势，应用最新技术和方法优化效果。"
+      }
+    },
+    "team": {
+      "title": "领导团队",
+      "founders": {
+        "title": "创始团队",
+        "description": "来自字节跳动和阿里巴巴，带来国际经验"
+      },
+      "ecommerce": {
+        "title": "电商专家",
+        "description": "拥有10年以上跨境电商运营经验"
+      },
+      "marketing": {
+        "title": "营销负责人",
+        "description": "具有东南亚市场经验的营销专家"
+      },
+      "local": {
+        "title": "本地专家",
+        "description": "深入了解越南市场，连接KOL/KOC资源"
+      }
+    },
+    "certifications": {
+      "title": "认证与资质",
+      "tap": {
+        "title": "TikTok TAP",
+        "description": "TikTok广告平台官方合作伙伴"
+      },
+      "tsp": {
+        "title": "TikTok TSP",
+        "description": "TikTok商店官方合作伙伴"
+      },
+      "license": {
+        "title": "营业执照",
+        "description": "在越南拥有完整法律资格和合法运营"
+      }
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "核心服务",
+      "subtitle": "从战略咨询到实际落地的全链路电商解决方案",
+      "description": "我们提供从品牌出海咨询、本地法人成立、店铺运营，到营销实施和线下拓展的一站式服务。",
+      "cta": "免费咨询",
+      "viewCases": "查看案例研究",
+      "stats": {
+        "campaigns": "营销活动",
+        "creators": "创作者",
+        "brands": "品牌"
+      }
+    },
+    "overview": {
+      "title": "全链路服务生态",
+      "description": "企业只需一个对接窗口，即可完成在越南的全部电商活动部署。"
+    },
+    "main": {
+      "title": "我们如何帮助您",
+      "subtitle": "我们专注于TikTok Shop、创意内容、KOL/KOC和战略，与全球快速增长的品牌和知名企业合作。",
+      "learnMore": "了解更多"
+    },
+    "ecommerce": {
+      "title": "全链路电子商务",
+      "subtitle": "TikTok Shop全流程解决方案",
+      "description": "TikTok Shop官方认证服务商(TAP/TSP)，提供完整运营解决方案。",
+      "items": {
+        "consulting": {
+          "title": "出海咨询",
+          "description": "分析越南市场、行业数据、消费行为，构建个性化出海策略。"
+        },
+        "company": {
+          "title": "本地公司成立",
+          "description": "协助在越南注册公司、会计税务服务，确保合规运营。"
+        },
+        "shop": {
+          "title": "店铺运营",
+          "description": "TikTok Shop全流程运营：产品上架、价格优化、订单处理、客户服务。"
+        },
+        "content": {
+          "title": "短视频内容管理",
+          "description": "账号定位、内容策划、专业短视频制作、流量优化。"
+        },
+        "livestream": {
+          "title": "直播运营",
+          "description": "胡志明市专业直播间，20+本地主播，现代化设备和优化脚本。"
+        }
+      }
+    },
+    "marketing": {
+      "title": "整合营销",
+      "subtitle": "高效多渠道营销活动",
+      "description": "每月对接300-500个KOL/KOC，实施从线上到线下的全面营销活动。",
+      "items": {
+        "kolKoc": {
+          "title": "KOL/KOC合作",
+          "description": "每月提供300-500个本地KOL/KOC，多样化粉丝级别和行业，优化转化。"
+        },
+        "campaign": {
+          "title": "营销活动",
+          "description": "策划购物节、品牌活动、多渠道广告，提升知名度和销量。"
+        },
+        "ambassador": {
+          "title": "品牌大使",
+          "description": "对接全球名人资源，选择合适代言人，提升品牌信誉。"
+        },
+        "multichannel": {
+          "title": "多渠道传播",
+          "description": "整合线上线下广告、多平台传播，覆盖主要流量渠道。"
+        }
+      }
+    },
+    "offline": {
+      "title": "线下部署",
+      "subtitle": "从线上到线下 - 全面扩展",
+      "description": "支持品牌在越南部署和运营线下店铺、快闪店和销售点营销。",
+      "items": {
+        "store": {
+          "title": "线下门店",
+          "description": "支持选址、店铺设计施工、运营咨询和在越南的管理。"
+        },
+        "popup": {
+          "title": "快闪店",
+          "description": "策划快闪店、对接地点、快速施工搭建和专业运营。"
+        },
+        "pos": {
+          "title": "销售点营销",
+          "description": "销售点活动综合解决方案：活动策划、客户吸引和转化优化。"
+        }
+      }
+    },
+    "cta": {
+      "title": "准备好开始了吗？",
+      "description": "联系我们获取免费咨询，制定您在越南市场的增长战略。",
+      "button": "立即咨询",
+      "stats": {
+        "brands": "40+品牌",
+        "revenue": "5000万+营收",
+        "kols": "500+ KOL/KOC",
+        "growth": "GMV 5亿人民币"
+      }
+    }
+  },
+  "caseStudiesPage": {
+    "title": "案例研究",
+    "subtitle": "来自合作品牌的成功故事"
+  },
+  "caseStudiesPage": {
+    "hero": {
+      "title": "成功案例",
+      "subtitle": "为越南40+品牌带来经过验证的增长成果"
+    },
+    "filters": {
+      "all": "全部",
+      "beauty": "美妆护肤",
+      "personalCare": "个护清洁",
+      "special": "专项服务"
+    },
+    "viewCase": "查看案例",
+    "backToCases": "返回案例列表",
+    "cases": {
+      "tulandut": {
+        "title": "TULANDUT",
+        "category": "美妆护肤",
+        "revenue": "180天GMV达1127万越南盾",
+        "description": "越南护肤品牌突破",
+        "tags": ["TikTok Shop", "达人合作", "内容营销"],
+        "detail": {
+          "client": "TULANDUT",
+          "year": "2024",
+          "deliverables": ["TikTok Shop运营", "达人合作", "内容策略", "直播运营"],
+          "background": {
+            "title": "客户背景",
+            "content": "越南本土美妆品牌，专注女性护肤需求。2024年下半年入驻TikTok越南，目标在竞争激烈的市场中建立品牌地位。"
+          },
+          "strategy": {
+            "title": "执行策略",
+            "items": [
+              {
+                "title": "精准KOL/KOC筛选",
+                "description": "识别并合作符合品牌价值观和目标受众的影响者"
+              },
+              {
+                "title": "独家合作模式",
+                "description": "设计独特合作框架，最大化互动和转化"
+              },
+              {
+                "title": "主推产品打造",
+                "description": "开发旗舰产品并配合集中营销策略"
+              },
+              {
+                "title": "高效广告运营",
+                "description": "优化广告投放，实现ROI最大化"
+              }
+            ]
+          },
+          "results": {
+            "title": "项目成果",
+            "content": "迅速成为越南TikTok美妆领域的突出品牌，在规模化销售上实现突破性增长。",
+            "metrics": [
+              { "value": "1127万", "label": "180天GMV（越南盾）" },
+              { "value": "315万", "label": "30天GMV（越南盾）" },
+              { "value": "2024", "label": "合作年份" }
+            ]
+          }
+        }
+      },
+      "botare": {
+        "title": "botare植护",
+        "category": "个护清洁",
+        "revenue": "180天GMV达800万越南盾",
+        "description": "打造自然护理品牌形象",
+        "tags": ["直播运营", "短视频种草", "达人合作"],
+        "detail": {
+          "client": "botare 植护",
+          "year": "2023",
+          "deliverables": ["直播运营", "短视频", "达人合作", "店铺管理"],
+          "background": {
+            "title": "客户背景",
+            "content": "知名个护品牌，专注天然安全产品。2023年11月入驻TikTok越南，致力于建立可持续品牌形象。"
+          },
+          "strategy": {
+            "title": "执行策略",
+            "items": [
+              {
+                "title": "自营直播",
+                "description": "搭建专业直播间，配备本地主播团队"
+              },
+              {
+                "title": "短视频内容种草",
+                "description": "制作并分发吸引人的短视频内容"
+              },
+              {
+                "title": "达人联动",
+                "description": "结合短视频与直播，广泛合作达人网络"
+              },
+              {
+                "title": "智能营收分布",
+                "description": "达人合作占70%，自营店铺占30%"
+              }
+            ]
+          },
+          "results": {
+            "title": "项目成果",
+            "content": "成功在越南市场建立品牌认知，保持稳定的销售增长和复购率。",
+            "metrics": [
+              { "value": "800万", "label": "180天GMV（越南盾）" },
+              { "value": "180万", "label": "30天GMV（越南盾）" },
+              { "value": "70%", "label": "达人合作占比" }
+            ]
+          }
+        }
+      },
+      "mooekiss": {
+        "title": "Mooekiss",
+        "category": "美妆护肤",
+        "revenue": "180天GMV达840万越南盾",
+        "description": "快速渗透年轻消费市场",
+        "tags": ["直播运营", "内容营销", "达人合作"],
+        "detail": {
+          "client": "Mooekiss",
+          "year": "2023",
+          "deliverables": ["直播运营", "短视频", "达人合作", "内容策略"],
+          "background": {
+            "title": "客户背景",
+            "content": "新兴美妆品牌，专注性价比高的彩妆产品。2023年4月入驻TikTok越南。"
+          },
+          "strategy": {
+            "title": "执行策略",
+            "items": [
+              {
+                "title": "常态化直播",
+                "description": "保持稳定直播节奏，建立忠实社群"
+              },
+              {
+                "title": "短视频生态",
+                "description": "打造多元内容矩阵，吸引多个细分人群"
+              },
+              {
+                "title": "规模化达人合作",
+                "description": "部署全面的达人营销活动"
+              },
+              {
+                "title": "转化优化",
+                "description": "达人合作占80%，店铺运营占20%"
+              }
+            ]
+          },
+          "results": {
+            "title": "项目成果",
+            "content": "快速渗透越南年轻消费群体，成功打造多个畅销爆品。",
+            "metrics": [
+              { "value": "840万", "label": "180天GMV（越南盾）" },
+              { "value": "158万", "label": "30天GMV（越南盾）" },
+              { "value": "80%", "label": "达人合作占比" }
+            ]
+          }
+        }
+      },
+      "independent-website": {
+        "title": "独立站建设",
+        "category": "专项服务",
+        "revenue": "多个国际品牌",
+        "description": "打造电商平台",
+        "tags": ["网站开发", "流量策略", "品牌建设"],
+        "detail": {
+          "client": "COLE HAAN, YVMIN, Depology",
+          "year": "2023-2024",
+          "deliverables": ["网站设计", "开发", "流量策略", "品牌建设"],
+          "background": {
+            "title": "项目背景",
+            "content": "帮助国际品牌在越南市场搭建独立站，打造独立电商平台并与TikTok Shop渠道结合。"
+          },
+          "strategy": {
+            "title": "解决方案",
+            "items": [
+              {
+                "title": "网站设计与开发",
+                "description": "开发适合越南市场的专业网站平台"
+              },
+              {
+                "title": "流量策略规划",
+                "description": "制定全面的SEO和流量获取计划"
+              },
+              {
+                "title": "流量导入服务",
+                "description": "优化搜索和广告等流量来源"
+              },
+              {
+                "title": "运营与维护",
+                "description": "确保网站稳定运行并定期更新"
+              }
+            ]
+          },
+          "results": {
+            "title": "项目成果",
+            "content": "帮助品牌在越南建立本地化在线平台，接收来自搜索和广告的流量，同时提升品牌形象和转化效果。",
+            "metrics": [
+              { "value": "3+", "label": "国际品牌" },
+              { "value": "100%", "label": "正常运行时间" },
+              { "value": "2023", "label": "项目启动" }
+            ]
+          }
+        }
+      },
+      "livestream-outsourcing": {
+        "title": "直播代运营",
+        "category": "专项服务",
+        "revenue": "48小时售出3194件",
+        "description": "专业直播运营服务",
+        "tags": ["直播间搭建", "主播培训", "设备支持"],
+        "detail": {
+          "client": "FUNNY ELVES, soundcore",
+          "year": "2024",
+          "deliverables": ["直播间搭建", "主播培训", "直播策划", "流量优化"],
+          "background": {
+            "title": "项目背景",
+            "content": "为消费电子品牌提供专业直播服务，包括直播间搭建、主播培训和全程直播运营管理。"
+          },
+          "strategy": {
+            "title": "解决方案",
+            "items": [
+              {
+                "title": "本地直播间搭建",
+                "description": "在胡志明市建立配备专业设备的直播间"
+              },
+              {
+                "title": "设备与培训",
+                "description": "提供高端设备并培训专业主播"
+              },
+              {
+                "title": "直播策划",
+                "description": "设计脚本、时间表和推广策略"
+              },
+              {
+                "title": "流量优化",
+                "description": "结合自然流量和付费流量，最大化触达"
+              }
+            ]
+          },
+          "results": {
+            "title": "突出成果",
+            "content": "FUNNY ELVES直播间48小时售出3194件产品；soundcore直播间总观看量超4200万，流量和销售均实现强劲增长。",
+            "metrics": [
+              { "value": "3194件", "label": "产品销量（48小时）" },
+              { "value": "4200万+", "label": "总观看量" },
+              { "value": "2024", "label": "项目年份" }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "kolKocPage": {
+    "title": "意见领袖/内容创作者",
+    "subtitle": "每月与500+影响者建立联系"
+  },
+  "cooperationPage": {
+    "title": "合作",
+    "subtitle": "共同成长，实现可持续发展"
+  },
+  "careersPage": {
+    "title": "招聘",
+    "subtitle": "加入我们的团队，共同创造价值"
+  },
+  "contactPage": {
+    "title": "联系我们",
+    "subtitle": "与我们联系，开启您的成功之旅"
+  }
+}

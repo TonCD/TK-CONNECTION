@@ -1,27 +1,36 @@
+'use client'
+
 import Image from 'next/image'
 import Link from 'next/link'
+import { useTranslations } from 'next-intl'
+import { useParams } from 'next/navigation'
 
 export default function Footer() {
+  const t = useTranslations('footer')
+  const params = useParams()
+  const locale = params.locale as string
+  const currentYear = new Date().getFullYear()
+
   return (
-    <footer className="bg-dark text-white pt-0 rounded-t-3xl mt-16">
+    <footer className="bg-dark text-white pt-0 rounded-t-3xl">
       <div className="max-w-[1920px] mx-auto px-6 md:px-10 xl:px-16 2xl:px-20 pb-10 pt-16">
         {/* Top CTA block */}
         <div className="mb-16 rounded-3xl overflow-hidden grid lg:grid-cols-[1.1fr,1fr] bg-primary text-dark shadow-xl">
           <div className="px-8 md:px-12 py-12 md:py-16 flex flex-col justify-center gap-6">
             <div>
-              <p className="uppercase tracking-[0.2em] text-sm md:text-xs mb-4">Hãy nói chuyện</p>
+              <p className="uppercase tracking-[0.2em] text-sm md:text-xs mb-4">{t('ctaTitle')}</p>
               <h2 className="text-3xl md:text-4xl xl:text-5xl font-bold leading-tight">
-                Đừng ngần ngại,
+                {t('ctaHeading1')}
                 <br />
-                hãy nói chuyện với TK Connection
+                {t('ctaHeading2')}
               </h2>
             </div>
             <div>
               <Link
-                href="/contact"
+                href={`/${locale}/contact`}
                 className="inline-flex items-center bg-dark text-white px-6 md:px-8 py-3.5 rounded-full font-semibold text-sm md:text-base hover:bg-black transition-all group"
               >
-                Let&apos;s Chat
+                {t('ctaButton')}
                 <span className="ml-2 inline-flex items-center justify-center w-8 h-8 rounded-full bg-white text-dark group-hover:translate-x-0.5 transition-transform">
                   <svg viewBox="0 0 512 512" className="w-3 h-3 fill-current">
                     <path d="M489.4 233.4L512 256l-22.6 22.6-128 128-22.6 22.6L293.5 384l22.6-22.6L389.5 288 32 288 0 288l0-64 32 0 357.5 0-73.4-73.4L293.5 128l45.3-45.3 22.6 22.6 128 128z" />
@@ -56,12 +65,12 @@ export default function Footer() {
           <div className="lg:col-span-2 flex flex-col gap-6">
             <div>
               <p className="text-sm text-gray-400 mb-3">
-                Nhận insight, case study và tin tức mới nhất từ TK Connection.
+                {t('newsletterDescription')}
               </p>
               <form className="flex items-center bg-black rounded-full px-4 py-2 max-w-md">
                 <input
                   type="email"
-                  placeholder="Email của bạn"
+                  placeholder={t('emailPlaceholder')}
                   className="flex-1 bg-transparent outline-none text-sm text-white placeholder:text-gray-500"
                 />
                 <button
@@ -76,7 +85,7 @@ export default function Footer() {
             <div>
               <div className="text-lg font-semibold">TK Connection</div>
               <div className="mt-4 flex items-center gap-3 text-gray-400">
-                <span className="text-sm">Theo dõi chúng tôi</span>
+                <span className="text-sm">{t('followUs')}</span>
                 <div className="flex gap-2">
                   {['T', 'In', 'Ig', 'Yt', 'Fb'].map((label) => (
                     <span
@@ -93,28 +102,28 @@ export default function Footer() {
 
           {/* Services links */}
           <div>
-            <h4 className="font-semibold mb-4">Dịch vụ</h4>
+            <h4 className="font-semibold mb-4">{t('servicesTitle')}</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>TikTok Shop</li>
-              <li>Marketing</li>
-              <li>Sáng tạo</li>
-              <li>Influencer</li>
+              <li>{t('service1')}</li>
+              <li>{t('service2')}</li>
+              <li>{t('service3')}</li>
+              <li>{t('service4')}</li>
             </ul>
           </div>
 
           {/* Contact info */}
           <div>
-            <h4 className="font-semibold mb-4">Liên hệ</h4>
+            <h4 className="font-semibold mb-4">{t('contactTitle')}</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>Email: hello@tkconnection.vn</li>
-              <li>TP. Hồ Chí Minh, Việt Nam</li>
+              <li>{t('email')}</li>
+              <li>{t('location')}</li>
             </ul>
           </div>
         </div>
 
         <div className="mt-10 text-xs text-gray-500 flex flex-wrap items-center justify-between gap-4 border-t border-gray-800 pt-6">
-          <span>© {new Date().getFullYear()} TK Connection. Bảo lưu mọi quyền.</span>
-          <span>Website by TK Connection</span>
+          <span>{t('copyright', { year: currentYear })}</span>
+          <span>{t('madeBy')}</span>
         </div>
       </div>
     </footer>

@@ -1,0 +1,803 @@
+{
+  "header": {
+    "home": "Trang chủ",
+    "about": "Về chúng tôi",
+    "services": "Dịch vụ",
+    "caseStudies": "Case Studies",
+    "kolKoc": "KOL/KOC",
+    "cooperation": "Hợp tác",
+    "careers": "Tuyển dụng",
+    "contact": "Liên hệ",
+    "servicesMenu": {
+      "ecommerce": {
+        "title": "Thương mại điện tử",
+        "description": "Giải pháp TikTok Shop toàn diện",
+        "items": {
+          "consulting": "Tư vấn xuất khẩu",
+          "company": "Thành lập công ty",
+          "shop": "Vận hành gian hàng",
+          "content": "Quản lý nội dung",
+          "livestream": "Vận hành livestream"
+        }
+      },
+      "marketing": {
+        "title": "Marketing tích hợp",
+        "description": "Chiến dịch đa kênh",
+        "items": {
+          "kolKoc": "Hợp tác KOL/KOC",
+          "campaign": "Chiến dịch marketing",
+          "ambassador": "Đại sứ thương hiệu",
+          "multichannel": "Truyền thông đa kênh"
+        }
+      },
+      "offline": {
+        "title": "Triển khai offline",
+        "description": "Từ online đến offline",
+        "items": {
+          "store": "Cửa hàng offline",
+          "popup": "Cửa hàng pop-up",
+          "pos": "Marketing điểm bán"
+        }
+      },
+      "viewAll": "Xem tất cả dịch vụ"
+    }
+  },
+  "hero": {
+    "brandName": "TK Connection",
+    "titlePart1": "Đơn vị vận hành tích hợp ",
+    "titleHighlight": "toàn chuỗi",
+    "titlePart2": " thương mại điện tử tại Việt Nam",
+    "subtitle": "Đối tác dịch vụ được TikTok Shop chứng nhận chính thức (TAP/TSP)",
+    "description": "Đồng hành cùng thương hiệu thâm nhập thị trường Việt Nam, thúc đẩy tăng trưởng doanh số và uy tín thương hiệu song song",
+    "stat1": "40+",
+    "stat1Label": "thương hiệu",
+    "stat1Description": "Đã phục vụ xuất khẩu hơn",
+    "stat2": "50M+",
+    "stat2Label": "giá trị",
+    "stat2Description": "Tăng trưởng tạo ra hơn",
+    "stat3": "8.4M",
+    "stat3Label": "doanh số",
+    "stat3Description": "Cao nhất 180 ngày",
+    "ctaConsult": "Tư vấn ngay",
+    "ctaViewCases": "Xem case thành công"
+  },
+  "aboutShowcase": {
+    "title": "Xây dựng thương hiệu tham vọng với",
+    "titleHighlight": "TikTok Shop, Marketing, KOL/KOC và Vận hành",
+    "creativity": {
+      "title": "Kết hợp sáng tạo và hiệu suất",
+      "description1": "Không có nhiều agency hiểu về hiệu suất marketing và cũng không có nhiều agency hiểu về sáng tạo nội dung.",
+      "description2": "Đây là điểm khác biệt của chúng tôi.",
+      "description3": "Dù chúng tôi đang giúp bạn phát triển cộng đồng mạng xã hội, tối ưu Paid Media, sản xuất nội dung sáng tạo hay chạy chiến dịch Influencer - chúng tôi tạo ra các chiến lược dựa trên thương hiệu, mục tiêu kinh doanh của bạn, với sự hỗ trợ từ dữ liệu và insight.",
+      "cta": "Về chúng tôi"
+    },
+    "awards": {
+      "title": "Đạt nhiều giải thưởng",
+      "description1": "Chúng tôi biết giải thưởng không phải là tất cả.",
+      "description2": "Nhưng chúng tôi tự hào về những gì đạt được và chất lượng công việc mà đội ngũ của chúng tôi tạo ra cho khách hàng.",
+      "award1": "Best E-commerce Agency (2023, 2024)",
+      "award2": "Top TikTok Shop Service Provider (2025)",
+      "award3": "Best Influencer Marketing Campaign (2024)",
+      "award4": "Excellence in Integrated Marketing (2023)"
+    }
+  },
+  "brandSlider": {
+    "subtitle": "Brands that trust us",
+    "title": "Được tin tưởng bởi 40+ thương hiệu hàng đầu"
+  },
+  "featuredCases": {
+    "title": "Case Studies",
+    "titleHighlight": "nổi bật",
+    "subtitle": "Thành công của khách hàng là thành công của chúng tôi",
+    "viewAll": "Xem tất cả case studies",
+    "tulandut": {
+      "category": "Mỹ phẩm",
+      "tag": "TikTok Shop",
+      "description": "Doanh thu 11.27M trong 180 ngày, trở thành thương hiệu nổi bật trong ngành mỹ phẩm TikTok Việt Nam",
+      "stat1Value": "11.27M",
+      "stat1Label": "Doanh thu 180 ngày",
+      "stat2Value": "3.15M",
+      "stat2Label": "Doanh thu 1 tháng"
+    },
+    "botare": {
+      "category": "Chăm sóc cá nhân",
+      "name": "botare 植护",
+      "description": "70% doanh thu từ KOL/KOC",
+      "statValue": "8M"
+    },
+    "mooekiss": {
+      "category": "Trang điểm",
+      "description": "80% doanh thu từ KOL/KOC",
+      "statValue": "8.4M"
+    }
+  },
+  "services": {
+    "title": "Dịch vụ toàn diện của chúng tôi...",
+    "viewAll": "Xem tất cả dịch vụ",
+    "learnMore": "Tìm hiểu thêm",
+    "tiktokShop": {
+      "title": "TikTok Shop",
+      "description": "Phát triển cộng đồng mạng xã hội với chiến lược riêng cho từng nền tảng",
+      "feature1": "Chiến lược TikTok Shop",
+      "feature2": "Quản lý cộng đồng",
+      "feature3": "Sáng tạo nội dung",
+      "feature4": "Listening & Insights"
+    },
+    "marketing": {
+      "title": "Marketing",
+      "description": "Chiến dịch Paid Social và Paid Search mang lại hiệu suất cao",
+      "feature1": "Paid Social & Paid Search",
+      "feature2": "Chiến lược Full-Funnel",
+      "feature3": "Planning & Buying",
+      "feature4": "Feed Optimisation"
+    },
+    "creative": {
+      "title": "Sáng tạo",
+      "description": "Sáng tạo xuất sắc trên Video, Design và Motion Graphics",
+      "feature1": "Video cho Social",
+      "feature2": "UGC đến High-Production",
+      "feature3": "Creative Strategy",
+      "feature4": "Motion Design & Graphics"
+    },
+    "influencer": {
+      "title": "Influencer",
+      "description": "Kết nối với 5000+ KOL/KOC để khuếch đại thông điệp thương hiệu",
+      "feature1": "Influencer Strategy",
+      "feature2": "Kết nối KOL/KOC",
+      "feature3": "Quản lý chiến dịch",
+      "feature4": "Đo lường hiệu quả"
+    }
+  },
+  "animatedTextSlider": {
+    "callToAction": "Hãy nói chuyện với TK Connection"
+  },
+  "statsSection": {
+    "title": "Thành tích nổi bật",
+    "subtitle": "Con số minh chứng cho năng lực vận hành",
+    "brands": "40+",
+    "brandsLabel": "Thương hiệu đã hợp tác",
+    "brandsDescription": "Đồng hành cùng thương hiệu mở rộng thị trường",
+    "growth": "50M+",
+    "growthLabel": "Giá trị tăng trưởng",
+    "growthDescription": "Tổng giá trị tạo ra cho đối tác",
+    "topSales": "8.4M",
+    "topSalesLabel": "Doanh thu cao nhất",
+    "topSalesDescription": "Trong 180 ngày cho một thương hiệu",
+    "gmvValue": "500M",
+    "gmvLabel": "GMV hằng năm",
+    "gmvUnit": "RMB",
+    "kolValue": "300-500",
+    "kolLabel": "KOL/KOC",
+    "kolUnit": "mỗi tháng",
+    "revenuePercent": "80%",
+    "revenuePercentLabel": "Doanh số từ KOL/KOC",
+    "revenuePercentUnit": "cao nhất",
+    "products": "3,194",
+    "productsLabel": "Sản phẩm bán ra",
+    "productsUnit": "trong 48h"
+  },
+  "coreAdvantages": {
+    "title": "Lợi thế cốt lõi của",
+    "titleHighlight": "TK Connection",
+    "subtitle": "Đối tác tin cậy cho thương hiệu phát triển bền vững tại thị trường Việt Nam",
+    "certification": {
+      "title": "Bảo chứng năng lực chính thức",
+      "description": "Được TikTok Shop chứng nhận chính thức hai hạng mục (TAP/TSP), đồng thời sở hữu đầy đủ pháp lý vận hành hợp chuẩn tại Việt Nam."
+    },
+    "ecosystem": {
+      "title": "Hệ sinh thái dịch vụ toàn chuỗi",
+      "description": "Cung cấp giải pháp trọn gói từ tư vấn xuất khẩu thương hiệu, thành lập pháp nhân bản địa, vận hành cửa hàng, đến triển khai offline."
+    },
+    "local": {
+      "title": "Năng lực vận hành bản địa",
+      "description": "Đặt trụ sở tại TP.HCM, đội ngũ vận hành chuyên nghiệp, hệ thống studio livestream và hơn 20 host bản địa."
+    },
+    "network": {
+      "title": "Hệ sinh thái tài nguyên mạnh mẽ",
+      "description": "Sở hữu nguồn tài nguyên 300–500 KOL/KOC Việt Nam mỗi tháng, mạng lưới người nổi tiếng toàn cầu cùng 100+ thương hiệu đã hợp tác."
+    }
+  },
+  "servicesOverview": {
+    "title": "Dịch vụ",
+    "titleHighlight": "toàn diện",
+    "titleSuffix": "của chúng tôi",
+    "subtitle": "Giải pháp trọn gói từ online đến offline, hỗ trợ thương hiệu tăng trưởng bền vững",
+    "viewAll": "Xem tất cả dịch vụ",
+    "learnMore": "Tìm hiểu thêm",
+    "ecommerce": {
+      "number": "01",
+      "title": "Thương mại điện tử",
+      "description": "Vận hành toàn chuỗi TikTok Shop từ tư vấn, setup, đến vận hành gian hàng và tối ưu doanh số.",
+      "feature1": "Tư vấn xuất khẩu thương hiệu",
+      "feature2": "Vận hành gian hàng trọn gói",
+      "feature3": "Vận hành tài khoản & video ngắn",
+      "feature4": "Vận hành livestream chuyên nghiệp"
+    },
+    "marketing": {
+      "number": "02",
+      "title": "Marketing tích hợp",
+      "description": "Kết nối KOL/KOC, chiến dịch marketing đa kênh và xây dựng hình ảnh thương hiệu toàn diện.",
+      "feature1": "Hợp tác 300-500 KOL/KOC mỗi tháng",
+      "feature2": "Lên kế hoạch chiến dịch marketing",
+      "feature3": "Kết nối đại sứ thương hiệu",
+      "feature4": "Truyền thông đa kênh"
+    },
+    "offline": {
+      "number": "03",
+      "title": "Triển khai offline",
+      "description": "Từ cửa hàng pop-up đến vận hành bán lẻ, mang thương hiệu đến gần hơn với khách hàng Việt Nam.",
+      "feature1": "Xây dựng cửa hàng offline",
+      "feature2": "Mở cửa hàng pop-up",
+      "feature3": "Marketing tại điểm bán",
+      "feature4": "Tích hợp online-offline"
+    }
+  },
+  "briefIntro": {
+    "title1": "Chúng tôi phát triển thương hiệu tại Việt Nam với",
+    "tiktokShop": "TikTok Shop",
+    "kolKoc": "KOL/KOC",
+    "marketing": "Marketing",
+    "fullChain": "Vận hành toàn chuỗi"
+  },
+  "aboutIntro": {
+    "tag": "Về chúng tôi",
+    "title1": "Chúng tôi kết hợp",
+    "titleHighlight1": "sáng tạo",
+    "title2": "và",
+    "titleHighlight2": "hiệu suất",
+    "paragraph1": "TK Connection là đơn vị vận hành tích hợp toàn chuỗi thương mại điện tử tại Việt Nam, là đối tác dịch vụ được TikTok Shop chứng nhận chính thức (TAP/TSP).",
+    "paragraph2": "Được thành lập bởi các đối tác đến từ ByteDance, Alibaba và các tập đoàn lớn trong ngành. Chúng tôi kết hợp tầm nhìn thương mại điện tử xuyên biên giới với kinh nghiệm vận hành bản địa để đạt được tăng trưởng bền vững.",
+    "paragraph3": "Đã hỗ trợ hơn 40+ thương hiệu mở rộng thị trường với tổng GMV hằng năm lên tới 500 triệu RMB.",
+    "cta": "Tìm hiểu thêm"
+  },
+  "certifications": {
+    "title": "Chứng nhận chính thức",
+    "subtitle": "Được TikTok Shop và chính phủ Việt Nam chứng nhận, đảm bảo vận hành hợp quy và an toàn pháp lý",
+    "tap": {
+      "title": "TikTok Shop TAP",
+      "subtitle": "TikTok Authorized Partner",
+      "description": "Đối tác dịch vụ được TikTok Shop chứng nhận chính thức"
+    },
+    "tsp": {
+      "title": "TikTok Shop TSP",
+      "subtitle": "TikTok Solution Provider",
+      "description": "Nhà cung cấp giải pháp được chứng nhận chính thức"
+    },
+    "license": {
+      "title": "Giấy phép kinh doanh",
+      "subtitle": "Vietnam Business License",
+      "description": "Đầy đủ tư cách pháp lý vận hành tại Việt Nam"
+    }
+  },
+  "teamShowcase": {
+    "title": "Đội ngũ chuyên gia",
+    "subtitle": "Được thành lập bởi các đối tác đến từ ByteDance, Alibaba và các tập đoàn lớn trong ngành",
+    "founders": {
+      "name": "Đội ngũ sáng lập",
+      "role": "ByteDance & Alibaba Alumni"
+    },
+    "ecommerce": {
+      "name": "Chuyên gia E-commerce",
+      "role": "TikTok Shop Specialist"
+    },
+    "marketing": {
+      "name": "Marketing Lead",
+      "role": "KOL/KOC Expert"
+    },
+    "local": {
+      "name": "Chuyên gia",
+      "role": "Vận hành bản địa"
+    }
+  },
+  "timeline": {
+    "title": "Hành trình phát triển",
+    "subtitle": "Từ những bước đầu tiên đến việc trở thành đối tác chiến lược của TikTok Shop tại Việt Nam",
+    "year2022": {
+      "year": "2022",
+      "title": "Thành lập công ty",
+      "description": "Trở thành MCN chủ lực của Douyin E-commerce, Xiaohongshu và Video Channel. Ký hợp đồng với nhiều KOL/KOC nổi tiếng, mở rộng hoạt động livestream thương mại."
+    },
+    "year2023": {
+      "year": "2023-2024",
+      "title": "Mở rộng dịch vụ thương hiệu",
+      "description": "Bao gồm đại diện người nổi tiếng, chiến dịch thương mại điện tử, vận hành livestream thuê ngoài. Đạt GMV hằng năm 500 triệu RMB, xây dựng nền tảng vận hành và nguồn lực vững chắc."
+    },
+    "year2024": {
+      "year": "2024-2025",
+      "title": "Tập trung thị trường Việt Nam",
+      "description": "Trở thành đối tác dịch vụ được TikTok Shop chứng nhận (TAP/TSP). Triển khai dịch vụ toàn chuỗi tại thị trường quốc tế, hỗ trợ 40+ thương hiệu mở rộng ra nước ngoài, tạo thêm 50 triệu giá trị tăng trưởng."
+    }
+  },
+  "footer": {
+    "ctaTitle": "Hãy nói chuyện",
+    "ctaHeading1": "Đừng ngần ngại,",
+    "ctaHeading2": "hãy nói chuyện với TK Connection",
+    "ctaButton": "Let's Chat",
+    "newsletterDescription": "Nhận insight, case study và tin tức mới nhất từ TK Connection.",
+    "emailPlaceholder": "Email của bạn",
+    "followUs": "Theo dõi chúng tôi",
+    "servicesTitle": "Dịch vụ",
+    "service1": "TikTok Shop",
+    "service2": "Marketing",
+    "service3": "Sáng tạo",
+    "service4": "Influencer",
+    "contactTitle": "Liên hệ",
+    "email": "Email: hello@tkconnection.vn",
+    "location": "TP. Hồ Chí Minh, Việt Nam",
+    "copyright": "© {year} TK Connection. Bảo lưu mọi quyền.",
+    "madeBy": "Website by TK Connection"
+  },
+  "about": {
+    "hero": {
+      "title1": "Tạo dựng",
+      "title2": "thương hiệu tham vọng",
+      "title3": "tại Việt Nam",
+      "subtitle": "Đối tác dịch vụ được TikTok Shop chứng nhận chính thức, chuyên cung cấp giải pháp thương mại điện tử toàn chuỗi."
+    },
+    "specialists": {
+      "title": "Chúng tôi là đội ngũ chuyên gia, không phải người làm đại trà",
+      "description1": "Được thành lập bởi các đối tác đến từ ByteDance, Alibaba và các tập đoàn lớn trong ngành.",
+      "description2": "Chúng tôi hiểu sâu cả về thương mại điện tử xuyên biên giới lẫn vận hành bản địa. Với nhiều năm kinh nghiệm, chúng tôi trở thành cầu nối quan trọng giữa thương hiệu và thị trường tiêu dùng Việt Nam.",
+      "gmvBadge": "GMV 500 triệu RMB hằng năm"
+    },
+    "outcomes": {
+      "title": "Tập trung vào kết quả, không phải sản lượng",
+      "description": "Chúng tôi không chỉ đơn thuần cung cấp dịch vụ. Chúng tôi cam kết mang lại kết quả thực tế cho từng thương hiệu.",
+      "strategy": {
+        "title": "Chiến lược tùy chỉnh",
+        "description": "Mỗi thương hiệu đều có giải pháp riêng dựa trên đặc điểm sản phẩm và mục tiêu kinh doanh."
+      },
+      "optimization": {
+        "title": "Đo lường & tối ưu",
+        "description": "Theo dõi dữ liệu thời gian thực, điều chỉnh chiến lược liên tục để tối đa hóa hiệu quả."
+      },
+      "partnershipModel": {
+        "title": "Mô hình hợp tác linh hoạt",
+        "description": "Từ dịch vụ theo dự án đến hợp tác dài hạn, đảm bảo phù hợp với ngân sách và mục tiêu của từng thương hiệu."
+      },
+      "stats": {
+        "brands": "40+",
+        "brandsLabel": "Thương hiệu đã hợp tác",
+        "revenue": "50M+",
+        "revenueLabel": "Giá trị tăng trưởng",
+        "topPerformance": "8.4M",
+        "topPerformanceLabel": "Doanh số cao nhất 180 ngày",
+        "gmv": "500+",
+        "gmvLabel": "Triệu RMB GMV hằng năm"
+      }
+    },
+    "timeline": {
+      "title": "Hành trình phát triển",
+      "year2022": {
+        "year": "2022",
+        "title": "Thành lập và Khởi đầu",
+        "description": "Thành lập công ty, trở thành MCN chủ lực của Douyin E-commerce, Xiaohongshu và Video Channel. Ký hợp đồng với nhiều KOL/KOC nổi tiếng."
+      },
+      "year2023": {
+        "year": "2023-2024",
+        "title": "Mở rộng Dịch vụ",
+        "description": "Mở rộng dịch vụ thương hiệu toàn diện: đại diện người nổi tiếng, chiến dịch thương mại điện tử, vận hành livestream. Đạt GMV 500 triệu RMB."
+      },
+      "year2024": {
+        "year": "2024-2025",
+        "title": "Tập trung Việt Nam",
+        "description": "Trở thành đối tác chính thức TikTok Shop (TAP/TSP). Hỗ trợ 40+ thương hiệu mở rộng ra Việt Nam, tạo 50 triệu giá trị tăng trưởng."
+      }
+    },
+    "values": {
+      "title": "Giá trị cốt lõi",
+      "description": "Giá trị mà chúng tôi theo đuổi trong mọi dự án và quan hệ đối tác",
+      "customerFirst": {
+        "title": "Khách hàng là trên hết",
+        "description": "Luôn ưu tiên lợi ích khách hàng, tạo giá trị cho khách hàng trước, từ đó thúc đẩy sự phát triển của chính mình."
+      },
+      "professional": {
+        "title": "Dịch vụ chuyên nghiệp",
+        "description": "Duy trì thái độ khiêm tốn và chuyên nghiệp, dựa trên kiến thức ngành dẫn đầu để cung cấp giải pháp tùy chỉnh."
+      },
+      "innovation": {
+        "title": "Đổi mới và Sáng tạo",
+        "description": "Liên tục cập nhật xu hướng thị trường, áp dụng công nghệ và phương pháp mới nhất để tối ưu hiệu quả."
+      }
+    },
+    "team": {
+      "title": "Đội ngũ lãnh đạo",
+      "founders": {
+        "title": "Đội ngũ sáng lập",
+        "description": "Xuất thân từ ByteDance và Alibaba, mang đến kinh nghiệm quốc tế"
+      },
+      "ecommerce": {
+        "title": "Chuyên gia E-commerce",
+        "description": "Có 10+ năm kinh nghiệm vận hành thương mại điện tử xuyên biên giới"
+      },
+      "marketing": {
+        "title": "Marketing Lead",
+        "description": "Chuyên gia marketing với kinh nghiệm thị trường Đông Nam Á"
+      },
+      "local": {
+        "title": "Chuyên gia bản địa",
+        "description": "Am hiểu sâu thị trường Việt Nam, kết nối nguồn lực KOL/KOC"
+      }
+    },
+    "certifications": {
+      "title": "Chứng nhận & Giấy phép",
+      "tap": {
+        "title": "TikTok TAP",
+        "description": "Đối tác chính thức TikTok Ads Platform"
+      },
+      "tsp": {
+        "title": "TikTok TSP",
+        "description": "Đối tác chính thức TikTok Shop Partner"
+      },
+      "license": {
+        "title": "Giấy phép kinh doanh",
+        "description": "Đầy đủ tư cách pháp lý và vận hành hợp pháp tại Việt Nam"
+      }
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "Dịch vụ cốt lõi",
+      "subtitle": "Giải pháp thương mại điện tử toàn chuỗi, từ tư vấn chiến lược đến triển khai thực tế",
+      "description": "Chúng tôi cung cấp dịch vụ trọn gói từ tư vấn xuất khẩu thương hiệu, thành lập pháp nhân bản địa, vận hành cửa hàng, đến triển khai marketing và mở rộng offline.",
+      "cta": "Tư vấn miễn phí",
+      "viewCases": "Xem Case Studies",
+      "stats": {
+        "campaigns": "Chiến dịch",
+        "creators": "KOL/KOC",
+        "brands": "Thương hiệu"
+      }
+    },
+    "overview": {
+      "title": "Hệ sinh thái dịch vụ toàn chuỗi",
+      "description": "Doanh nghiệp chỉ cần một đầu mối duy nhất để triển khai toàn bộ hoạt động thương mại điện tử tại Việt Nam."
+    },
+    "main": {
+      "title": "Cách chúng tôi giúp bạn",
+      "subtitle": "Chuyên sâu về TikTok Shop, Sáng tạo nội dung, KOL/KOC và Chiến lược, làm việc với các thương hiệu tăng trưởng nhanh và thương hiệu lớn trên toàn cầu.",
+      "learnMore": "Tìm hiểu thêm"
+    },
+    "ecommerce": {
+      "title": "Thương mại điện tử toàn chuỗi",
+      "subtitle": "Giải pháp TikTok Shop toàn diện từ A đến Z",
+      "description": "Đối tác dịch vụ được TikTok Shop chứng nhận chính thức (TAP/TSP), cung cấp giải pháp vận hành trọn gói.",
+      "items": {
+        "consulting": {
+          "title": "Tư vấn xuất khẩu",
+          "description": "Phân tích thị trường Việt Nam, dữ liệu ngành, hành vi tiêu dùng và xây dựng chiến lược xuất khẩu cá nhân hóa."
+        },
+        "company": {
+          "title": "Thành lập công ty bản địa",
+          "description": "Hỗ trợ đăng ký công ty tại Việt Nam, dịch vụ kế toán - thuế, đảm bảo vận hành tuân thủ pháp lý."
+        },
+        "shop": {
+          "title": "Vận hành gian hàng",
+          "description": "Vận hành toàn quy trình TikTok Shop: đăng sản phẩm, tối ưu giá, xử lý đơn hàng, chăm sóc khách hàng."
+        },
+        "content": {
+          "title": "Quản lý nội dung video ngắn",
+          "description": "Định vị tài khoản, lên kế hoạch nội dung, quay dựng video ngắn chuyên nghiệp, tối ưu lưu lượng."
+        },
+        "livestream": {
+          "title": "Vận hành livestream",
+          "description": "Studio livestream chuyên nghiệp tại TP.HCM với 20+ host bản địa, thiết bị hiện đại và kịch bản tối ưu."
+        }
+      }
+    },
+    "marketing": {
+      "title": "Marketing tích hợp",
+      "subtitle": "Chiến dịch đa kênh hiệu quả cao",
+      "description": "Kết nối 300-500 KOL/KOC mỗi tháng, triển khai chiến dịch marketing toàn diện từ online đến offline.",
+      "items": {
+        "kolKoc": {
+          "title": "Hợp tác KOL/KOC",
+          "description": "Cung cấp gói 300-500 KOL/KOC bản địa mỗi tháng, đa dạng cấp độ follower và ngành hàng, tối ưu chuyển đổi."
+        },
+        "campaign": {
+          "title": "Chiến dịch marketing",
+          "description": "Lên kế hoạch lễ hội mua sắm, chiến dịch thương hiệu, quảng cáo đa kênh để tăng nhận diện và doanh số."
+        },
+        "ambassador": {
+          "title": "Đại sứ thương hiệu",
+          "description": "Kết nối nguồn lực người nổi tiếng toàn cầu, lựa chọn đại sứ phù hợp, nâng cao uy tín thương hiệu."
+        },
+        "multichannel": {
+          "title": "Truyền thông đa kênh",
+          "description": "Tích hợp quảng cáo online & offline, truyền thông đa nền tảng, phủ sóng các kênh lưu lượng chính."
+        }
+      }
+    },
+    "offline": {
+      "title": "Triển khai offline",
+      "subtitle": "Từ online đến offline - Mở rộng toàn diện",
+      "description": "Hỗ trợ thương hiệu triển khai và vận hành cửa hàng offline, pop-up store và marketing điểm bán tại Việt Nam.",
+      "items": {
+        "store": {
+          "title": "Cửa hàng offline",
+          "description": "Hỗ trợ chọn mặt bằng, thiết kế - thi công cửa hàng, tư vấn vận hành và quản lý tại Việt Nam."
+        },
+        "popup": {
+          "title": "Cửa hàng pop-up",
+          "description": "Lên kế hoạch pop-up store, kết nối địa điểm, thi công lắp dựng nhanh chóng và vận hành chuyên nghiệp."
+        },
+        "pos": {
+          "title": "Marketing điểm bán",
+          "description": "Giải pháp tổng thể cho hoạt động điểm bán: lên kế hoạch sự kiện, thu hút khách và tối ưu chuyển đổi."
+        }
+      }
+    },
+    "cta": {
+      "title": "Sẵn sàng bắt đầu?",
+      "description": "Liên hệ với chúng tôi để nhận tư vấn miễn phí và xây dựng chiến lược phát triển tại thị trường Việt Nam.",
+      "button": "Tư vấn ngay",
+      "stats": {
+        "brands": "40+ thương hiệu",
+        "revenue": "50 triệu+ doanh thu",
+        "kols": "500+ KOL/KOC",
+        "growth": "GMV 500 triệu RMB"
+      }
+    }
+  },
+  "caseStudiesPage": {
+    "hero": {
+      "title": "Câu chuyện thành công",
+      "subtitle": "Kết quả thực tế đã được chứng minh từ 40+ thương hiệu trên khắp Việt Nam"
+    },
+    "filters": {
+      "all": "Tất cả",
+      "beauty": "Mỹ phẩm",
+      "personalCare": "Chăm sóc",
+      "special": "Chuyên biệt"
+    },
+    "viewCase": "Xem chi tiết",
+    "backToCases": "Quay lại Case Studies",
+    "cases": {
+      "tulandut": {
+        "title": "TULANDUT",
+        "category": "Mỹ phẩm & Chăm sóc da",
+        "revenue": "₫11.27 triệu trong 180 ngày",
+        "description": "Bứt phá thương hiệu mỹ phẩm Việt Nam",
+        "tags": ["TikTok Shop", "KOL/KOC", "Video Content"],
+        "detail": {
+          "client": "TULANDUT",
+          "year": "2024",
+          "deliverables": ["TikTok Shop", "KOL/KOC", "Content Strategy", "Livestream"],
+          "background": {
+            "title": "Về thương hiệu",
+            "content": "Thương hiệu mỹ phẩm nội địa Việt Nam, tập trung vào nhu cầu chăm sóc da cho nữ giới. Gia nhập TikTok Việt Nam vào nửa cuối năm 2024 với mục tiêu xây dựng vị thế trong thị trường cạnh tranh."
+          },
+          "strategy": {
+            "title": "Chiến lược triển khai",
+            "items": [
+              {
+                "title": "Lựa chọn KOL/KOC chính xác",
+                "description": "Xác định và hợp tác với những influencer phù hợp với giá trị thương hiệu và tệp khách hàng mục tiêu"
+              },
+              {
+                "title": "Cơ chế hợp tác độc quyền",
+                "description": "Thiết kế khung hợp tác độc đáo tối đa hóa engagement và conversion"
+              },
+              {
+                "title": "Xây dựng sản phẩm chủ lực",
+                "description": "Phát triển flagship products với chiến lược marketing tập trung"
+              },
+              {
+                "title": "Vận hành quảng cáo hiệu quả",
+                "description": "Tối ưu hóa chiến dịch quảng cáo để đạt ROI tối đa"
+              }
+            ]
+          },
+          "results": {
+            "title": "Kết quả đạt được",
+            "content": "Nhanh chóng trở thành thương hiệu nổi bật trong ngành mỹ phẩm TikTok Việt Nam, đạt bước đột phá về doanh số quy mô lớn với tỷ lệ tăng trưởng ấn tượng.",
+            "metrics": [
+              { "value": "₫11.27 triệu", "label": "Doanh thu 180 ngày" },
+              { "value": "₫3.15 triệu", "label": "Doanh thu 30 ngày" },
+              { "value": "2024", "label": "Năm hợp tác" }
+            ]
+          }
+        }
+      },
+      "botare": {
+        "title": "botare",
+        "category": "Chăm sóc cá nhân & Vệ sinh",
+        "revenue": "₫8 triệu trong 180 ngày",
+        "description": "Xây dựng thương hiệu chăm sóc tự nhiên",
+        "tags": ["Livestream", "Video Seeding", "KOL/KOC"],
+        "detail": {
+          "client": "botare 植护",
+          "year": "2023",
+          "deliverables": ["Livestream Operations", "Short Video", "KOL/KOC", "Shop Management"],
+          "background": {
+            "title": "Về thương hiệu",
+            "content": "Thương hiệu chăm sóc cá nhân nổi tiếng, tập trung vào sản phẩm tự nhiên và an toàn. Gia nhập TikTok Việt Nam từ tháng 11/2023 với định hướng xây dựng nhận diện thương hiệu bền vững."
+          },
+          "strategy": {
+            "title": "Chiến lược triển khai",
+            "items": [
+              {
+                "title": "Livestream tự vận hành",
+                "description": "Xây dựng phòng livestream chuyên nghiệp với đội ngũ host bản địa"
+              },
+              {
+                "title": "Video ngắn seeding nội dung",
+                "description": "Sản xuất và phân phối nội dung video ngắn thu hút"
+              },
+              {
+                "title": "Liên kết KOL/KOC",
+                "description": "Kết hợp video và livestream với mạng lưới influencer rộng khắp"
+              },
+              {
+                "title": "Phân bổ doanh thu thông minh",
+                "description": "70% từ KOL/KOC, 30% từ shop tự vận hành"
+              }
+            ]
+          },
+          "results": {
+            "title": "Kết quả đạt được",
+            "content": "Xây dựng thành công nhận diện thương hiệu tại thị trường Việt Nam, duy trì tăng trưởng doanh số và tỷ lệ mua lại ổn định.",
+            "metrics": [
+              { "value": "₫8 triệu", "label": "Doanh thu 180 ngày" },
+              { "value": "₫1.8 triệu", "label": "Doanh thu 30 ngày" },
+              { "value": "70%", "label": "Doanh thu từ KOL/KOC" }
+            ]
+          }
+        }
+      },
+      "mooekiss": {
+        "title": "Mooekiss",
+        "category": "Mỹ phẩm & Chăm sóc da",
+        "revenue": "₫8.4 triệu trong 180 ngày",
+        "description": "Thâm nhập thị trường giới trẻ",
+        "tags": ["Livestream", "Video Content", "KOL/KOC"],
+        "detail": {
+          "client": "Mooekiss",
+          "year": "2023",
+          "deliverables": ["Livestream", "Short Video", "KOL/KOC", "Content Strategy"],
+          "background": {
+            "title": "Về thương hiệu",
+            "content": "Thương hiệu mỹ phẩm mới nổi, tập trung vào các sản phẩm trang điểm có mức giá cạnh tranh và hiệu quả cao. Gia nhập TikTok Việt Nam từ tháng 4/2023."
+          },
+          "strategy": {
+            "title": "Chiến lược triển khai",
+            "items": [
+              {
+                "title": "Livestream thường xuyên",
+                "description": "Duy trì lịch livestream ổn định để xây dựng cộng đồng trung thành"
+              },
+              {
+                "title": "Hệ sinh thái video ngắn",
+                "description": "Xây dựng content matrix đa dạng thu hút nhiều phân khúc"
+              },
+              {
+                "title": "Hợp tác KOL/KOC quy mô lớn",
+                "description": "Triển khai chiến dịch influencer marketing toàn diện"
+              },
+              {
+                "title": "Tối ưu chuyển đổi",
+                "description": "80% doanh thu từ KOL/KOC, 20% từ vận hành shop"
+              }
+            ]
+          },
+          "results": {
+            "title": "Kết quả đạt được",
+            "content": "Nhanh chóng thâm nhập nhóm khách hàng trẻ tại Việt Nam, xây dựng thành công nhiều sản phẩm bán chạy (best-seller).",
+            "metrics": [
+              { "value": "₫8.4 triệu", "label": "Doanh thu 180 ngày" },
+              { "value": "₫1.58 triệu", "label": "Doanh thu 30 ngày" },
+              { "value": "80%", "label": "Doanh thu từ KOL/KOC" }
+            ]
+          }
+        }
+      },
+      "independent-website": {
+        "title": "Website Độc lập",
+        "category": "Chuyên biệt",
+        "revenue": "Nhiều thương hiệu",
+        "description": "Xây dựng nền tảng thương mại điện tử",
+        "tags": ["Web Development", "Traffic Strategy", "Brand Building"],
+        "detail": {
+          "client": "COLE HAAN, YVMIN, Depology",
+          "year": "2023-2024",
+          "deliverables": ["Website Design", "Development", "Traffic Strategy", "Brand Building"],
+          "background": {
+            "title": "Về dự án",
+            "content": "Hỗ trợ các thương hiệu quốc tế xây dựng website độc lập tại thị trường Việt Nam, tạo nền tảng thương mại điện tử riêng biệt kết hợp với các kênh TikTok Shop."
+          },
+          "strategy": {
+            "title": "Giải pháp triển khai",
+            "items": [
+              {
+                "title": "Thiết kế & xây dựng website",
+                "description": "Phát triển nền tảng web chuyên nghiệp phù hợp thị trường Việt Nam"
+              },
+              {
+                "title": "Hoạch định chiến lược lưu lượng",
+                "description": "Xây dựng kế hoạch SEO và traffic acquisition toàn diện"
+              },
+              {
+                "title": "Dịch vụ điều hướng traffic",
+                "description": "Tối ưu hóa nguồn traffic từ search và quảng cáo"
+              },
+              {
+                "title": "Vận hành & bảo trì",
+                "description": "Đảm bảo website hoạt động ổn định và cập nhật thường xuyên"
+              }
+            ]
+          },
+          "results": {
+            "title": "Kết quả đạt được",
+            "content": "Hỗ trợ thương hiệu xây dựng nền tảng trực tuyến nội địa tại Việt Nam, tiếp nhận lưu lượng từ tìm kiếm và quảng cáo, đồng thời nâng cao hình ảnh thương hiệu và hiệu quả chuyển đổi.",
+            "metrics": [
+              { "value": "3+", "label": "Thương hiệu quốc tế" },
+              { "value": "100%", "label": "Uptime" },
+              { "value": "2023", "label": "Bắt đầu dự án" }
+            ]
+          }
+        }
+      },
+      "livestream-outsourcing": {
+        "title": "Livestream Thuê ngoài",
+        "category": "Chuyên biệt",
+        "revenue": "3,194 sản phẩm/48h",
+        "description": "Vận hành livestream chuyên nghiệp",
+        "tags": ["Livestream Studio", "Host Training", "Equipment"],
+        "detail": {
+          "client": "FUNNY ELVES, soundcore",
+          "year": "2024",
+          "deliverables": ["Livestream Studio", "Host Training", "Stream Planning", "Traffic Optimization"],
+          "background": {
+            "title": "Về dự án",
+            "content": "Cung cấp dịch vụ livestream chuyên nghiệp cho các thương hiệu điện tử tiêu dùng, bao gồm setup studio, đào tạo host và vận hành toàn bộ quy trình livestream."
+          },
+          "strategy": {
+            "title": "Giải pháp triển khai",
+            "items": [
+              {
+                "title": "Xây dựng phòng livestream bản địa",
+                "description": "Setup studio tại TP.HCM với thiết bị chuyên nghiệp"
+              },
+              {
+                "title": "Trang bị & đào tạo",
+                "description": "Cung cấp thiết bị cao cấp và đào tạo streamer chuyên nghiệp"
+              },
+              {
+                "title": "Lên kế hoạch livestream",
+                "description": "Thiết kế script, timeline và promotion strategy"
+              },
+              {
+                "title": "Tối ưu lưu lượng truy cập",
+                "description": "Kết hợp organic và paid traffic để maximize reach"
+              }
+            ]
+          },
+          "results": {
+            "title": "Kết quả nổi bật",
+            "content": "Phòng livestream FUNNY ELVES bán ra 3.194 sản phẩm trong 48 giờ; phòng livestream soundcore đạt tổng lượt xem vượt 42 triệu, đồng thời tăng trưởng mạnh cả lưu lượng truy cập lẫn doanh số bán hàng.",
+            "metrics": [
+              { "value": "3,194", "label": "Sản phẩm bán (48h)" },
+              { "value": "42M+", "label": "Lượt xem" },
+              { "value": "2024", "label": "Năm triển khai" }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "kolKocPage": {
+    "title": "KOL/KOC",
+    "subtitle": "Kết nối với hơn 500+ influencer mỗi tháng"
+  },
+  "cooperationPage": {
+    "title": "Hợp tác",
+    "subtitle": "Cùng nhau phát triển và tăng trưởng bền vững"
+  },
+  "careersPage": {
+    "title": "Tuyển dụng",
+    "subtitle": "Gia nhập đội ngũ chúng tôi và cùng tạo ra giá trị"
+  },
+  "contactPage": {
+    "title": "Liên hệ",
+    "subtitle": "Kết nối với chúng tôi để bắt đầu hành trình thành công"
+  }
+}

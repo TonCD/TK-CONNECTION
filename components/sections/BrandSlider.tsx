@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
+import { useTranslations } from 'next-intl'
 
 const brands = [
   { name: 'One Leaf', logo: '/logos/one-leaf.png' },
@@ -15,6 +16,7 @@ const brands = [
 
 export default function BrandSlider() {
   const sliderRef = useRef<HTMLDivElement>(null)
+  const t = useTranslations('brandSlider')
 
   useEffect(() => {
     const slider = sliderRef.current
@@ -34,10 +36,10 @@ export default function BrandSlider() {
       <div className="max-w-[1920px] mx-auto px-6 md:px-10 xl:px-16 2xl:px-20">
         <div className="text-center mb-8">
           <h3 className="text-sm md:text-base font-medium text-gray mb-2">
-            Brands that trust us
+            {t('subtitle')}
           </h3>
           <h2 className="text-2xl md:text-3xl font-bold text-dark">
-            Được tin tưởng bởi 40+ thương hiệu hàng đầu
+            {t('title')}
           </h2>
         </div>
       </div>

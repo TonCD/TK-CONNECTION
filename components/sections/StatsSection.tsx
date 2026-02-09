@@ -1,47 +1,50 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import { useTranslations } from 'next-intl'
 
 export default function StatsSection() {
+  const t = useTranslations('statsSection')
+  
   return (
     <section className="w-full bg-dark text-white py-16 md:py-24">
       <div className="max-w-[1920px] mx-auto px-6 md:px-10 xl:px-16 2xl:px-20">
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-3xl md:text-4xl xl:text-5xl font-bold mb-4">
-            Thành tích nổi bật
+            {t('title')}
           </h2>
           <p className="text-xl text-gray-300">
-            Con số minh chứng cho năng lực vận hành
+            {t('subtitle')}
           </p>
         </div>
 
         {/* Stats Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
           <StatCard 
-            value="40+" 
-            label="Thương hiệu đã hợp tác"
-            description="Đồng hành cùng thương hiệu mở rộng thị trường"
+            value={t('brands')} 
+            label={t('brandsLabel')}
+            description={t('brandsDescription')}
           />
           <StatCard 
-            value="50M+" 
-            label="Giá trị tăng trưởng"
-            description="Tổng giá trị tạo ra cho đối tác"
+            value={t('growth')} 
+            label={t('growthLabel')}
+            description={t('growthDescription')}
           />
           <StatCard 
-            value="8.4M" 
-            label="Doanh thu cao nhất"
-            description="Trong 180 ngày cho một thương hiệu"
+            value={t('topSales')} 
+            label={t('topSalesLabel')}
+            description={t('topSalesDescription')}
           />
         </div>
 
         {/* Additional Stats */}
         <div className="mt-16 pt-16 border-t border-white/10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <MiniStat value="500M" label="GMV hằng năm" unit="RMB" />
-            <MiniStat value="300-500" label="KOL/KOC" unit="mỗi tháng" />
-            <MiniStat value="80%" label="Doanh số từ KOL/KOC" unit="cao nhất" />
-            <MiniStat value="3,194" label="Sản phẩm bán ra" unit="trong 48h" />
+            <MiniStat value={t('gmvValue')} label={t('gmvLabel')} unit={t('gmvUnit')} />
+            <MiniStat value={t('kolValue')} label={t('kolLabel')} unit={t('kolUnit')} />
+            <MiniStat value={t('revenuePercent')} label={t('revenuePercentLabel')} unit={t('revenuePercentUnit')} />
+            <MiniStat value={t('products')} label={t('productsLabel')} unit={t('productsUnit')} />
           </div>
         </div>
       </div>

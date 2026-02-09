@@ -1,21 +1,25 @@
 'use client'
 
+import { useTranslations } from 'next-intl'
+
 export default function Timeline() {
+  const t = useTranslations('timeline')
+  
   const milestones = [
     {
-      year: "2022",
-      title: "Thành lập công ty",
-      description: "Trở thành MCN chủ lực của Douyin E-commerce, Xiaohongshu và Video Channel. Ký hợp đồng với nhiều KOL/KOC nổi tiếng, mở rộng hoạt động livestream thương mại."
+      year: t('year2022.year'),
+      title: t('year2022.title'),
+      description: t('year2022.description')
     },
     {
-      year: "2023-2024",
-      title: "Mở rộng dịch vụ thương hiệu",
-      description: "Bao gồm đại diện người nổi tiếng, chiến dịch thương mại điện tử, vận hành livestream thuê ngoài. Đạt GMV hằng năm 500 triệu RMB, xây dựng nền tảng vận hành và nguồn lực vững chắc."
+      year: t('year2023.year'),
+      title: t('year2023.title'),
+      description: t('year2023.description')
     },
     {
-      year: "2024-2025",
-      title: "Tập trung thị trường Việt Nam",
-      description: "Trở thành đối tác dịch vụ được TikTok Shop chứng nhận (TAP/TSP). Triển khai dịch vụ toàn chuỗi tại thị trường quốc tế, hỗ trợ 40+ thương hiệu mở rộng ra nước ngoài, tạo thêm 50 triệu giá trị tăng trưởng."
+      year: t('year2024.year'),
+      title: t('year2024.title'),
+      description: t('year2024.description')
     }
   ]
 
@@ -24,10 +28,10 @@ export default function Timeline() {
       <div className="max-w-[1920px] mx-auto px-6 md:px-10 xl:px-16 2xl:px-20">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl xl:text-5xl font-bold text-dark mb-4">
-            Hành trình phát triển
+            {t('title')}
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Từ những bước đầu tiên đến việc trở thành đối tác chiến lược của TikTok Shop tại Việt Nam
+            {t('subtitle')}
           </p>
         </div>
 

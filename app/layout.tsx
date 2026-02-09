@@ -8,8 +8,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'TK Connection - Đơn vị vận hành tích hợp toàn chuỗi thương mại điện tử',
-  description: 'Đối tác dịch vụ được TikTok Shop chứng nhận chính thức (TAP/TSP) tại Việt Nam. Hỗ trợ 40+ thương hiệu xuất khẩu, tạo ra 50 triệu+ giá trị tăng trưởng.',
+  title: 'TK Connection - Full-Chain E-commerce Operations',
+  description: 'Official TikTok Shop certified service partner (TAP/TSP) in Vietnam. Supporting 40+ brands, generating 50M+ growth value.',
   keywords: ['TikTok Shop', 'E-commerce Vietnam', 'TAP', 'TSP', 'KOL', 'KOC', 'Cross-border'],
   icons: {
     icon: '/images/logo.png',
@@ -21,9 +21,5 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  return (
-    <html lang="vi">
-      <body className={inter.className}>{children}</body>
-    </html>
-  )
+  return children
 }

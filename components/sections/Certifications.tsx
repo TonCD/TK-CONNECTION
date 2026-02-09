@@ -1,25 +1,27 @@
 'use client'
 
-import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
 export default function Certifications() {
+  const t = useTranslations('certifications')
+  
   const certs = [
     {
-      title: "TikTok Shop TAP",
-      subtitle: "TikTok Authorized Partner",
-      description: "Đối tác dịch vụ được TikTok Shop chứng nhận chính thức",
+      title: t('tap.title'),
+      subtitle: t('tap.subtitle'),
+      description: t('tap.description'),
       icon: "✓"
     },
     {
-      title: "TikTok Shop TSP",
-      subtitle: "TikTok Solution Provider",
-      description: "Nhà cung cấp giải pháp được chứng nhận chính thức",
+      title: t('tsp.title'),
+      subtitle: t('tsp.subtitle'),
+      description: t('tsp.description'),
       icon: "✓"
     },
     {
-      title: "Giấy phép kinh doanh",
-      subtitle: "Vietnam Business License",
-      description: "Đầy đủ tư cách pháp lý vận hành tại Việt Nam",
+      title: t('license.title'),
+      subtitle: t('license.subtitle'),
+      description: t('license.description'),
       icon: "✓"
     }
   ]
@@ -29,10 +31,10 @@ export default function Certifications() {
       <div className="max-w-[1920px] mx-auto px-6 md:px-10 xl:px-16 2xl:px-20">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl xl:text-5xl font-bold mb-4">
-            Chứng nhận chính thức
+            {t('title')}
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            Được TikTok Shop và chính phủ Việt Nam chứng nhận, đảm bảo vận hành hợp quy và an toàn pháp lý
+            {t('subtitle')}
           </p>
         </div>
 

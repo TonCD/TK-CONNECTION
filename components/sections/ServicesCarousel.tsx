@@ -2,60 +2,65 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-
-const services = [
-  {
-    id: 1,
-    icon: "🛒",
-    title: "TikTok Shop",
-    description: "Phát triển cộng đồng mạng xã hội với chiến lược riêng cho từng nền tảng",
-    features: [
-      "Chiến lược TikTok Shop",
-      "Quản lý cộng đồng",
-      "Sáng tạo nội dung",
-      "Listening & Insights"
-    ]
-  },
-  {
-    id: 2,
-    icon: "📱",
-    title: "Marketing",
-    description: "Chiến dịch Paid Social và Paid Search mang lại hiệu suất cao",
-    features: [
-      "Paid Social & Paid Search",
-      "Chiến lược Full-Funnel",
-      "Planning & Buying",
-      "Feed Optimisation"
-    ]
-  },
-  {
-    id: 3,
-    icon: "🎨",
-    title: "Sáng tạo",
-    description: "Sáng tạo xuất sắc trên Video, Design và Motion Graphics",
-    features: [
-      "Video cho Social",
-      "UGC đến High-Production",
-      "Creative Strategy",
-      "Motion Design & Graphics"
-    ]
-  },
-  {
-    id: 4,
-    icon: "⭐",
-    title: "Influencer",
-    description: "Kết nối với 5000+ KOL/KOC để khuếch đại thông điệp thương hiệu",
-    features: [
-      "Influencer Strategy",
-      "Kết nối KOL/KOC",
-      "Quản lý chiến dịch",
-      "Đo lường hiệu quả"
-    ]
-  }
-]
+import { useTranslations } from 'next-intl'
+import { useParams } from 'next/navigation'
 
 export default function ServicesCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0)
+  const t = useTranslations('services')
+  const params = useParams()
+  const locale = params.locale as string
+
+  const services = [
+    {
+      id: 1,
+      icon: "🛒",
+      title: t('tiktokShop.title'),
+      description: t('tiktokShop.description'),
+      features: [
+        t('tiktokShop.feature1'),
+        t('tiktokShop.feature2'),
+        t('tiktokShop.feature3'),
+        t('tiktokShop.feature4')
+      ]
+    },
+    {
+      id: 2,
+      icon: "📱",
+      title: t('marketing.title'),
+      description: t('marketing.description'),
+      features: [
+        t('marketing.feature1'),
+        t('marketing.feature2'),
+        t('marketing.feature3'),
+        t('marketing.feature4')
+      ]
+    },
+    {
+      id: 3,
+      icon: "🎨",
+      title: t('creative.title'),
+      description: t('creative.description'),
+      features: [
+        t('creative.feature1'),
+        t('creative.feature2'),
+        t('creative.feature3'),
+        t('creative.feature4')
+      ]
+    },
+    {
+      id: 4,
+      icon: "⭐",
+      title: t('influencer.title'),
+      description: t('influencer.description'),
+      features: [
+        t('influencer.feature1'),
+        t('influencer.feature2'),
+        t('influencer.feature3'),
+        t('influencer.feature4')
+      ]
+    }
+  ]
 
   const handleNext = () => {
     setCurrentIndex((prev) => (prev + 1) % services.length)
@@ -67,15 +72,15 @@ export default function ServicesCarousel() {
         {/* Section Header */}
         <div className="flex items-start justify-between mb-12">
           <h2 className="text-4xl md:text-5xl xl:text-6xl font-bold text-primary max-w-2xl leading-tight">
-            Dịch vụ toàn diện của chúng tôi...
+            {t('title')}
           </h2>
 
           <div className="hidden lg:flex flex-col items-end gap-4">
             <Link
-              href="/services"
+              href={`/${locale}/services`}
               className="inline-flex items-center bg-dark hover:bg-primary text-white px-8 py-4 rounded-full font-semibold transition-all group"
             >
-              Xem tất cả dịch vụ
+              {t('viewAll')}
               <svg viewBox="0 0 512 512" className="fill-current w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform">
                 <path d="M489.4 233.4L512 256l-22.6 22.6-128 128-22.6 22.6L293.5 384l22.6-22.6L389.5 288 32 288 0 288l0-64 32 0 357.5 0-73.4-73.4L293.5 128l45.3-45.3 22.6 22.6 128 128z" />
               </svg>
@@ -133,7 +138,7 @@ export default function ServicesCarousel() {
                 href="/services"
                 className="inline-flex items-center text-dark group-hover:text-primary font-semibold transition-colors"
               >
-                Tìm hiểu thêm
+                {t('learnMore')}
                 <svg className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
@@ -194,7 +199,7 @@ export default function ServicesCarousel() {
                       href="/services"
                       className="inline-flex items-center text-dark font-semibold"
                     >
-                      Tìm hiểu thêm
+                      {t('learnMore')}
                       <svg className="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
@@ -235,7 +240,7 @@ export default function ServicesCarousel() {
             href="/services"
             className="lg:hidden inline-flex items-center bg-dark hover:bg-primary text-white px-8 py-4 rounded-full font-semibold transition-all group mt-8 w-full justify-center"
           >
-            Xem tất cả dịch vụ
+            {t('viewAll')}
             <svg viewBox="0 0 512 512" className="fill-current w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform">
               <path d="M489.4 233.4L512 256l-22.6 22.6-128 128-22.6 22.6L293.5 384l22.6-22.6L389.5 288 32 288 0 288l0-64 32 0 357.5 0-73.4-73.4L293.5 128l45.3-45.3 22.6 22.6 128 128z" />
             </svg>

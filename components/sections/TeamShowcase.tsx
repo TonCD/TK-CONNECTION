@@ -1,27 +1,30 @@
 'use client'
 
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
 export default function TeamShowcase() {
+  const t = useTranslations('teamShowcase')
+  
   const founders = [
     {
-      name: "Đội ngũ sáng lập",
-      role: "ByteDance & Alibaba Alumni",
+      name: t('founders.name'),
+      role: t('founders.role'),
       image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&q=80"
     },
     {
-      name: "Chuyên gia E-commerce",
-      role: "TikTok Shop Specialist",
+      name: t('ecommerce.name'),
+      role: t('ecommerce.role'),
       image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80"
     },
     {
-      name: "Marketing Lead",
-      role: "KOL/KOC Expert",
+      name: t('marketing.name'),
+      role: t('marketing.role'),
       image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600&q=80"
     },
     {
-      name: "Chuyên gia",
-      role: "Vận hành bản địa",
+      name: t('local.name'),
+      role: t('local.role'),
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80"
     }
   ]
@@ -31,10 +34,10 @@ export default function TeamShowcase() {
       <div className="max-w-[1920px] mx-auto px-6 md:px-10 xl:px-16 2xl:px-20">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl xl:text-5xl font-bold text-dark mb-4">
-            Đội ngũ chuyên gia
+            {t('title')}
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Được thành lập bởi các đối tác đến từ ByteDance, Alibaba và các tập đoàn lớn trong ngành
+            {t('subtitle')}
           </p>
         </div>
 

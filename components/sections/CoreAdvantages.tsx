@@ -1,23 +1,29 @@
+'use client'
+
+import { useTranslations } from 'next-intl'
+
 export default function CoreAdvantages() {
+  const t = useTranslations('coreAdvantages')
+  
   const advantages = [
     {
-      title: "Bảo chứng năng lực chính thức",
-      description: "Được TikTok Shop chứng nhận chính thức hai hạng mục (TAP/TSP), đồng thời sở hữu đầy đủ pháp lý vận hành hợp chuẩn tại Việt Nam.",
+      title: t('certification.title'),
+      description: t('certification.description'),
       icon: "certificate"
     },
     {
-      title: "Hệ sinh thái dịch vụ toàn chuỗi",
-      description: "Cung cấp giải pháp trọn gói từ tư vấn xuất khẩu thương hiệu, thành lập pháp nhân bản địa, vận hành cửa hàng, đến triển khai offline.",
+      title: t('ecosystem.title'),
+      description: t('ecosystem.description'),
       icon: "ecosystem"
     },
     {
-      title: "Năng lực vận hành bản địa",
-      description: "Đặt trụ sở tại TP.HCM, đội ngũ vận hành chuyên nghiệp, hệ thống studio livestream và hơn 20 host bản địa.",
+      title: t('local.title'),
+      description: t('local.description'),
       icon: "local"
     },
     {
-      title: "Hệ sinh thái tài nguyên mạnh mẽ",
-      description: "Sở hữu nguồn tài nguyên 300–500 KOL/KOC Việt Nam mỗi tháng, mạng lưới người nổi tiếng toàn cầu cùng 100+ thương hiệu đã hợp tác.",
+      title: t('network.title'),
+      description: t('network.description'),
       icon: "network"
     }
   ]
@@ -28,11 +34,11 @@ export default function CoreAdvantages() {
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-3xl md:text-4xl xl:text-5xl font-bold text-dark mb-4">
-            Lợi thế cốt lõi của{" "}
-            <span className="text-primary">TK Connection</span>
+            {t('title')}{" "}
+            <span className="text-primary">{t('titleHighlight')}</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Đối tác tin cậy cho thương hiệu phát triển bền vững tại thị trường Việt Nam
+            {t('subtitle')}
           </p>
         </div>
 

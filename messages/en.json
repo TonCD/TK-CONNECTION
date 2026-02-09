@@ -1,0 +1,803 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "caseStudies": "Case Studies",
+    "kolKoc": "KOL/KOC",
+    "cooperation": "Cooperation",
+    "careers": "Careers",
+    "contact": "Contact",
+    "servicesMenu": {
+      "ecommerce": {
+        "title": "E-commerce",
+        "description": "Full TikTok Shop solutions",
+        "items": {
+          "consulting": "Export consulting",
+          "company": "Company establishment",
+          "shop": "Shop operations",
+          "content": "Content management",
+          "livestream": "Livestream operations"
+        }
+      },
+      "marketing": {
+        "title": "Integrated marketing",
+        "description": "Multi-channel campaigns",
+        "items": {
+          "kolKoc": "KOL/KOC partnerships",
+          "campaign": "Marketing campaigns",
+          "ambassador": "Brand ambassadors",
+          "multichannel": "Multi-channel comms"
+        }
+      },
+      "offline": {
+        "title": "Offline deployment",
+        "description": "From online to offline",
+        "items": {
+          "store": "Offline stores",
+          "popup": "Pop-up stores",
+          "pos": "Point-of-sale marketing"
+        }
+      },
+      "viewAll": "View all services"
+    }
+  },
+  "hero": {
+    "brandName": "TK Connection",
+    "titlePart1": "",
+    "titleHighlight": "Full-Chain",
+    "titlePart2": " Integrated E-commerce Operations in Vietnam",
+    "subtitle": "Official TikTok Shop Certified Service Partner (TAP/TSP)",
+    "description": "Partnering with brands to penetrate the Vietnamese market, driving both sales growth and brand reputation",
+    "stat1": "40+",
+    "stat1Label": "brands",
+    "stat1Description": "Successfully expanded over",
+    "stat2": "50M+",
+    "stat2Label": "value",
+    "stat2Description": "Growth generated over",
+    "stat3": "8.4M",
+    "stat3Label": "sales",
+    "stat3Description": "Top 180-day performance",
+    "ctaConsult": "Get Consultation",
+    "ctaViewCases": "View Success Cases"
+  },
+  "aboutShowcase": {
+    "title": "Building ambitious brands with",
+    "titleHighlight": "TikTok Shop, Marketing, KOL/KOC and Operations",
+    "creativity": {
+      "title": "Combining creativity and performance",
+      "description1": "Not many agencies understand marketing performance, and not many agencies understand content creation.",
+      "description2": "This is what sets us apart.",
+      "description3": "Whether we're helping you build social media communities, optimize Paid Media, produce creative content, or run Influencer campaigns - we create strategies based on your brand and business goals, backed by data and insights.",
+      "cta": "About Us"
+    },
+    "awards": {
+      "title": "Award-winning excellence",
+      "description1": "We know awards aren't everything.",
+      "description2": "But we're proud of what we've achieved and the quality of work our team delivers for clients.",
+      "award1": "Best E-commerce Agency (2023, 2024)",
+      "award2": "Top TikTok Shop Service Provider (2025)",
+      "award3": "Best Influencer Marketing Campaign (2024)",
+      "award4": "Excellence in Integrated Marketing (2023)"
+    }
+  },
+  "brandSlider": {
+    "subtitle": "Brands that trust us",
+    "title": "Trusted by 40+ leading brands"
+  },
+  "featuredCases": {
+    "title": "Featured",
+    "titleHighlight": "Case Studies",
+    "subtitle": "Our clients' success is our success",
+    "viewAll": "View all case studies",
+    "tulandut": {
+      "category": "Cosmetics",
+      "tag": "TikTok Shop",
+      "description": "Revenue of 11.27M in 180 days, becoming a standout cosmetics brand on TikTok Vietnam",
+      "stat1Value": "11.27M",
+      "stat1Label": "180-day revenue",
+      "stat2Value": "3.15M",
+      "stat2Label": "1-month revenue"
+    },
+    "botare": {
+      "category": "Personal Care",
+      "name": "botare 植护",
+      "description": "70% revenue from KOL/KOC partnerships",
+      "statValue": "8M"
+    },
+    "mooekiss": {
+      "category": "Makeup",
+      "description": "80% revenue from KOL/KOC partnerships",
+      "statValue": "8.4M"
+    }
+  },
+  "services": {
+    "title": "Our Comprehensive Services...",
+    "viewAll": "View All Services",    "learnMore": "Learn more",    "tiktokShop": {
+      "title": "TikTok Shop",
+      "description": "Develop social media communities with platform-specific strategies",
+      "feature1": "TikTok Shop Strategy",
+      "feature2": "Community Management",
+      "feature3": "Content Creation",
+      "feature4": "Listening & Insights"
+    },
+    "marketing": {
+      "title": "Marketing",
+      "description": "High-performance Paid Social and Paid Search campaigns",
+      "feature1": "Paid Social & Paid Search",
+      "feature2": "Full-Funnel Strategy",
+      "feature3": "Planning & Buying",
+      "feature4": "Feed Optimisation"
+    },
+    "creative": {
+      "title": "Creative",
+      "description": "Excellence in Video, Design and Motion Graphics creation",
+      "feature1": "Social Video",
+      "feature2": "UGC to High-Production",
+      "feature3": "Creative Strategy",
+      "feature4": "Motion Design & Graphics"
+    },
+    "influencer": {
+      "title": "Influencer",
+      "description": "Connect with 5000+ KOL/KOC to amplify your brand message",
+      "feature1": "Influencer Strategy",
+      "feature2": "KOL/KOC Connection",
+      "feature3": "Campaign Management",
+      "feature4": "Performance Measurement"
+    }
+  },  "animatedTextSlider": {
+    "callToAction": "Let's talk with TK Connection"
+  },
+  "statsSection": {
+    "title": "Outstanding Achievements",
+    "subtitle": "Numbers that prove our operational capabilities",
+    "brands": "40+",
+    "brandsLabel": "Partner brands",
+    "brandsDescription": "Helping brands expand to new markets",
+    "growth": "50M+",
+    "growthLabel": "Growth value",
+    "growthDescription": "Total value created for partners",
+    "topSales": "8.4M",
+    "topSalesLabel": "Highest revenue",
+    "topSalesDescription": "Within 180 days for one brand",
+    "gmvValue": "500M",
+    "gmvLabel": "Annual GMV",
+    "gmvUnit": "RMB",
+    "kolValue": "300-500",
+    "kolLabel": "KOL/KOC",
+    "kolUnit": "per month",
+    "revenuePercent": "80%",
+    "revenuePercentLabel": "Revenue from KOL/KOC",
+    "revenuePercentUnit": "highest",
+    "products": "3,194",
+    "productsLabel": "Products sold",
+    "productsUnit": "in 48 hours"
+  },
+  "coreAdvantages": {
+    "title": "Core advantages of",
+    "titleHighlight": "TK Connection",
+    "subtitle": "Trusted partner for sustainable brand development in Vietnam market",
+    "certification": {
+      "title": "Official capability certification",
+      "description": "Officially certified by TikTok Shop in two categories (TAP/TSP), with full legal compliance to operate in Vietnam."
+    },
+    "ecosystem": {
+      "title": "Full-chain service ecosystem",
+      "description": "Providing end-to-end solutions from brand export consulting, local entity establishment, store operations, to offline deployment."
+    },
+    "local": {
+      "title": "Local operational capabilities",
+      "description": "Headquartered in Ho Chi Minh City, professional operations team, livestream studio system and over 20 native hosts."
+    },
+    "network": {
+      "title": "Powerful resource ecosystem",
+      "description": "Access to 300-500 Vietnamese KOL/KOC resources monthly, global celebrity network, and partnerships with 100+ brands."
+    }
+  },
+  "servicesOverview": {
+    "title": "Our",
+    "titleHighlight": "comprehensive",
+    "titleSuffix": "services",
+    "subtitle": "End-to-end solutions from online to offline, supporting sustainable brand growth",
+    "viewAll": "View all services",
+    "learnMore": "Learn more",
+    "ecommerce": {
+      "number": "01",
+      "title": "E-commerce",
+      "description": "Full-chain TikTok Shop operations from consulting, setup, to store operations and sales optimization.",
+      "feature1": "Brand export consulting",
+      "feature2": "Full-service store operations",
+      "feature3": "Account & short video operations",
+      "feature4": "Professional livestream operations"
+    },
+    "marketing": {
+      "number": "02",
+      "title": "Integrated marketing",
+      "description": "KOL/KOC connections, multi-channel marketing campaigns, and comprehensive brand building.",
+      "feature1": "300-500 KOL/KOC collaborations monthly",
+      "feature2": "Marketing campaign planning",
+      "feature3": "Brand ambassador connections",
+      "feature4": "Multi-channel communications"
+    },
+    "offline": {
+      "number": "03",
+      "title": "Offline deployment",
+      "description": "From pop-up stores to retail operations, bringing brands closer to Vietnamese customers.",
+      "feature1": "Offline store establishment",
+      "feature2": "Pop-up store openings",
+      "feature3": "Point-of-sale marketing",
+      "feature4": "Online-offline integration"
+    }
+  },
+  "briefIntro": {
+    "title1": "We grow brands in Vietnam with",
+    "tiktokShop": "TikTok Shop",
+    "kolKoc": "KOL/KOC",
+    "marketing": "Marketing",
+    "fullChain": "Full-chain operations"
+  },
+  "aboutIntro": {
+    "tag": "About us",
+    "title1": "We combine",
+    "titleHighlight1": "creativity",
+    "title2": "and",
+    "titleHighlight2": "performance",
+    "paragraph1": "TK Connection is a full-chain integrated e-commerce operations unit in Vietnam, officially certified TikTok Shop service partner (TAP/TSP).",
+    "paragraph2": "Founded by partners from ByteDance, Alibaba, and major industry corporations. We combine cross-border e-commerce vision with local operational experience to achieve sustainable growth.",
+    "paragraph3": "Having supported 40+ brands in market expansion with total annual GMV reaching 500 million RMB.",
+    "cta": "Learn more"
+  },
+  "certifications": {
+    "title": "Official certifications",
+    "subtitle": "Certified by TikTok Shop and Vietnamese government, ensuring compliant operations and legal security",
+    "tap": {
+      "title": "TikTok Shop TAP",
+      "subtitle": "TikTok Authorized Partner",
+      "description": "Officially certified TikTok Shop service partner"
+    },
+    "tsp": {
+      "title": "TikTok Shop TSP",
+      "subtitle": "TikTok Solution Provider",
+      "description": "Officially certified solution provider"
+    },
+    "license": {
+      "title": "Business license",
+      "subtitle": "Vietnam Business License",
+      "description": "Full legal qualification to operate in Vietnam"
+    }
+  },
+  "teamShowcase": {
+    "title": "Expert team",
+    "subtitle": "Founded by partners from ByteDance, Alibaba, and major industry corporations",
+    "founders": {
+      "name": "Founding team",
+      "role": "ByteDance & Alibaba Alumni"
+    },
+    "ecommerce": {
+      "name": "E-commerce specialist",
+      "role": "TikTok Shop Specialist"
+    },
+    "marketing": {
+      "name": "Marketing Lead",
+      "role": "KOL/KOC Expert"
+    },
+    "local": {
+      "name": "Specialist",
+      "role": "Local operations"
+    }
+  },
+  "timeline": {
+    "title": "Development journey",
+    "subtitle": "From the first steps to becoming a strategic partner of TikTok Shop in Vietnam",
+    "year2022": {
+      "year": "2022",
+      "title": "Company establishment",
+      "description": "Became a major MCN for Douyin E-commerce, Xiaohongshu, and Video Channel. Signed contracts with many famous KOL/KOC, expanding live commerce operations."
+    },
+    "year2023": {
+      "year": "2023-2024",
+      "title": "Brand service expansion",
+      "description": "Including celebrity representation, e-commerce campaigns, outsourced livestream operations. Achieved annual GMV of 500 million RMB, built solid operational foundation and resources."
+    },
+    "year2024": {
+      "year": "2024-2025",
+      "title": "Focus on Vietnam market",
+      "description": "Became officially certified TikTok Shop service partner (TAP/TSP). Deployed full-chain services in international markets, supported 40+ brands in overseas expansion, creating 50 million in growth value."
+    }
+  },  "footer": {
+    "ctaTitle": "Let's Talk",
+    "ctaHeading1": "Don't hesitate,",
+    "ctaHeading2": "let's chat with TK Connection",
+    "ctaButton": "Let's Chat",
+    "newsletterDescription": "Get the latest insights, case studies and news from TK Connection.",
+    "emailPlaceholder": "Your email",
+    "followUs": "Follow us",
+    "servicesTitle": "Services",
+    "service1": "TikTok Shop",
+    "service2": "Marketing",
+    "service3": "Creative",
+    "service4": "Influencer",
+    "contactTitle": "Contact",
+    "email": "Email: hello@tkconnection.vn",
+    "location": "Ho Chi Minh City, Vietnam",
+    "copyright": "© {year} TK Connection. All rights reserved.",
+    "madeBy": "Website by TK Connection"
+  },
+  "about": {
+    "hero": {
+      "title1": "Building",
+      "title2": "ambitious brands",
+      "title3": "in Vietnam",
+      "subtitle": "Official TikTok Shop certified service partner, specializing in full-chain e-commerce solutions."
+    },
+    "specialists": {
+      "title": "We are specialists, not generalists",
+      "description1": "Founded by partners from ByteDance, Alibaba and major industry corporations.",
+      "description2": "We deeply understand both cross-border e-commerce and local operations. With years of experience, we've become a vital bridge between brands and Vietnamese consumer market.",
+      "gmvBadge": "500M RMB Annual GMV"
+    },
+    "outcomes": {
+      "title": "Focused on outcomes, not outputs",
+      "description": "We don't just provide services. We commit to delivering real results for every brand.",
+      "strategy": {
+        "title": "Customized Strategy",
+        "description": "Each brand gets a tailored solution based on product characteristics and business objectives."
+      },
+      "optimization": {
+        "title": "Measurement & Optimization",
+        "description": "Real-time data tracking, continuous strategy adjustment to maximize effectiveness."
+      },
+      "partnershipModel": {
+        "title": "Flexible Partnership Model",
+        "description": "From project-based services to long-term partnerships, ensuring alignment with each brand's budget and goals."
+      },
+      "stats": {
+        "brands": "40+",
+        "brandsLabel": "Partnered brands",
+        "revenue": "50M+",
+        "revenueLabel": "Growth value",
+        "topPerformance": "8.4M",
+        "topPerformanceLabel": "Top 180-day sales",
+        "gmv": "500+",
+        "gmvLabel": "Million RMB annual GMV"
+      }
+    },
+    "timeline": {
+      "title": "Our Journey",
+      "year2022": {
+        "year": "2022",
+        "title": "Foundation and Launch",
+        "description": "Company established, becoming a key MCN for Douyin E-commerce, Xiaohongshu and Video Channel. Signed contracts with numerous renowned KOL/KOC."
+      },
+      "year2023": {
+        "year": "2023-2024",
+        "title": "Service Expansion",
+        "description": "Expanded comprehensive brand services: celebrity representation, e-commerce campaigns, livestream operations. Achieved 500M RMB GMV."
+      },
+      "year2024": {
+        "year": "2024-2025",
+        "title": "Vietnam Focus",
+        "description": "Became official TikTok Shop partner (TAP/TSP). Supported 40+ brands expanding to Vietnam, generating 50M growth value."
+      }
+    },
+    "values": {
+      "title": "Core Values",
+      "description": "The values we pursue in every project and partnership",
+      "customerFirst": {
+        "title": "Customer First",
+        "description": "Always prioritizing customer interests, creating value for customers first, thereby driving our own development."
+      },
+      "professional": {
+        "title": "Professional Service",
+        "description": "Maintaining humble and professional attitude, providing customized solutions based on leading industry knowledge."
+      },
+      "innovation": {
+        "title": "Innovation and Creativity",
+        "description": "Continuously updating market trends, applying latest technologies and methods to optimize effectiveness."
+      }
+    },
+    "team": {
+      "title": "Leadership Team",
+      "founders": {
+        "title": "Founding Team",
+        "description": "From ByteDance and Alibaba, bringing international experience"
+      },
+      "ecommerce": {
+        "title": "E-commerce Expert",
+        "description": "10+ years of cross-border e-commerce operations experience"
+      },
+      "marketing": {
+        "title": "Marketing Lead",
+        "description": "Marketing expert with Southeast Asian market experience"
+      },
+      "local": {
+        "title": "Local Expert",
+        "description": "Deep understanding of Vietnamese market, connecting KOL/KOC resources"
+      }
+    },
+    "certifications": {
+      "title": "Certifications & Licenses",
+      "tap": {
+        "title": "TikTok TAP",
+        "description": "Official TikTok Ads Platform Partner"
+      },
+      "tsp": {
+        "title": "TikTok TSP",
+        "description": "Official TikTok Shop Partner"
+      },
+      "license": {
+        "title": "Business License",
+        "description": "Full legal qualification and lawful operation in Vietnam"
+      }
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "Core Services",
+      "subtitle": "Full-service e-commerce solutions from strategy consulting to practical implementation",
+      "description": "We provide end-to-end services from brand export consulting, local entity establishment, store operations, to marketing implementation and offline expansion.",
+      "cta": "Get Free Consultation",
+      "viewCases": "View Case Studies",
+      "stats": {
+        "campaigns": "Campaigns",
+        "creators": "Creators",
+        "brands": "Brands"
+      }
+    },
+    "overview": {
+      "title": "Comprehensive Service Ecosystem",
+      "description": "Businesses only need one point of contact to implement all e-commerce activities in Vietnam."
+    },
+    "main": {
+      "title": "How we help",
+      "subtitle": "We specialise in TikTok Shop, Creative, KOL/KOC and Strategy and work with fast-growth brands and household names across the globe.",
+      "learnMore": "Learn more"
+    },
+    "ecommerce": {
+      "title": "Full E-commerce Chain",
+      "subtitle": "Comprehensive TikTok Shop solutions from A to Z",
+      "description": "Official TikTok Shop certified service partner (TAP/TSP), providing complete operational solutions.",
+      "items": {
+        "consulting": {
+          "title": "Export Consulting",
+          "description": "Analyze Vietnamese market, industry data, consumer behavior and build personalized export strategies."
+        },
+        "company": {
+          "title": "Local Entity Setup",
+          "description": "Support company registration in Vietnam, accounting-tax services, ensuring compliant legal operations."
+        },
+        "shop": {
+          "title": "Shop Operations",
+          "description": "Full TikTok Shop operations: product listing, price optimization, order processing, customer service."
+        },
+        "content": {
+          "title": "Short Video Content Management",
+          "description": "Account positioning, content planning, professional short video production, traffic optimization."
+        },
+        "livestream": {
+          "title": "Livestream Operations",
+          "description": "Professional livestream studio in HCMC with 20+ local hosts, modern equipment and optimized scripts."
+        }
+      }
+    },
+    "marketing": {
+      "title": "Integrated Marketing",
+      "subtitle": "High-impact multi-channel campaigns",
+      "description": "Connect with 300-500 KOL/KOC monthly, implement comprehensive marketing campaigns from online to offline.",
+      "items": {
+        "kolKoc": {
+          "title": "KOL/KOC Partnerships",
+          "description": "Provide 300-500 local KOL/KOC monthly, diverse follower levels and industries, optimized conversion."
+        },
+        "campaign": {
+          "title": "Marketing Campaigns",
+          "description": "Plan shopping festivals, brand campaigns, multi-channel advertising to increase awareness and sales."
+        },
+        "ambassador": {
+          "title": "Brand Ambassadors",
+          "description": "Connect with global celebrity resources, select suitable ambassadors, enhance brand credibility."
+        },
+        "multichannel": {
+          "title": "Multi-channel Communications",
+          "description": "Integrate online & offline advertising, multi-platform communications, cover major traffic channels."
+        }
+      }
+    },
+    "offline": {
+      "title": "Offline Deployment",
+      "subtitle": "From online to offline - Comprehensive expansion",
+      "description": "Support brands in deploying and operating offline stores, pop-up stores and point-of-sale marketing in Vietnam.",
+      "items": {
+        "store": {
+          "title": "Offline Stores",
+          "description": "Support site selection, store design-construction, operational consulting and management in Vietnam."
+        },
+        "popup": {
+          "title": "Pop-up Stores",
+          "description": "Plan pop-up stores, connect locations, rapid construction and professional operations."
+        },
+        "pos": {
+          "title": "Point-of-Sale Marketing",
+          "description": "Comprehensive solutions for point-of-sale activities: event planning, customer attraction and conversion optimization."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to get started?",
+      "description": "Contact us for free consultation and build your growth strategy in the Vietnamese market.",
+      "button": "Get consultation",
+      "stats": {
+        "brands": "40+ brands",
+        "revenue": "50M+ revenue",
+        "kols": "500+ KOL/KOC",
+        "growth": "GMV 500M RMB"
+      }
+    }
+  },
+  "caseStudiesPage": {
+    "title": "Case Studies",
+    "subtitle": "Success stories from our partner brands"
+  },
+  "caseStudiesPage": {
+    "hero": {
+      "title": "Success Stories",
+      "subtitle": "Proven results driving growth for 40+ brands across Vietnam"
+    },
+    "filters": {
+      "all": "All",
+      "beauty": "Beauty",
+      "personalCare": "Personal Care",
+      "special": "Special Projects"
+    },
+    "viewCase": "View Case Study",
+    "backToCases": "Back to Case Studies",
+    "cases": {
+      "tulandut": {
+        "title": "TULANDUT",
+        "category": "Beauty & Skincare",
+        "revenue": "₫11.27M in 180 days",
+        "description": "Vietnamese skincare brand breakthrough",
+        "tags": ["TikTok Shop", "KOL/KOC", "Video Content"],
+        "detail": {
+          "client": "TULANDUT",
+          "year": "2024",
+          "deliverables": ["TikTok Shop", "KOL/KOC", "Content Strategy", "Livestream"],
+          "background": {
+            "title": "The Client",
+            "content": "Vietnamese skincare brand focusing on women's skincare needs. Joined TikTok Vietnam in the second half of 2024 with the goal of establishing market position in a competitive landscape."
+          },
+          "strategy": {
+            "title": "What We Did",
+            "items": [
+              {
+                "title": "Precise KOL/KOC Selection",
+                "description": "Identified and partnered with influencers matching brand values and target audience"
+              },
+              {
+                "title": "Exclusive Partnership Model",
+                "description": "Designed unique collaboration framework maximizing engagement and conversion"
+              },
+              {
+                "title": "Hero Product Development",
+                "description": "Developed flagship products with focused marketing strategy"
+              },
+              {
+                "title": "Effective Ad Operations",
+                "description": "Optimized advertising campaigns for maximum ROI"
+              }
+            ]
+          },
+          "results": {
+            "title": "The Results",
+            "content": "Quickly became a standout brand in Vietnam's TikTok beauty sector, achieving breakthrough sales at scale with impressive growth rates.",
+            "metrics": [
+              { "value": "₫11.27M", "label": "Revenue in 180 days" },
+              { "value": "₫3.15M", "label": "Revenue in 30 days" },
+              { "value": "2024", "label": "Partnership Year" }
+            ]
+          }
+        }
+      },
+      "botare": {
+        "title": "botare",
+        "category": "Personal Care & Hygiene",
+        "revenue": "₫8M in 180 days",
+        "description": "Building natural care brand identity",
+        "tags": ["Livestream", "Video Seeding", "KOL/KOC"],
+        "detail": {
+          "client": "botare 植护",
+          "year": "2023",
+          "deliverables": ["Livestream Operations", "Short Video", "KOL/KOC", "Shop Management"],
+          "background": {
+            "title": "The Client",
+            "content": "Well-known personal care brand focusing on natural and safe products. Joined TikTok Vietnam in November 2023 with a focus on building sustainable brand identity."
+          },
+          "strategy": {
+            "title": "What We Did",
+            "items": [
+              {
+                "title": "Self-Operated Livestream",
+                "description": "Built professional livestream studio with local host team"
+              },
+              {
+                "title": "Short Video Content Seeding",
+                "description": "Produced and distributed engaging short video content"
+              },
+              {
+                "title": "KOL/KOC Integration",
+                "description": "Combined video and livestream with extensive influencer network"
+              },
+              {
+                "title": "Smart Revenue Distribution",
+                "description": "70% from KOL/KOC, 30% from self-operated shop"
+              }
+            ]
+          },
+          "results": {
+            "title": "The Results",
+            "content": "Successfully built brand identity in the Vietnamese market, maintaining stable sales growth and repurchase rates.",
+            "metrics": [
+              { "value": "₫8M", "label": "Revenue in 180 days" },
+              { "value": "₫1.8M", "label": "Revenue in 30 days" },
+              { "value": "70%", "label": "Revenue from KOL/KOC" }
+            ]
+          }
+        }
+      },
+      "mooekiss": {
+        "title": "Mooekiss",
+        "category": "Beauty & Skincare",
+        "revenue": "₫8.4M in 180 days",
+        "description": "Penetrating young consumer market",
+        "tags": ["Livestream", "Video Content", "KOL/KOC"],
+        "detail": {
+          "client": "Mooekiss",
+          "year": "2023",
+          "deliverables": ["Livestream", "Short Video", "KOL/KOC", "Content Strategy"],
+          "background": {
+            "title": "The Client",
+            "content": "Emerging beauty brand focusing on makeup products with competitive pricing and high effectiveness. Joined TikTok Vietnam in April 2023."
+          },
+          "strategy": {
+            "title": "What We Did",
+            "items": [
+              {
+                "title": "Regular Livestream",
+                "description": "Maintained consistent livestream schedule to build loyal community"
+              },
+              {
+                "title": "Short Video Ecosystem",
+                "description": "Built diverse content matrix attracting multiple segments"
+              },
+              {
+                "title": "Large-Scale KOL/KOC Collaboration",
+                "description": "Deployed comprehensive influencer marketing campaigns"
+              },
+              {
+                "title": "Conversion Optimization",
+                "description": "80% revenue from KOL/KOC, 20% from shop operations"
+              }
+            ]
+          },
+          "results": {
+            "title": "The Results",
+            "content": "Quickly penetrated young consumer segment in Vietnam, successfully building multiple best-seller products.",
+            "metrics": [
+              { "value": "₫8.4M", "label": "Revenue in 180 days" },
+              { "value": "₫1.58M", "label": "Revenue in 30 days" },
+              { "value": "80%", "label": "Revenue from KOL/KOC" }
+            ]
+          }
+        }
+      },
+      "independent-website": {
+        "title": "Independent Website",
+        "category": "Special Projects",
+        "revenue": "Multiple brands",
+        "description": "Building e-commerce platforms",
+        "tags": ["Web Development", "Traffic Strategy", "Brand Building"],
+        "detail": {
+          "client": "COLE HAAN, YVMIN, Depology",
+          "year": "2023-2024",
+          "deliverables": ["Website Design", "Development", "Traffic Strategy", "Brand Building"],
+          "background": {
+            "title": "The Project",
+            "content": "Supported international brands in building independent websites in the Vietnamese market, creating separate e-commerce platforms combined with TikTok Shop channels."
+          },
+          "strategy": {
+            "title": "Our Solutions",
+            "items": [
+              {
+                "title": "Website Design & Development",
+                "description": "Developed professional web platforms tailored for Vietnamese market"
+              },
+              {
+                "title": "Traffic Strategy Planning",
+                "description": "Built comprehensive SEO and traffic acquisition plans"
+              },
+              {
+                "title": "Traffic Direction Services",
+                "description": "Optimized traffic sources from search and advertising"
+              },
+              {
+                "title": "Operations & Maintenance",
+                "description": "Ensured stable website operations and regular updates"
+              }
+            ]
+          },
+          "results": {
+            "title": "The Results",
+            "content": "Helped brands establish local online platforms in Vietnam, receiving traffic from search and ads while enhancing brand image and conversion effectiveness.",
+            "metrics": [
+              { "value": "3+", "label": "International Brands" },
+              { "value": "100%", "label": "Uptime" },
+              { "value": "2023", "label": "Project Started" }
+            ]
+          }
+        }
+      },
+      "livestream-outsourcing": {
+        "title": "Livestream Outsourcing",
+        "category": "Special Projects",
+        "revenue": "3,194 products/48h",
+        "description": "Professional livestream operations",
+        "tags": ["Livestream Studio", "Host Training", "Equipment"],
+        "detail": {
+          "client": "FUNNY ELVES, soundcore",
+          "year": "2024",
+          "deliverables": ["Livestream Studio", "Host Training", "Stream Planning", "Traffic Optimization"],
+          "background": {
+            "title": "The Project",
+            "content": "Provided professional livestream services for consumer electronics brands, including studio setup, host training, and full livestream operations management."
+          },
+          "strategy": {
+            "title": "Our Solutions",
+            "items": [
+              {
+                "title": "Local Livestream Studio Setup",
+                "description": "Built studio in Ho Chi Minh City with professional equipment"
+              },
+              {
+                "title": "Equipment & Training",
+                "description": "Provided high-end equipment and trained professional streamers"
+              },
+              {
+                "title": "Livestream Planning",
+                "description": "Designed scripts, timelines and promotion strategies"
+              },
+              {
+                "title": "Traffic Optimization",
+                "description": "Combined organic and paid traffic to maximize reach"
+              }
+            ]
+          },
+          "results": {
+            "title": "Outstanding Results",
+            "content": "FUNNY ELVES livestream sold 3,194 products in 48 hours; soundcore livestream achieved over 42 million total views with strong growth in both traffic and sales.",
+            "metrics": [
+              { "value": "3,194", "label": "Products Sold (48h)" },
+              { "value": "42M+", "label": "Total Views" },
+              { "value": "2024", "label": "Project Year" }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "kolKocPage": {
+    "title": "KOL/KOC",
+    "subtitle": "Connect with 500+ influencers every month"
+  },
+  "cooperationPage": {
+    "title": "Cooperation",
+    "subtitle": "Grow together and achieve sustainable development"
+  },
+  "careersPage": {
+    "title": "Careers",
+    "subtitle": "Join our team and create value together"
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "subtitle": "Connect with us to start your success journey"
+  }
+}

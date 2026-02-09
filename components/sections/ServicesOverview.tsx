@@ -1,42 +1,50 @@
+'use client'
+
 import Link from 'next/link'
+import { useTranslations } from 'next-intl'
+import { useParams } from 'next/navigation'
 
 export default function ServicesOverview() {
+  const t = useTranslations('servicesOverview')
+  const params = useParams()
+  const locale = params.locale as string
+  
   const services = [
     {
-      number: "01",
-      title: "Thương mại điện tử",
-      description: "Vận hành toàn chuỗi TikTok Shop từ tư vấn, setup, đến vận hành gian hàng và tối ưu doanh số.",
+      number: t('ecommerce.number'),
+      title: t('ecommerce.title'),
+      description: t('ecommerce.description'),
       features: [
-        "Tư vấn xuất khẩu thương hiệu",
-        "Vận hành gian hàng trọn gói",
-        "Vận hành tài khoản & video ngắn",
-        "Vận hành livestream chuyên nghiệp"
+        t('ecommerce.feature1'),
+        t('ecommerce.feature2'),
+        t('ecommerce.feature3'),
+        t('ecommerce.feature4')
       ],
-      link: "/services#ecommerce"
+      link: `/${locale}/services#ecommerce`
     },
     {
-      number: "02",
-      title: "Marketing tích hợp",
-      description: "Kết nối KOL/KOC, chiến dịch marketing đa kênh và xây dựng hình ảnh thương hiệu toàn diện.",
+      number: t('marketing.number'),
+      title: t('marketing.title'),
+      description: t('marketing.description'),
       features: [
-        "Hợp tác 300-500 KOL/KOC mỗi tháng",
-        "Lên kế hoạch chiến dịch marketing",
-        "Kết nối đại sứ thương hiệu",
-        "Truyền thông đa kênh"
+        t('marketing.feature1'),
+        t('marketing.feature2'),
+        t('marketing.feature3'),
+        t('marketing.feature4')
       ],
-      link: "/services#marketing"
+      link: `/${locale}/services#marketing`
     },
     {
-      number: "03",
-      title: "Triển khai offline",
-      description: "Từ cửa hàng pop-up đến vận hành bán lẻ, mang thương hiệu đến gần hơn với khách hàng Việt Nam.",
+      number: t('offline.number'),
+      title: t('offline.title'),
+      description: t('offline.description'),
       features: [
-        "Xây dựng cửa hàng offline",
-        "Mở cửa hàng pop-up",
-        "Marketing tại điểm bán",
-        "Tích hợp online-offline"
+        t('offline.feature1'),
+        t('offline.feature2'),
+        t('offline.feature3'),
+        t('offline.feature4')
       ],
-      link: "/services#offline"
+      link: `/${locale}/services#offline`
     }
   ]
 
@@ -46,28 +54,28 @@ export default function ServicesOverview() {
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-3xl md:text-4xl xl:text-5xl font-bold text-dark mb-4">
-            Dịch vụ{" "}
-            <span className="text-primary">toàn diện</span> của chúng tôi
+            {t('title')}{" "}
+            <span className="text-primary">{t('titleHighlight')}</span> {t('titleSuffix')}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Giải pháp trọn gói từ online đến offline, hỗ trợ thương hiệu tăng trưởng bền vững
+            {t('subtitle')}
           </p>
         </div>
 
         {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <ServiceCard key={index} {...service} />
+            <ServiceCard key={index} {...service} learnMore={t('learnMore')} />
           ))}
         </div>
 
         {/* View All CTA */}
         <div className="text-center mt-12">
           <Link
-            href="/services"
+            href={`/${locale}/services`}
             className="group inline-flex items-center bg-dark hover:bg-primary text-white px-8 py-4 rounded-full font-semibold text-lg transition-all"
           >
-            Xem tất cả dịch vụ
+            {t('viewAll')}
             <svg viewBox="0 0 512 512" className="fill-current w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform">
               <path d="M489.4 233.4L512 256l-22.6 22.6-128 128-22.6 22.6L293.5 384l22.6-22.6L389.5 288 32 288 0 288l0-64 32 0 357.5 0-73.4-73.4L293.5 128l45.3-45.3 22.6 22.6 128 128z" />
             </svg>
@@ -78,12 +86,13 @@ export default function ServicesOverview() {
   )
 }
 
-function ServiceCard({ number, title, description, features, link }: { 
+function ServiceCard({ number, title, description, features, link, learnMore }: { 
   number: string; 
   title: string; 
   description: string; 
   features: string[];
   link: string;
+  learnMore: string;
 }) {
   return (
     <div className="bg-white border border-gray-200 rounded-2xl p-8 hover:shadow-2xl hover:border-primary/30 transition-all duration-300 group">
@@ -119,7 +128,7 @@ function ServiceCard({ number, title, description, features, link }: {
         href={link}
         className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-semibold transition-colors group/link"
       >
-        Tìm hiểu thêm
+        {learnMore}
         <svg viewBox="0 0 512 512" className="fill-current w-3 h-3 group-hover/link:translate-x-1 transition-transform">
           <path d="M489.4 233.4L512 256l-22.6 22.6-128 128-22.6 22.6L293.5 384l22.6-22.6L389.5 288 32 288 0 288l0-64 32 0 357.5 0-73.4-73.4L293.5 128l45.3-45.3 22.6 22.6 128 128z" />
         </svg>
