@@ -21,7 +21,7 @@ export default function Footer() {
                 href="/contact"
                 className="inline-flex items-center bg-dark text-white px-6 md:px-8 py-3.5 rounded-full font-semibold text-sm md:text-base hover:bg-black transition-all group"
               >
-                Let's Chat
+                Let&apos;s Chat
                 <span className="ml-2 inline-flex items-center justify-center w-8 h-8 rounded-full bg-white text-dark group-hover:translate-x-0.5 transition-transform">
                   <svg viewBox="0 0 512 512" className="w-3 h-3 fill-current">
                     <path d="M489.4 233.4L512 256l-22.6 22.6-128 128-22.6 22.6L293.5 384l22.6-22.6L389.5 288 32 288 0 288l0-64 32 0 357.5 0-73.4-73.4L293.5 128l45.3-45.3 22.6 22.6 128 128z" />

@@ -185,7 +185,8 @@ export default function AboutPage() {
             </div>
           </div>
         </section>
-
+        {/* Certifications */}
+        <Certifications />
         {/* Timeline */}
         <Timeline />
 
@@ -247,8 +248,7 @@ export default function AboutPage() {
         {/* Team */}
         <TeamShowcase />
 
-        {/* Certifications */}
-        <Certifications />
+
       </main>
       <Footer />
     </>
