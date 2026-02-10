@@ -232,7 +232,7 @@ Yêu cầu ứng viên:
 - Quy trình tuyển dụng: Sàng lọc CV → Phỏng vấn vòng 1 (online/offline) → Phỏng vấn vòng 2 → Nhận Offer → Nhận việc
 - Hotline tư vấn: [Số điện thoại tuyển dụng tại Việt Nam]
 Lưu ý: Sau khi nhận CV, công ty sẽ phản hồi trong vòng 1–3 ngày làm việc. Ứng viên phù hợp sẽ được liên hệ phỏng vấn. Với các hồ sơ chưa phù hợp, công ty sẽ lưu trữ vào ngân hàng nhân sự và chủ động liên hệ khi có vị trí phù hợp trong tương lai.
-8. Liên hệ chúng tôi (Contact Us)
+VIII. Liên hệ chúng tôi (Contact Us)
 1. Địa chỉ văn phòng
 - Văn phòng tại Việt Nam: TP. Hồ Chí Minh [địa chỉ cụ thể – có thể bổ sung chi tiết]
 - Văn phòng liên hệ tại Trung Quốc: [nếu cần, bổ sung địa chỉ đối tác tại Trung Quốc]

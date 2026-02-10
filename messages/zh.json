@@ -785,19 +785,414 @@
     }
   },
   "kolKocPage": {
-    "title": "意见领袖/内容创作者",
-    "subtitle": "每月与500+影响者建立联系"
+    "hero": {
+      "title": "越南领先的网红资源网络",
+      "subtitle": "每月对接500+优质网红，涵盖美妆、生活方式、科技等多个领域。为您的品牌打造病毒式传播活动，优化投资回报率。",
+      "cta": "立即咨询",
+      "viewNetwork": "查看网红网络",
+      "stats": {
+        "kols": "网红资源",
+        "campaigns": "营销活动",
+        "engagement": "平均互动率"
+      }
+    },
+    "advantages": {
+      "title": "资源优势",
+      "items": [
+        {
+          "title": "规模庞大",
+          "description": "拥有越南优质KOL/KOC数据库，每月提供300-500个KOL/KOC资源"
+        },
+        {
+          "title": "覆盖广泛",
+          "description": "覆盖美妆护肤、个护清洁、消费电子、服装时尚等多个垂直领域"
+        },
+        {
+          "title": "分层多元",
+          "description": "从头部KOL、腰部KOL/KOC到垂类达人，满足从品牌认知到转化优化的各类需求"
+        },
+        {
+          "title": "服务完整",
+          "description": "提供精准筛选KOL/KOC、构建合作方案、内容策划、执行落地及效果追踪的全流程服务"
+        }
+      ]
+    },
+    "featured": {
+      "title": "代表性KOL/KOC",
+      "subtitle": "我们网络中的顶级影响者"
+    },
+    "kols": {
+      "noao": {
+        "name": "Noao Tuyet",
+        "followers": "2.2M",
+        "revenue": "1.4M",
+        "category": "美妆护肤、个护清洁",
+        "description": "美妆护肤领域头部KOL，拥有220万忠实粉丝。专注于护肤产品测评、天然美妆及个护产品推荐。",
+        "engagementRate": "8.5%",
+        "avgViews": "50万"
+      },
+      "huangan": {
+        "name": "Hua Ngan Daily",
+        "followers": "2.2M",
+        "revenue": "1.0M",
+        "category": "生活方式、美妆",
+        "description": "现代生活方式内容创作者。主要分享日常生活、美妆时尚，对年轻群体有强大影响力。",
+        "engagementRate": "7.2%",
+        "avgViews": "45万"
+      },
+      "nguyen": {
+        "name": "NGUYEN TH HA BIGSIZE GIA RE",
+        "followers": "567.4K",
+        "revenue": "1.5M",
+        "category": "服装时尚、美妆",
+        "description": "大码时尚和美妆专家，转化率极高。以真实的穿搭指南和产品测评赢得社区信任。",
+        "engagementRate": "12.3%",
+        "avgViews": "20万"
+      },
+      "hannah": {
+        "name": "HannahOlala",
+        "followers": "961.9K",
+        "revenue": "411.8K",
+        "category": "彩妆、护肤",
+        "description": "专业美妆博主，在化妆和护肤领域拥有深厚知识。详细的教程和客观的产品评测吸引大量粉丝。",
+        "engagementRate": "9.8%",
+        "avgViews": "35万"
+      },
+      "thanh": {
+        "name": "Thanh Ddn Gian",
+        "followers": "285.0K",
+        "revenue": "755.9K",
+        "category": "个护清洁、家居用品",
+        "description": "个护和家居用品领域的腰部达人，转化率极高。内容贴近生活、实用性强，应用性高。",
+        "engagementRate": "15.6%",
+        "avgViews": "15万"
+      }
+    },
+    "modal": {
+      "responsibility": "专业领域",
+      "favorite": "亮点特色",
+      "engagement": "互动率",
+      "avgViews": "平均观看",
+      "close": "关闭"
+    }
   },
   "cooperationPage": {
-    "title": "合作",
-    "subtitle": "共同成长，实现可持续发展"
+    "hero": {
+      "title": "您在越南的战略合作伙伴",
+      "subtitle": "从法务咨询、TikTok Shop运营到整合营销 - 我们提供全面解决方案，助力品牌在越南市场可持续发展。",
+      "cta": "开始合作",
+      "viewServices": "查看服务",
+      "stats": {
+        "partners": "合作伙伴",
+        "revenue": "创造营收",
+        "success": "成功率"
+      }
+    },
+    "services": {
+      "title": "服务合作矩阵",
+      "subtitle": "灵活的服务套餐，满足各种需求",
+      "items": [
+        {
+          "name": "法务与合规服务",
+          "content": "越南公司设立、财税会计、合规咨询",
+          "cooperation": "一次性费用 / 年度服务",
+          "pricing": "固定服务费"
+        },
+        {
+          "name": "KOL/KOC合作",
+          "content": "KOL/KOC对接、合作执行、效果追踪",
+          "cooperation": "按月合作 / 定制化",
+          "pricing": "资源包费用 + KOL/KOC合作费"
+        },
+        {
+          "name": "店铺运营",
+          "content": "TikTok Shop全流程运营管理",
+          "cooperation": "按季度 / 定制化",
+          "pricing": "基础服务费 + 销售额佣金"
+        },
+        {
+          "name": "账号与短视频运营",
+          "content": "账号管理、短视频制作、内容优化",
+          "cooperation": "长期合作",
+          "pricing": "服务费 + 佣金"
+        },
+        {
+          "name": "直播运营",
+          "content": "直播间搭建、主播提供、运营与脚本",
+          "cooperation": "按季度 / 定制化",
+          "pricing": "基础服务费 + 销售额佣金"
+        },
+        {
+          "name": "独立站服务",
+          "content": "设计、运营、流量导入",
+          "cooperation": "一次性建站费 + 月度运营费",
+          "pricing": "固定费用 + 效果佣金（可选）"
+        },
+        {
+          "name": "营销活动策划",
+          "content": "电商活动、品牌campaign、多渠道传播",
+          "cooperation": "项目制合作",
+          "pricing": "项目服务费"
+        },
+        {
+          "name": "品牌代言",
+          "content": "明星对接、代言计划制定与执行",
+          "cooperation": "项目制合作",
+          "pricing": "代言费 + 服务费"
+        },
+        {
+          "name": "线下服务",
+          "content": "门店搭建、快闪店、销售点营销",
+          "cooperation": "项目制合作",
+          "pricing": "项目服务费"
+        }
+      ]
+    },
+    "process": {
+      "title": "合作流程",
+      "subtitle": "6个简单步骤开启成功之旅",
+      "steps": [
+        {
+          "number": "01",
+          "title": "需求沟通",
+          "description": "品牌提供核心信息，包括市场拓展目标、产品特点、预算范围等"
+        },
+        {
+          "number": "02",
+          "title": "方案制定",
+          "description": "基于实际需求，提出个性化的全链路服务解决方案"
+        },
+        {
+          "number": "03",
+          "title": "签约合作",
+          "description": "确认合作细节，签署正式合作协议"
+        },
+        {
+          "number": "04",
+          "title": "执行落地",
+          "description": "组建专属团队，部署并实际运营各项服务内容"
+        },
+        {
+          "number": "05",
+          "title": "效果追踪",
+          "description": "定期提供运营数据报告，根据实际效果优化调整策略"
+        },
+        {
+          "number": "06",
+          "title": "长期合作",
+          "description": "基于达成的成果，持续拓展深化合作，支持品牌在越南市场可持续增长"
+        }
+      ]
+    },
+    "cta": {
+      "title": "准备开始了吗？",
+      "description": "立即联系我们，了解如何帮助您的品牌在越南市场发展",
+      "button": "立即咨询",
+      "stats": [
+        { "value": "40+", "label": "合作品牌" },
+        { "value": "50M+", "label": "增长价值" },
+        { "value": "500+", "label": "每月网红资源" }
+      ]
+    }
   },
   "careersPage": {
     "title": "招聘",
-    "subtitle": "加入我们的团队，共同创造价值"
+    "subtitle": "加入我们的团队，共同创造价值",
+    "hero": {
+      "badge": "职业机会",
+      "title": "共同构建电商未来",
+      "subtitle": "我们汇聚跨境电商、本地化运营、内容创作和营销领域的专家。办公室位于胡志明市中心区域，拥有完善的培训体系和清晰的晋升路径。",
+      "cta": "查看招聘职位",
+      "quote": "我们寻找认同'客户至上一专业服务'理念、热爱电商领域、具有国际视野和本地化适应能力的候选人。",
+      "author": "首席执行官，TK Connection",
+      "stats": {
+        "brands": "品牌",
+        "gmv": "年GMV",
+        "team": "团队成员"
+      }
+    },
+    "philosophy": {
+      "who": {
+        "title": "我们是谁",
+        "content": "由来自字节跳动、阿里巴巴的合伙人联合创立，是越南TikTok Shop官方认证服务商（TAP/TSP）。拥有全链路运营生态体系的快速发展跨境电商服务平台。"
+      },
+      "team": {
+        "title": "我们的团队",
+        "content": "汇聚跨境电商、本地化运营、内容创作和营销领域的专家。办公室位于胡志明市中心区域，拥有完善的培训体系和清晰的晋升路径。"
+      },
+      "looking": {
+        "title": "我们寻找",
+        "content": "认同'客户至上一专业服务'理念、热爱电商领域、具有国际视野和本地化适应能力的候选人。"
+      }
+    },
+    "categories": {
+      "all": "全部",
+      "ecommerce": "电子商务",
+      "content": "内容与营销",
+      "operations": "运营",
+      "support": "支持"
+    },
+    "jobs": [
+      {
+        "id": "tiktok-ecommerce",
+        "title": "TikTok电商运营专员",
+        "category": "ecommerce",
+        "location": "越南胡志明市",
+        "type": "全职",
+        "description": "负责TikTok Shop日常运营：产品上架、标题优化、价格调整、订单处理、售后服务。",
+        "responsibilities": [
+          "负责TikTok Shop日常运营：产品上架、标题优化、定价、订单处理、售后",
+          "分析店铺数据（流量、转化率、复购率等），制定优化策略提升销售额",
+          "配合营销活动和KOL/KOC合作，协调库存、物流",
+          "跟踪越南电商市场趋势和平台政策变化"
+        ],
+        "requirements": [
+          "1-2年电商平台运营经验；熟悉TikTok Shop运营规则优先",
+          "具备数据分析能力，能从数据中发现问题并提出解决方案",
+          "精通越南语（母语水平）；中文或英文流利优先",
+          "主动积极，沟通协调能力强，抗压能力高"
+        ]
+      },
+      {
+        "id": "short-video",
+        "title": "短视频运营专员",
+        "category": "content",
+        "location": "越南胡志明市",
+        "type": "全职",
+        "description": "负责品牌账号短视频的创意、拍摄、剪辑，制作符合越南市场偏好的内容。",
+        "responsibilities": [
+          "负责品牌账号短视频的创意、拍摄和剪辑",
+          "建立系统化短视频内容规划（内容矩阵），增加粉丝",
+          "配合KOL/KOC进行短视频活动",
+          "研究TikTok内容趋势和热门创意形式"
+        ],
+        "requirements": [
+          "具备短视频制作全流程经验（创意-拍摄-剪辑-后期）",
+          "精通CapCut、Premiere等工具",
+          "了解TikTok趋势和越南用户行为",
+          "能够独立工作和团队协作，承受截止日期压力"
+        ]
+      },
+      {
+        "id": "livestream-host",
+        "title": "直播主持人/主播",
+        "category": "operations",
+        "location": "越南胡志明市",
+        "type": "全职/兼职",
+        "description": "主持直播销售场次，生动介绍产品并推动转化。",
+        "responsibilities": [
+          "主持TikTok Shop直播销售场次",
+          "生动介绍产品，与观众互动",
+          "按照直播脚本执行，优化销售表现",
+          "与观众建立关系，打造忠实社区"
+        ],
+        "requirements": [
+          "具有直播或主持经验，销售领域优先",
+          "沟通能力强，热情，正能量",
+          "形象良好",
+          "工作时间灵活（包括晚上和周末）"
+        ]
+      },
+      {
+        "id": "kol-manager",
+        "title": "KOL/KOC管理",
+        "category": "content",
+        "location": "越南胡志明市",
+        "type": "全职",
+        "description": "发展和管理KOL/KOC网络，协调合作活动并优化绩效。",
+        "responsibilities": [
+          "发掘、评估并建立与优质KOL/KOC的关系",
+          "规划和执行KOL/KOC合作活动",
+          "谈判合同，协调内容并确保输出质量",
+          "监控、衡量和报告活动绩效"
+        ],
+        "requirements": [
+          "2年以上KOL/网红营销管理经验",
+          "已有KOL/KOC网络资源者优先",
+          "良好的谈判和沟通技巧",
+          "能够分析数据和活动ROI"
+        ]
+      }
+    ],
+    "jobsSection": {
+      "title": "招聘职位",
+      "subtitle": "探索令人兴奋的职业机会，加入我们成长中的团队",
+      "viewDetails": "查看详情",
+      "close": "关闭",
+      "responsibilities": "工作职责",
+      "requirements": "任职要求",
+      "apply": "立即应聘"
+    },
+    "process": {
+      "title": "应聘方式",
+      "subtitle": "专业且透明的招聘流程",
+      "steps": [
+        {
+          "number": "01",
+          "title": "发送简历",
+          "description": "将简历（越南语/中文/英文）发送至招聘邮箱，主题：应聘职位 - 姓名 - 电话号码"
+        },
+        {
+          "number": "02",
+          "title": "简历筛选",
+          "description": "公司将在1-3个工作日内回复。合适的候选人将被联系面试"
+        },
+        {
+          "number": "03",
+          "title": "面试",
+          "description": "第一轮面试（线上/线下）与招聘经理，第二轮与领导团队"
+        },
+        {
+          "number": "04",
+          "title": "收到Offer",
+          "description": "收到正式工作邀请并完成入职手续"
+        }
+      ]
+    }
   },
   "contactPage": {
     "title": "联系我们",
-    "subtitle": "与我们联系，开启您的成功之旅"
+    "subtitle": "与我们联系，开启您的成功之旅",
+    "hero": {
+      "title": "准备开始您的旅程了吗？",
+      "subtitle": "立即联系我们，了解我们如何帮助您的品牌在越南市场发展。",
+      "description": "我们的专家团队随时准备为您提供24/7咨询和支持。留下您的信息，我们将在24小时内与您联系。"
+    },
+    "form": {
+      "title": "发送信息",
+      "name": "全名",
+      "email": "电子邮件",
+      "phone": "电话号码",
+      "company": "公司名称",
+      "service": "感兴趣的服务",
+      "message": "留言",
+      "submit": "发送信息",
+      "sending": "发送中...",
+      "success": "发送成功！我们会尽快联系您。",
+      "error": "发生错误。请重试。",
+      "services": [
+        "TikTok Shop运营",
+        "KOL/KOC合作",
+        "整合营销",
+        "法律咨询",
+        "线下服务",
+        "其他"
+      ]
+    },
+    "info": {
+      "vietnam": {
+        "title": "越南",
+        "address": "24 PNDDT 2街, An Phu, Thu Duc, 胡志明市",
+        "phone": "+84 28 xxxx xxxx",
+        "email": "vietnam@tkconnection.vn"
+      },
+      "china": {
+        "title": "中国",
+        "address": "中国浙江杭州",
+        "phone": "+86 xxx xxxx xxxx",
+        "email": "china@tkconnection.cn"
+      },
+      "mapTitle": "越南办公室"
+    }
   }
 }

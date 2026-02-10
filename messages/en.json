@@ -785,19 +785,414 @@
     }
   },
   "kolKocPage": {
-    "title": "KOL/KOC",
-    "subtitle": "Connect with 500+ influencers every month"
+    "hero": {
+      "title": "Vietnam's Leading KOL/KOC Network",
+      "subtitle": "Connect with 500+ quality influencers monthly, spanning beauty, lifestyle, and tech. Build viral campaigns and optimize ROI for your brand.",
+      "cta": "Get Started",
+      "viewNetwork": "View KOL Network",
+      "stats": {
+        "kols": "KOL/KOC",
+        "campaigns": "Campaigns",
+        "engagement": "Avg Engagement"
+      }
+    },
+    "advantages": {
+      "title": "Resource Advantages",
+      "items": [
+        {
+          "title": "Large Scale",
+          "description": "Access to high-quality KOL/KOC database in Vietnam, providing 300-500 KOL/KOC resources monthly"
+        },
+        {
+          "title": "Wide Coverage",
+          "description": "Covering multiple verticals including beauty & skincare, personal care, consumer electronics, fashion and more"
+        },
+        {
+          "title": "Diverse Tiers",
+          "description": "From top-tier KOLs, mid-tier KOL/KOCs to niche specialists, meeting needs from brand awareness to conversion optimization"
+        },
+        {
+          "title": "Full Service",
+          "description": "Comprehensive service including precise KOL/KOC selection, collaboration planning, content strategy, execution and performance tracking"
+        }
+      ]
+    },
+    "featured": {
+      "title": "Featured KOL/KOC",
+      "subtitle": "Top influencers in our network"
+    },
+    "kols": {
+      "noao": {
+        "name": "Noao Tuyet",
+        "followers": "2.2M",
+        "revenue": "1.4M",
+        "category": "Beauty & Skincare, Personal Care",
+        "description": "Leading KOL in beauty and skincare with 2.2M loyal followers. Specializes in skincare product reviews, natural cosmetics and personal care products.",
+        "engagementRate": "8.5%",
+        "avgViews": "500K"
+      },
+      "huangan": {
+        "name": "Hua Ngan Daily",
+        "followers": "2.2M",
+        "revenue": "1.0M",
+        "category": "Lifestyle, Beauty",
+        "description": "Prominent content creator with modern lifestyle approach. Specializes in daily life sharing, cosmetics and fashion, with strong influence among young audiences.",
+        "engagementRate": "7.2%",
+        "avgViews": "450K"
+      },
+      "nguyen": {
+        "name": "NGUYEN TH HA BIGSIZE GIA RE",
+        "followers": "567.4K",
+        "revenue": "1.5M",
+        "category": "Fashion, Beauty",
+        "description": "Plus-size fashion and beauty expert with high conversion rates. Notable for styling guides and honest product reviews, trusted by the community.",
+        "engagementRate": "12.3%",
+        "avgViews": "200K"
+      },
+      "hannah": {
+        "name": "HannahOlala",
+        "followers": "961.9K",
+        "revenue": "411.8K",
+        "category": "Makeup, Skincare",
+        "description": "Professional beauty influencer with deep knowledge in makeup and skincare. Detailed tutorials and objective product reviews attract large following.",
+        "engagementRate": "9.8%",
+        "avgViews": "350K"
+      },
+      "thanh": {
+        "name": "Thanh Ddn Gian",
+        "followers": "285.0K",
+        "revenue": "755.9K",
+        "category": "Personal Care, Household",
+        "description": "Micro-influencer with exceptionally high conversion rates in personal care and household products. Relatable, practical content with high applicability.",
+        "engagementRate": "15.6%",
+        "avgViews": "150K"
+      }
+    },
+    "modal": {
+      "responsibility": "Expertise",
+      "favorite": "Highlights",
+      "engagement": "Engagement Rate",
+      "avgViews": "Avg. Views",
+      "close": "Close"
+    }
   },
   "cooperationPage": {
-    "title": "Cooperation",
-    "subtitle": "Grow together and achieve sustainable development"
+    "hero": {
+      "title": "Your Strategic Partner in Vietnam",
+      "subtitle": "From legal consulting and TikTok Shop operations to integrated marketing - we provide comprehensive solutions to help brands thrive sustainably in Vietnam.",
+      "cta": "Start Partnership",
+      "viewServices": "View Services",
+      "stats": {
+        "partners": "Partners",
+        "revenue": "Revenue Generated",
+        "success": "Success Rate"
+      }
+    },
+    "services": {
+      "title": "Service Collaboration Matrix",
+      "subtitle": "Flexible service packages for every need",
+      "items": [
+        {
+          "name": "Legal & Compliance Services",
+          "content": "Company establishment in Vietnam, accounting & tax, compliance consulting",
+          "cooperation": "One-time fee / Annual service",
+          "pricing": "Fixed service fee"
+        },
+        {
+          "name": "KOL/KOC Collaboration",
+          "content": "KOL/KOC connection, collaboration execution, performance tracking",
+          "cooperation": "Monthly / Customized",
+          "pricing": "Resource package fee + KOL/KOC collaboration fee"
+        },
+        {
+          "name": "Shop Operations",
+          "content": "Full TikTok Shop operations management",
+          "cooperation": "Quarterly / Customized",
+          "pricing": "Base service fee + revenue commission"
+        },
+        {
+          "name": "Account & Short Video Operations",
+          "content": "Account management, short video production, content optimization",
+          "cooperation": "Long-term collaboration",
+          "pricing": "Service fee + commission"
+        },
+        {
+          "name": "Livestream Operations",
+          "content": "Livestream room setup, host provision, operations & scripting",
+          "cooperation": "Quarterly / Customized",
+          "pricing": "Base service fee + revenue commission"
+        },
+        {
+          "name": "Independent Website Service",
+          "content": "Design, operations, traffic generation",
+          "cooperation": "One-time build fee + Monthly operations fee",
+          "pricing": "Fixed fee + Performance commission (optional)"
+        },
+        {
+          "name": "Marketing Campaign Planning",
+          "content": "E-commerce events, brand campaigns, multi-channel communications",
+          "cooperation": "Project-based",
+          "pricing": "Project service fee"
+        },
+        {
+          "name": "Brand Ambassador",
+          "content": "Celebrity connection, ambassador program development & execution",
+          "cooperation": "Project-based",
+          "pricing": "Ambassador fee + Service fee"
+        },
+        {
+          "name": "Offline Services",
+          "content": "Store setup, pop-up stores, point-of-sale marketing",
+          "cooperation": "Project-based",
+          "pricing": "Project service fee"
+        }
+      ]
+    },
+    "process": {
+      "title": "Collaboration Process",
+      "subtitle": "6 simple steps to start your success journey",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Requirements Discussion",
+          "description": "Brand provides core information including market expansion goals, product features, budget scope..."
+        },
+        {
+          "number": "02",
+          "title": "Solution Development",
+          "description": "Propose personalized full-chain service solutions based on actual needs"
+        },
+        {
+          "number": "03",
+          "title": "Contract Signing",
+          "description": "Confirm collaboration details and sign official cooperation agreement"
+        },
+        {
+          "number": "04",
+          "title": "Implementation",
+          "description": "Establish dedicated team, deploy and operationalize service items"
+        },
+        {
+          "number": "05",
+          "title": "Performance Tracking",
+          "description": "Regular operational data reports, optimize and adjust strategy based on actual performance"
+        },
+        {
+          "number": "06",
+          "title": "Long-term Partnership",
+          "description": "Based on achieved results, continue to expand and enhance collaboration, supporting sustainable brand growth in Vietnamese market"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Start?",
+      "description": "Contact us today to discover how we can help your brand grow in Vietnam",
+      "button": "Get Consultation",
+      "stats": [
+        { "value": "40+", "label": "Partner Brands" },
+        { "value": "50M+", "label": "Growth Value" },
+        { "value": "500+", "label": "KOL/KOC Monthly" }
+      ]
+    }
   },
   "careersPage": {
     "title": "Careers",
-    "subtitle": "Join our team and create value together"
+    "subtitle": "Join our team and create value together",
+    "hero": {
+      "badge": "Career Opportunities",
+      "title": "Build the Future of E-commerce Together",
+      "subtitle": "We bring together experts in cross-border e-commerce, local operations, content creation and marketing. Our office is located in the center of Ho Chi Minh City, with complete training systems and clear career advancement paths.",
+      "cta": "View Open Positions",
+      "quote": "We are looking for candidates who align with our philosophy of 'Customer-Centric - Professional Service', passionate about e-commerce, with global mindset and local adaptation capabilities.",
+      "author": "CEO, TK Connection",
+      "stats": {
+        "brands": "Brands",
+        "gmv": "Annual GMV",
+        "team": "Team Members"
+      }
+    },
+    "philosophy": {
+      "who": {
+        "title": "Who We Are",
+        "content": "Founded by partners from ByteDance, Alibaba, we are an officially certified TikTok Shop service provider in Vietnam (TAP/TSP). A fast-growing cross-border e-commerce service platform with a full-chain operation ecosystem."
+      },
+      "team": {
+        "title": "Our Team",
+        "content": "Gathering experts in cross-border e-commerce, local operations, content creation and marketing. Our office is located in central Ho Chi Minh City, with complete training systems and clear promotion paths."
+      },
+      "looking": {
+        "title": "We're Looking For",
+        "content": "Candidates who align with our philosophy of 'Customer-Centric - Professional Service', passionate about e-commerce, with global mindset and local adaptation capabilities."
+      }
+    },
+    "categories": {
+      "all": "All",
+      "ecommerce": "E-commerce",
+      "content": "Content & Marketing",
+      "operations": "Operations",
+      "support": "Support"
+    },
+    "jobs": [
+      {
+        "id": "tiktok-ecommerce",
+        "title": "TikTok E-commerce Specialist",
+        "category": "ecommerce",
+        "location": "Ho Chi Minh City, Vietnam",
+        "type": "Full-time",
+        "description": "Responsible for daily operations of TikTok Shop: product listing, title optimization, pricing adjustment, order processing, after-sales service.",
+        "responsibilities": [
+          "Responsible for daily TikTok Shop operations: product listing, title optimization, pricing, order processing, after-sales",
+          "Analyze shop data (traffic, conversion rate, repurchase rate...), build optimization strategies to increase sales",
+          "Coordinate with marketing campaigns and KOL/KOC collaborations, manage inventory and logistics",
+          "Monitor Vietnam e-commerce market trends and platform policy changes"
+        ],
+        "requirements": [
+          "1-2 years experience in e-commerce platform operations; TikTok Shop knowledge preferred",
+          "Data analysis capabilities, ability to identify issues and propose solutions from data",
+          "Fluent in Vietnamese (native level); proficiency in Chinese or English preferred",
+          "Proactive, good communication and coordination skills, high pressure tolerance"
+        ]
+      },
+      {
+        "id": "short-video",
+        "title": "Short Video Specialist",
+        "category": "content",
+        "location": "Ho Chi Minh City, Vietnam",
+        "type": "Full-time",
+        "description": "Responsible for ideation, shooting, editing of short videos for brand accounts, producing content suitable for Vietnamese market preferences.",
+        "responsibilities": [
+          "Responsible for ideation, shooting and editing short videos for brand accounts",
+          "Build systematic short video content plans (content matrix), increase followers",
+          "Coordinate with KOL/KOC in short video campaigns",
+          "Research TikTok content trends and popular creative formats"
+        ],
+        "requirements": [
+          "Experience in full short video production process (ideation - shooting - editing - post-production)",
+          "Proficient in tools like CapCut, Premiere or equivalent",
+          "Understanding of TikTok trends and user behavior in Vietnam",
+          "Ability to work independently and in teams, handle deadline pressure"
+        ]
+      },
+      {
+        "id": "livestream-host",
+        "title": "Livestream MC/Host",
+        "category": "operations",
+        "location": "Ho Chi Minh City, Vietnam",
+        "type": "Full-time / Part-time",
+        "description": "Host live selling sessions, introduce products attractively and drive conversions.",
+        "responsibilities": [
+          "Host live selling sessions on TikTok Shop",
+          "Introduce products attractively, interact with audience",
+          "Follow livestream scripts and optimize sales performance",
+          "Build relationships with viewers, create loyal community"
+        ],
+        "requirements": [
+          "Experience in live streaming or MC work, preferably in sales",
+          "Good communication, enthusiastic, positive energy",
+          "Presentable appearance",
+          "Flexible with working hours (including evenings and weekends)"
+        ]
+      },
+      {
+        "id": "kol-manager",
+        "title": "KOL/KOC Manager",
+        "category": "content",
+        "location": "Ho Chi Minh City, Vietnam",
+        "type": "Full-time",
+        "description": "Develop and manage KOL/KOC network, coordinate collaboration campaigns and optimize performance.",
+        "responsibilities": [
+          "Discover, evaluate and build relationships with quality KOL/KOC",
+          "Plan and execute KOL/KOC collaboration campaigns",
+          "Negotiate contracts, coordinate content and ensure output quality",
+          "Monitor, measure and report campaign performance"
+        ],
+        "requirements": [
+          "2+ years experience in KOL/influencer marketing management",
+          "Existing KOL/KOC network is an advantage",
+          "Good negotiation and communication skills",
+          "Ability to analyze data and campaign ROI"
+        ]
+      }
+    ],
+    "jobsSection": {
+      "title": "Open Positions",
+      "subtitle": "Explore exciting career opportunities and join our growing team",
+      "viewDetails": "View Details",
+      "close": "Close",
+      "responsibilities": "Responsibilities",
+      "requirements": "Requirements",
+      "apply": "Apply Now"
+    },
+    "process": {
+      "title": "How to Apply",
+      "subtitle": "Professional and transparent recruitment process",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Submit CV",
+          "description": "Send your CV (Vietnamese/Chinese/English) to recruitment email with subject: Position - Full Name - Phone Number"
+        },
+        {
+          "number": "02",
+          "title": "Resume Screening",
+          "description": "Company will respond within 1-3 business days. Suitable candidates will be contacted for interview"
+        },
+        {
+          "number": "03",
+          "title": "Interview",
+          "description": "Interview round 1 (online/offline) with hiring manager, followed by round 2 with leadership team"
+        },
+        {
+          "number": "04",
+          "title": "Receive Offer",
+          "description": "Receive official job offer and complete onboarding procedures"
+        }
+      ]
+    }
   },
   "contactPage": {
     "title": "Contact Us",
-    "subtitle": "Connect with us to start your success journey"
+    "subtitle": "Connect with us to start your success journey",
+    "hero": {
+      "title": "Ready to Start Your Journey?",
+      "subtitle": "Contact us today to discover how we can help your brand grow in the Vietnamese market.",
+      "description": "Our expert team is ready to consult and support you 24/7. Leave your information and we will contact you within 24 hours."
+    },
+    "form": {
+      "title": "Send Information",
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "company": "Company Name",
+      "service": "Service of Interest",
+      "message": "Message",
+      "submit": "Send Information",
+      "sending": "Sending...",
+      "success": "Sent successfully! We will contact you soon.",
+      "error": "An error occurred. Please try again.",
+      "services": [
+        "TikTok Shop Operations",
+        "KOL/KOC Collaboration",
+        "Integrated Marketing",
+        "Legal Consulting",
+        "Offline Services",
+        "Other"
+      ]
+    },
+    "info": {
+      "vietnam": {
+        "title": "Vietnam",
+        "address": "24 PNDDT 2 Street, An Phu, Thu Duc, Ho Chi Minh City",
+        "phone": "+84 28 xxxx xxxx",
+        "email": "vietnam@tkconnection.vn"
+      },
+      "china": {
+        "title": "China",
+        "address": "Hangzhou, Zhejiang, China",
+        "phone": "+86 xxx xxxx xxxx",
+        "email": "china@tkconnection.cn"
+      },
+      "mapTitle": "Vietnam Office"
+    }
   }
 }

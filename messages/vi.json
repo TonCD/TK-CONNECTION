@@ -785,19 +785,414 @@
     }
   },
   "kolKocPage": {
-    "title": "KOL/KOC",
-    "subtitle": "Kết nối với hơn 500+ influencer mỗi tháng"
+    "hero": {
+      "title": "Nguồn lực KOL/KOC hàng đầu Việt Nam",
+      "subtitle": "Kết nối với hơn 500+ influencer chất lượng cao mỗi tháng, bao phủ đa dạng ngành hàng từ beauty, lifestyle đến tech. Xây dựng chiến dịch viral và tối ưu ROI cho thương hiệu của bạn.",
+      "cta": "Tư vấn ngay",
+      "viewNetwork": "Xem mạng lưới KOL",
+      "stats": {
+        "kols": "KOL/KOC",
+        "campaigns": "Chiến dịch",
+        "engagement": "Engagement TB"
+      }
+    },
+    "advantages": {
+      "title": "Lợi thế nguồn lực",
+      "items": [
+        {
+          "title": "Quy mô lớn",
+          "description": "Sở hữu kho dữ liệu KOL/KOC chất lượng cao tại Việt Nam, cung cấp 300–500 tài nguyên KOL/KOC mỗi tháng"
+        },
+        {
+          "title": "Phạm vi rộng",
+          "description": "Bao phủ nhiều ngành dọc như mỹ phẩm & chăm sóc da, chăm sóc cá nhân, điện tử tiêu dùng, thời trang và nhiều hơn nữa"
+        },
+        {
+          "title": "Phân tầng đa dạng",
+          "description": "Từ KOL top đầu, KOL/KOC tầm trung đến KOL/KOC chuyên ngành, đáp ứng nhu cầu từ tăng nhận diện đến tối ưu chuyển đổi"
+        },
+        {
+          "title": "Dịch vụ trọn gói",
+          "description": "Cung cấp dịch vụ trọn quy trình gồm lựa chọn KOL/KOC chính xác, xây dựng phương án hợp tác, lập kế hoạch nội dung, triển khai thực hiện và theo dõi – đánh giá hiệu quả"
+        }
+      ]
+    },
+    "featured": {
+      "title": "KOL/KOC tiêu biểu",
+      "subtitle": "Những influencer hàng đầu trong mạng lưới của chúng tôi"
+    },
+    "kols": {
+      "noao": {
+        "name": "Noao Tuyet",
+        "followers": "2.2M",
+        "revenue": "1.4M",
+        "category": "Mỹ phẩm & chăm sóc da, chăm sóc cá nhân",
+        "description": "KOL hàng đầu trong lĩnh vực mỹ phẩm và chăm sóc da với lượng người theo dõi trung thành 2.2M. Chuyên về review sản phẩm chăm sóc da, mỹ phẩm thiên nhiên và các sản phẩm chăm sóc cá nhân.",
+        "engagementRate": "8.5%",
+        "avgViews": "500K"
+      },
+      "huangan": {
+        "name": "Hua Ngan Daily",
+        "followers": "2.2M",
+        "revenue": "1.0M",
+        "category": "Lifestyle, mỹ phẩm",
+        "description": "Content creator nổi bật với phong cách lifestyle hiện đại. Chuyên chia sẻ về cuộc sống hàng ngày, mỹ phẩm và thời trang, tạo sức ảnh hưởng mạnh mẽ đến giới trẻ.",
+        "engagementRate": "7.2%",
+        "avgViews": "450K"
+      },
+      "nguyen": {
+        "name": "NGUYEN TH HA BIGSIZE GIA RE",
+        "followers": "567.4K",
+        "revenue": "1.5M",
+        "category": "Thời trang, mỹ phẩm",
+        "description": "Chuyên gia thời trang bigsize và mỹ phẩm với khả năng chuyển đổi cao. Nổi bật với nội dung hướng dẫn phối đồ và review sản phẩm trung thực, được cộng đồng tin tưởng.",
+        "engagementRate": "12.3%",
+        "avgViews": "200K"
+      },
+      "hannah": {
+        "name": "HannahOlala",
+        "followers": "961.9K",
+        "revenue": "411.8K",
+        "category": "Trang điểm, chăm sóc da",
+        "description": "Beauty influencer chuyên nghiệp với kiến thức sâu về trang điểm và chăm sóc da. Nội dung tutorial chi tiết và review sản phẩm khách quan thu hút đông đảo người theo dõi.",
+        "engagementRate": "9.8%",
+        "avgViews": "350K"
+      },
+      "thanh": {
+        "name": "Thanh Ddn Gian",
+        "followers": "285.0K",
+        "revenue": "755.9K",
+        "category": "Chăm sóc cá nhân, gia dụng",
+        "description": "Micro-influencer với tỷ lệ chuyển đổi cực cao trong phân khúc sản phẩm chăm sóc cá nhân và gia dụng. Nội dung gần gũi, thực tế và có tính ứng dụng cao.",
+        "engagementRate": "15.6%",
+        "avgViews": "150K"
+      }
+    },
+    "modal": {
+      "responsibility": "Chuyên môn",
+      "favorite": "Điểm nổi bật",
+      "engagement": "Tỷ lệ tương tác",
+      "avgViews": "Lượt xem TB",
+      "close": "Đóng"
+    }
   },
   "cooperationPage": {
-    "title": "Hợp tác",
-    "subtitle": "Cùng nhau phát triển và tăng trưởng bền vững"
+    "hero": {
+      "title": "Đối tác chiến lược của bạn tại Việt Nam",
+      "subtitle": "Từ tư vấn pháp lý, vận hành TikTok Shop đến marketing tích hợp - chúng tôi cung cấp giải pháp toàn diện giúp thương hiệu phát triển bền vững tại thị trường Việt Nam.",
+      "cta": "Bắt đầu hợp tác",
+      "viewServices": "Xem dịch vụ",
+      "stats": {
+        "partners": "Đối tác",
+        "revenue": "Doanh thu tạo ra",
+        "success": "Tỷ lệ thành công"
+      }
+    },
+    "services": {
+      "title": "Ma trận dịch vụ hợp tác",
+      "subtitle": "Các gói dịch vụ linh hoạt phù hợp với mọi nhu cầu",
+      "items": [
+        {
+          "name": "Dịch vụ pháp lý & tuân thủ",
+          "content": "Thành lập công ty tại Việt Nam, kế toán – thuế, tư vấn tuân thủ",
+          "cooperation": "Phí một lần / dịch vụ theo năm",
+          "pricing": "Phí dịch vụ cố định"
+        },
+        {
+          "name": "Hợp tác KOL/KOC",
+          "content": "Kết nối KOL/KOC, triển khai hợp tác, theo dõi hiệu quả",
+          "cooperation": "Hợp tác theo tháng / tùy chỉnh",
+          "pricing": "Phí gói tài nguyên + phí hợp tác KOL/KOC"
+        },
+        {
+          "name": "Vận hành gian hàng",
+          "content": "Vận hành toàn quy trình TikTok Shop",
+          "cooperation": "Theo quý / tùy chỉnh",
+          "pricing": "Phí dịch vụ cơ bản + hoa hồng doanh thu"
+        },
+        {
+          "name": "Vận hành tài khoản & video ngắn",
+          "content": "Quản lý tài khoản, sản xuất video ngắn, tối ưu nội dung",
+          "cooperation": "Hợp tác dài hạn",
+          "pricing": "Phí dịch vụ + hoa hồng"
+        },
+        {
+          "name": "Vận hành livestream",
+          "content": "Setup phòng livestream, cung cấp host, vận hành & kịch bản",
+          "cooperation": "Theo quý / tùy chỉnh",
+          "pricing": "Phí dịch vụ cơ bản + hoa hồng doanh thu"
+        },
+        {
+          "name": "Dịch vụ website riêng",
+          "content": "Thiết kế, vận hành, dẫn lưu lượng truy cập",
+          "cooperation": "Phí xây dựng một lần + phí vận hành hàng tháng",
+          "pricing": "Phí cố định + hoa hồng hiệu quả (tùy chọn)"
+        },
+        {
+          "name": "Hoạch định chiến dịch marketing",
+          "content": "Sự kiện TMĐT, chiến dịch thương hiệu, truyền thông đa kênh",
+          "cooperation": "Hợp tác theo dự án",
+          "pricing": "Phí dịch vụ dự án"
+        },
+        {
+          "name": "Đại diện thương hiệu",
+          "content": "Kết nối người nổi tiếng, xây dựng & triển khai kế hoạch đại diện",
+          "cooperation": "Hợp tác theo dự án",
+          "pricing": "Phí đại diện + phí dịch vụ"
+        },
+        {
+          "name": "Dịch vụ offline",
+          "content": "Setup cửa hàng, pop-up store, marketing điểm bán",
+          "cooperation": "Hợp tác theo dự án",
+          "pricing": "Phí dịch vụ dự án"
+        }
+      ]
+    },
+    "process": {
+      "title": "Quy trình hợp tác",
+      "subtitle": "6 bước đơn giản để bắt đầu hành trình thành công",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Trao đổi nhu cầu",
+          "description": "Thương hiệu cung cấp các thông tin cốt lõi như mục tiêu mở rộng thị trường, đặc điểm sản phẩm, phạm vi ngân sách..."
+        },
+        {
+          "number": "02",
+          "title": "Xây dựng giải pháp",
+          "description": "Dựa trên nhu cầu thực tế để đề xuất giải pháp dịch vụ toàn chuỗi được cá nhân hóa"
+        },
+        {
+          "number": "03",
+          "title": "Ký kết hợp đồng",
+          "description": "Xác nhận chi tiết hợp tác và ký kết thỏa thuận hợp tác chính thức"
+        },
+        {
+          "number": "04",
+          "title": "Triển khai thực hiện",
+          "description": "Thành lập đội ngũ chuyên trách, triển khai và đưa các hạng mục dịch vụ vào vận hành thực tế"
+        },
+        {
+          "number": "05",
+          "title": "Theo dõi hiệu quả",
+          "description": "Định kỳ cung cấp báo cáo dữ liệu vận hành, đồng thời tối ưu và điều chỉnh chiến lược dựa trên hiệu quả thực tế"
+        },
+        {
+          "number": "06",
+          "title": "Hợp tác dài hạn",
+          "description": "Dựa trên kết quả đạt được để tiếp tục mở rộng và nâng cao hợp tác, hỗ trợ thương hiệu tăng trưởng bền vững tại thị trường Việt Nam"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Sẵn sàng bắt đầu?",
+      "description": "Liên hệ với chúng tôi ngay hôm nay để khám phá cách chúng tôi có thể giúp thương hiệu của bạn phát triển tại Việt Nam",
+      "button": "Tư vấn ngay",
+      "stats": [
+        { "value": "40+", "label": "Thương hiệu hợp tác" },
+        { "value": "50M+", "label": "Giá trị tăng trưởng" },
+        { "value": "500+", "label": "KOL/KOC mỗi tháng" }
+      ]
+    }
   },
   "careersPage": {
     "title": "Tuyển dụng",
-    "subtitle": "Gia nhập đội ngũ chúng tôi và cùng tạo ra giá trị"
+    "subtitle": "Gia nhập đội ngũ chúng tôi và cùng tạo ra giá trị",
+    "hero": {
+      "badge": "Cơ hội nghề nghiệp",
+      "title": "Cùng nhau xây dựng tương lai thương mại điện tử",
+      "subtitle": "Chúng tôi tập hợp các chuyên gia trong lĩnh vực thương mại điện tử xuyên biên giới, vận hành bản địa, sáng tạo nội dung và marketing. Văn phòng đặt tại khu vực trung tâm TP.HCM, sở hữu hệ thống đào tạo hoàn chỉnh và lộ trình thăng tiến rõ ràng.",
+      "cta": "Xem vị trí tuyển dụng",
+      "quote": "Chúng tôi tìm kiếm những ứng viên đồng hành với triết lý 'Khách hàng là trung tâm – Dịch vụ chuyên nghiệp', đam mê lĩnh vực thương mại điện tử, có tư duy quốc tế và khả năng thích ứng bản địa.",
+      "author": "CEO, TK Connection",
+      "stats": {
+        "brands": "Thương hiệu",
+        "gmv": "GMV hằng năm",
+        "team": "Thành viên"
+      }
+    },
+    "philosophy": {
+      "who": {
+        "title": "Chúng tôi là ai",
+        "content": "Được sáng lập bởi các đối tác có nền tảng từ ByteDance, Alibaba, là đơn vị cung cấp dịch vụ được TikTok Shop chứng nhận chính thức tại Việt Nam (TAP/TSP). Nền tảng dịch vụ thương mại điện tử xuyên biên giới phát triển nhanh với hệ sinh thái vận hành toàn chuỗi."
+      },
+      "team": {
+        "title": "Đội ngũ của chúng tôi",
+        "content": "Tập hợp các chuyên gia trong lĩnh vực thương mại điện tử xuyên biên giới, vận hành bản địa, sáng tạo nội dung và marketing. Văn phòng đặt tại khu vực trung tâm TP.HCM, sở hữu hệ thống đào tạo hoàn chỉnh và lộ trình thăng tiến rõ ràng."
+      },
+      "looking": {
+        "title": "Chúng tôi tìm kiếm",
+        "content": "Những ứng viên đồng hành với triết lý 'Khách hàng là trung tâm – Dịch vụ chuyên nghiệp', đam mê lĩnh vực thương mại điện tử, có tư duy quốc tế và khả năng thích ứng bản địa."
+      }
+    },
+    "categories": {
+      "all": "Tất cả",
+      "ecommerce": "Thương mại điện tử",
+      "content": "Nội dung & Marketing",
+      "operations": "Vận hành",
+      "support": "Hỗ trợ"
+    },
+    "jobs": [
+      {
+        "id": "tiktok-ecommerce",
+        "title": "Chuyên viên vận hành TikTok E-commerce",
+        "category": "ecommerce",
+        "location": "TP. Hồ Chí Minh, Việt Nam",
+        "type": "Toàn thời gian",
+        "description": "Phụ trách vận hành hằng ngày của gian hàng TikTok Shop: đăng sản phẩm, tối ưu tiêu đề, điều chỉnh giá, xử lý đơn hàng, chăm sóc hậu mãi.",
+        "responsibilities": [
+          "Phụ trách vận hành hằng ngày của gian hàng TikTok Shop: đăng sản phẩm, tối ưu tiêu đề, điều chỉnh giá, xử lý đơn hàng, chăm sóc hậu mãi",
+          "Phân tích dữ liệu gian hàng (lưu lượng, tỷ lệ chuyển đổi, tỷ lệ mua lại...), xây dựng chiến lược tối ưu vận hành nhằm nâng cao doanh số",
+          "Phối hợp với các chiến dịch marketing và hợp tác KOL/KOC, điều phối tồn kho, logistics",
+          "Theo dõi xu hướng thị trường TMĐT Việt Nam và thay đổi chính sách nền tảng"
+        ],
+        "requirements": [
+          "Có 1-2 năm kinh nghiệm vận hành sàn thương mại điện tử; ưu tiên ứng viên am hiểu quy tắc vận hành TikTok Shop",
+          "Có năng lực phân tích dữ liệu, có khả năng phát hiện vấn đề và đề xuất giải pháp từ dữ liệu",
+          "Thành thạo tiếng Việt (trình độ bản ngữ); ưu tiên ứng viên sử dụng tốt tiếng Trung hoặc tiếng Anh",
+          "Chủ động trong công việc, có kỹ năng giao tiếp – phối hợp tốt và khả năng chịu áp lực cao"
+        ]
+      },
+      {
+        "id": "short-video",
+        "title": "Chuyên viên vận hành video ngắn",
+        "category": "content",
+        "location": "TP. Hồ Chí Minh, Việt Nam",
+        "type": "Toàn thời gian",
+        "description": "Phụ trách lên ý tưởng, quay dựng và chỉnh sửa video ngắn cho tài khoản thương hiệu, sản xuất nội dung phù hợp với thị hiếu thị trường Việt Nam.",
+        "responsibilities": [
+          "Phụ trách lên ý tưởng, quay dựng và chỉnh sửa video ngắn cho tài khoản thương hiệu",
+          "Xây dựng kế hoạch nội dung video ngắn theo hệ thống (content matrix), gia tăng lượng người theo dõi",
+          "Phối hợp với KOL/KOC trong các chiến dịch video ngắn",
+          "Nghiên cứu xu hướng nội dung và các hình thức sáng tạo phổ biến trên TikTok"
+        ],
+        "requirements": [
+          "Có kinh nghiệm đầy đủ quy trình sản xuất video ngắn (lên ý tưởng – quay – dựng – hậu kỳ)",
+          "Thành thạo các công cụ như CapCut, Premiere hoặc tương đương",
+          "Am hiểu xu hướng TikTok và hành vi người dùng tại Việt Nam",
+          "Có khả năng làm việc độc lập và theo nhóm, chịu được áp lực deadline"
+        ]
+      },
+      {
+        "id": "livestream-host",
+        "title": "MC/Host Livestream",
+        "category": "operations",
+        "location": "TP. Hồ Chí Minh, Việt Nam",
+        "type": "Toàn thời gian / Bán thời gian",
+        "description": "Dẫn dắt các phiên livestream bán hàng, giới thiệu sản phẩm một cách hấp dẫn và thúc đẩy chuyển đổi.",
+        "responsibilities": [
+          "Dẫn dắt các phiên livestream bán hàng trên TikTok Shop",
+          "Giới thiệu sản phẩm một cách hấp dẫn, tương tác với khán giả",
+          "Thực hiện theo kịch bản livestream và tối ưu hiệu suất bán hàng",
+          "Xây dựng mối quan hệ với người xem, tạo cộng đồng trung thành"
+        ],
+        "requirements": [
+          "Có kinh nghiệm livestream hoặc MC, ưu tiên trong lĩnh vực bán hàng",
+          "Giao tiếp tốt, nhiệt tình, năng lượng tích cực",
+          "Ngoại hình sáng, ưa nhìn",
+          "Linh hoạt về thời gian làm việc (bao gồm tối và cuối tuần)"
+        ]
+      },
+      {
+        "id": "kol-manager",
+        "title": "Quản lý KOL/KOC",
+        "category": "content",
+        "location": "TP. Hồ Chí Minh, Việt Nam",
+        "type": "Toàn thời gian",
+        "description": "Phát triển và quản lý mạng lưới KOL/KOC, điều phối các chiến dịch hợp tác và tối ưu hiệu suất.",
+        "responsibilities": [
+          "Tìm kiếm, đánh giá và xây dựng mối quan hệ với KOL/KOC chất lượng",
+          "Lập kế hoạch và triển khai các chiến dịch hợp tác KOL/KOC",
+          "Đàm phán hợp đồng, điều phối nội dung và đảm bảo chất lượng output",
+          "Theo dõi, đo lường và báo cáo hiệu quả các chiến dịch"
+        ],
+        "requirements": [
+          "Có 2+ năm kinh nghiệm trong quản lý KOL/influencer marketing",
+          "Có mạng lưới KOL/KOC sẵn có là lợi thế",
+          "Kỹ năng đàm phán, thương lượng tốt",
+          "Khả năng phân tích dữ liệu và ROI của các chiến dịch"
+        ]
+      }
+    ],
+    "jobsSection": {
+      "title": "Vị trí tuyển dụng",
+      "subtitle": "Khám phá các cơ hội nghề nghiệp hấp dẫn và gia nhập đội ngũ đang phát triển của chúng tôi",
+      "viewDetails": "Xem chi tiết",
+      "close": "Đóng",
+      "responsibilities": "Trách nhiệm công việc",
+      "requirements": "Yêu cầu ứng viên",
+      "apply": "Ứng tuyển ngay"
+    },
+    "process": {
+      "title": "Cách thức ứng tuyển",
+      "subtitle": "Quy trình tuyển dụng chuyên nghiệp và minh bạch",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Gửi CV",
+          "description": "Gửi CV (tiếng Việt/Trung/Anh) về email tuyển dụng với tiêu đề: Vị trí ứng tuyển - Họ tên - Số điện thoại"
+        },
+        {
+          "number": "02",
+          "title": "Sàng lọc hồ sơ",
+          "description": "Công ty sẽ phản hồi trong vòng 1-3 ngày làm việc. Ứng viên phù hợp sẽ được liên hệ phỏng vấn"
+        },
+        {
+          "number": "03",
+          "title": "Phỏng vấn",
+          "description": "Phỏng vấn vòng 1 (online/offline) với hiring manager, sau đó phỏng vấn vòng 2 với leadership team"
+        },
+        {
+          "number": "04",
+          "title": "Nhận Offer",
+          "description": "Nhận thư mời làm việc chính thức và hoàn tất các thủ tục nhận việc"
+        }
+      ]
+    }
   },
   "contactPage": {
     "title": "Liên hệ",
-    "subtitle": "Kết nối với chúng tôi để bắt đầu hành trình thành công"
+    "subtitle": "Kết nối với chúng tôi để bắt đầu hành trình thành công",
+    "hero": {
+      "title": "Sẵn sàng bắt đầu hành trình?",
+      "subtitle": "Liên hệ với chúng tôi ngay hôm nay để khám phá cách chúng tôi có thể giúp thương hiệu của bạn phát triển tại thị trường Việt Nam.",
+      "description": "Đội ngũ chuyên gia của chúng tôi sẵn sàng tư vấn và hỗ trợ bạn 24/7. Hãy để lại thông tin, chúng tôi sẽ liên hệ trong vòng 24 giờ."
+    },
+    "form": {
+      "title": "Gửi thông tin",
+      "name": "Họ và tên",
+      "email": "Email",
+      "phone": "Số điện thoại",
+      "company": "Tên công ty",
+      "service": "Dịch vụ quan tâm",
+      "message": "Nội dung tin nhắn",
+      "submit": "Gửi thông tin",
+      "sending": "Đang gửi...",
+      "success": "Gửi thành công! Chúng tôi sẽ liên hệ sớm.",
+      "error": "Có lỗi xảy ra. Vui lòng thử lại.",
+      "services": [
+        "Vận hành TikTok Shop",
+        "Hợp tác KOL/KOC",
+        "Marketing tích hợp",
+        "Tư vấn pháp lý",
+        "Dịch vụ offline",
+        "Khác"
+      ]
+    },
+    "info": {
+      "vietnam": {
+        "title": "Việt Nam",
+        "address": "24 Đường PNDĐT 2, An Phú, Thủ Đức, Thành phố Hồ Chí Minh",
+        "phone": "+84 28 xxxx xxxx",
+        "email": "vietnam@tkconnection.vn"
+      },
+      "china": {
+        "title": "Trung Quốc",
+        "address": "Hàng Châu, Chiết Giang, Trung Quốc",
+        "phone": "+86 xxx xxxx xxxx",
+        "email": "china@tkconnection.cn"
+      },
+      "mapTitle": "Văn phòng Việt Nam"
+    }
   }
 }
