@@ -48,12 +48,14 @@ export default function AdminNotificationEmail({
             <Text style={headerSubtitle}>Thông báo yêu cầu tư vấn mới</Text>
           </Section>
 
-          {/* Alert Box */}
-          <Section style={alertBox}>
-            <Text style={alertText}>
-              🔔 Bạn có một yêu cầu tư vấn mới từ website
-            </Text>
-          </Section>
+          {/* Alert Box - Fixed overflow */}
+          <Container style={{ padding: '0 20px' }}>
+            <Section style={alertBox}>
+              <Text style={alertText}>
+                🔔 Bạn có một yêu cầu tư vấn mới từ website
+              </Text>
+            </Section>
+          </Container>
 
           {/* Customer Info */}
           <Section style={section}>
@@ -182,6 +184,9 @@ const alertBox = {
   border: '1px solid #ffecb5',
   borderRadius: '6px',
   padding: '16px',
+  margin: '24px 0',
+  width: '100%',
+  boxSizing: 'border-box' as const,
 };
 
 const alertText = {

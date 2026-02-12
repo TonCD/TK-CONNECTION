@@ -54,16 +54,18 @@ export default function CustomerReplyEmail({
             </Text>
           </Section>
 
-          {/* Info Box */}
-          <Section style={infoBox}>
-            <Text style={infoTitle}>🚀 Trong thời gian chờ đợi</Text>
-            <Text style={infoText}>
+          {/* Info Box - Fixed overflow */}
+          <Container style={{ padding: '0 20px' }}>
+            <Section style={infoBox}>
+              <Text style={infoTitle}>🚀 Trong thời gian chờ đợi</Text>
+              <Text style={infoText}>
               Bạn có thể tìm hiểu thêm về các dịch vụ và case studies thành công của chúng tôi:
             </Text>
             <Button style={button} href="https://tkconnection.vn">
               Khám phá TK Connection
             </Button>
           </Section>
+          </Container>
 
           {/* Contact Info */}
           <Section style={section}>
@@ -192,7 +194,10 @@ const infoBox = {
   border: '2px solid #54bbff',
   borderRadius: '8px',
   padding: '24px',
+  margin: '32px 0',
   textAlign: 'center' as const,
+  width: '100%',
+  boxSizing: 'border-box' as const,
 };
 
 const infoTitle = {
