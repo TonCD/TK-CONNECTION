@@ -1159,25 +1159,49 @@
       "description": "Đội ngũ chuyên gia của chúng tôi sẵn sàng tư vấn và hỗ trợ bạn 24/7. Hãy để lại thông tin, chúng tôi sẽ liên hệ trong vòng 24 giờ."
     },
     "form": {
-      "title": "Gửi thông tin",
-      "name": "Họ và tên",
+      "title": "Biểu mẫu tư vấn hợp tác",
+      "name": "Người liên hệ",
       "email": "Email",
       "phone": "Số điện thoại",
-      "company": "Tên công ty",
-      "service": "Dịch vụ quan tâm",
-      "message": "Nội dung tin nhắn",
-      "submit": "Gửi thông tin",
-      "sending": "Đang gửi...",
-      "success": "Gửi thành công! Chúng tôi sẽ liên hệ sớm.",
-      "error": "Có lỗi xảy ra. Vui lòng thử lại.",
-      "services": [
+      "brand": "Tên thương hiệu",
+      "industry": "Ngành nghề",
+      "industryPlaceholder": "Chọn ngành nghề",
+      "industries": [
+        "Mỹ phẩm (70%)",
+        "Chăm sóc cá nhân (20%)",
+        "Thời trang",
+        "Thực phẩm & Đồ uống",
+        "Điện tử & Công nghệ",
+        "Gia dụng & Nội thất",
+        "Khác"
+      ],
+      "services": "Nhu cầu hợp tác",
+      "selectMultiple": "Chọn nhiều",
+      "serviceOptions": [
         "Vận hành TikTok Shop",
         "Hợp tác KOL/KOC",
         "Marketing tích hợp",
         "Tư vấn pháp lý",
         "Dịch vụ offline",
+        "Website độc lập",
+        "Livestream outsourcing",
         "Khác"
-      ]
+      ],
+      "budget": "Ngân sách dự kiến",
+      "budgetPlaceholder": "Chọn mức ngân sách",
+      "budgetRanges": [
+        "Dưới 100 triệu VNĐ",
+        "100-300 triệu VNĐ",
+        "300-500 triệu VNĐ",
+        "500 triệu - 1 tỷ VNĐ",
+        "Trên 1 tỷ VNĐ",
+        "Linh hoạt"
+      ],
+      "message": "Ghi chú",
+      "submit": "Gửi yêu cầu tư vấn",
+      "sending": "Đang gửi...",
+      "success": "Cảm ơn bạn đã liên hệ. Chúng tôi sẽ phản hồi trong vòng 1-2 ngày làm việc.",
+      "error": "Có lỗi xảy ra. Vui lòng thử lại."
     },
     "info": {
       "vietnam": {

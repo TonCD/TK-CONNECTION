@@ -1159,25 +1159,49 @@
       "description": "Our expert team is ready to consult and support you 24/7. Leave your information and we will contact you within 24 hours."
     },
     "form": {
-      "title": "Send Information",
-      "name": "Full Name",
+      "title": "Consultation Form",
+      "name": "Contact Person",
       "email": "Email",
       "phone": "Phone Number",
-      "company": "Company Name",
-      "service": "Service of Interest",
-      "message": "Message",
-      "submit": "Send Information",
-      "sending": "Sending...",
-      "success": "Sent successfully! We will contact you soon.",
-      "error": "An error occurred. Please try again.",
-      "services": [
+      "brand": "Brand Name",
+      "industry": "Industry",
+      "industryPlaceholder": "Select industry",
+      "industries": [
+        "Cosmetics (70%)",
+        "Personal Care (20%)",
+        "Fashion",
+        "Food & Beverage",
+        "Electronics & Technology",
+        "Home & Furniture",
+        "Other"
+      ],
+      "services": "Cooperation Needs",
+      "selectMultiple": "Select multiple",
+      "serviceOptions": [
         "TikTok Shop Operations",
         "KOL/KOC Collaboration",
         "Integrated Marketing",
         "Legal Consulting",
         "Offline Services",
+        "Independent Website",
+        "Livestream Outsourcing",
         "Other"
-      ]
+      ],
+      "budget": "Estimated Budget",
+      "budgetPlaceholder": "Select budget range",
+      "budgetRanges": [
+        "Under 100M VND",
+        "100-300M VND",
+        "300-500M VND",
+        "500M-1B VND",
+        "Over 1B VND",
+        "Flexible"
+      ],
+      "message": "Notes",
+      "submit": "Submit Consultation Request",
+      "sending": "Sending...",
+      "success": "Thank you for contacting us. We will respond within 1-2 business days.",
+      "error": "An error occurred. Please try again."
     },
     "info": {
       "vietnam": {

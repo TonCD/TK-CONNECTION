@@ -1159,25 +1159,49 @@
       "description": "我们的专家团队随时准备为您提供24/7咨询和支持。留下您的信息，我们将在24小时内与您联系。"
     },
     "form": {
-      "title": "发送信息",
-      "name": "全名",
+      "title": "咨询合作表单",
+      "name": "联系人",
       "email": "电子邮件",
       "phone": "电话号码",
-      "company": "公司名称",
-      "service": "感兴趣的服务",
-      "message": "留言",
-      "submit": "发送信息",
-      "sending": "发送中...",
-      "success": "发送成功！我们会尽快联系您。",
-      "error": "发生错误。请重试。",
-      "services": [
+      "brand": "品牌名称",
+      "industry": "行业",
+      "industryPlaceholder": "选择行业",
+      "industries": [
+        "化妆品 (70%)",
+        "个人护理 (20%)",
+        "时尚",
+        "食品饮料",
+        "电子科技",
+        "家居家具",
+        "其他"
+      ],
+      "services": "合作需求",
+      "selectMultiple": "可多选",
+      "serviceOptions": [
         "TikTok Shop运营",
         "KOL/KOC合作",
         "整合营销",
         "法律咨询",
         "线下服务",
+        "独立网站",
+        "直播外包",
         "其他"
-      ]
+      ],
+      "budget": "预算范围",
+      "budgetPlaceholder": "选择预算范围",
+      "budgetRanges": [
+        "低于1亿越南盾",
+        "1-3亿越南盾",
+        "3-5亿越南盾",
+        "5亿-10亿越南盾",
+        "超过10亿越南盾",
+        "灵活"
+      ],
+      "message": "备注",
+      "submit": "提交咨询请求",
+      "sending": "发送中...",
+      "success": "感谢您的联系。我们将在1-2个工作日内回复。",
+      "error": "发生错误。请重试。"
     },
     "info": {
       "vietnam": {
