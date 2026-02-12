@@ -149,8 +149,7 @@ const main = {
 
 const container = {
   backgroundColor: '#ffffff',
-  margin: '0 auto',
-  padding: '20px 0',
+  margin: '20px auto',
   marginBottom: '64px',
   maxWidth: '600px',
 };
@@ -183,7 +182,6 @@ const alertBox = {
   border: '1px solid #ffecb5',
   borderRadius: '6px',
   padding: '16px',
-  margin: '20px 40px',
 };
 
 const alertText = {
@@ -248,7 +246,6 @@ const messageBox = {
 
 const divider = {
   borderColor: '#e5e7eb',
-  margin: '24px 40px',
 };
 
 const footer = {

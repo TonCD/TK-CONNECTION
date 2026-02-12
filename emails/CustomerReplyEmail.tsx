@@ -129,8 +129,7 @@ const main = {
 
 const container = {
   backgroundColor: '#ffffff',
-  margin: '0 auto',
-  padding: '20px 0',
+  margin: '20px auto',
   marginBottom: '64px',
   maxWidth: '600px',
   borderRadius: '8px',
@@ -193,7 +192,6 @@ const infoBox = {
   border: '2px solid #54bbff',
   borderRadius: '8px',
   padding: '24px',
-  margin: '24px 40px',
   textAlign: 'center' as const,
 };
 
